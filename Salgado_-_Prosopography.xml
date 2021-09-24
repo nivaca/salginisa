@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="es">
+    <fileDesc>
+      <titleStmt>
+        <title>Prosopografía</title>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2020.03"> <title>Prosopografía</title>
+          <date when="2020-03-18">enero 30, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Universidad de los Andes</publisher>
+        <pubPlace>Bogotá, Colombia</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/"
+            >Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2020-03-19">enero 20, 2021</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+       <listChange>
+         <change when="2021-01-20" status="draft" n="0.0.0">
+           <p>Archivo creado por primera vez.</p>
+         </change>
+       </listChange>
+     </revisionDesc>
+  </teiHeader>
+
+
+
+
+  <text xml:lang="eng">
+    <body>
+      <listPerson xml:id="prosopography">
+        
+        
+        <listPerson type="Clásicos">
+
+          
+          <person xml:id="Plato">
+            <persName xml:lang="es">Platón</persName>
+            <persName xml:lang="eng">Plato</persName>
+            <persName xml:lang="lat">Plato</persName>
+            <birth when="-0429" type="circa">c. 429 a.e.c.</birth>
+            <death when="-0347">347 a.e.c.</death>
+            <idno type="wikidata-id">Q859</idno>
+            <idno type="VIAF">108159964</idno>
+          </person>
+          
+          
+          
+
+          <person xml:id="Aristoteles">
+            <persName xml:lang="es">Aristóteles</persName>
+            <persName xml:lang="eng">Aristotle</persName>
+            <persName xml:lang="lat">Aristoteles</persName>
+            <birth when="-0384">384 a.e.c.</birth>
+            <death when="-0322">322 a.e.c.</death>
+            <idno type="wikidata-id">Q868</idno>
+            <idno type="VIAF">7524651</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Socrates">
+            <persName xml:lang="es">Sócrates</persName>
+            <persName xml:lang="eng">Socrates</persName>
+            <persName xml:lang="lat">Socrates</persName>            
+            <!-- <birth when="" type="circa"></birth>
+            <death when="" type="circa"></death>                   
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno> -->  
+          </person> 
+          
+          
+          <person xml:id="Heraclitus">
+            <persName xml:lang="es">Heráclito de Éfeso</persName>
+            <persName xml:lang="eng">Heraclitus of Ephesus</persName>
+            <persName xml:lang="lat">Heraclitus</persName>
+            <birth when="-0535" type="circa">c. 535 a.e.c</birth>
+            <death when="-0475" type="circa">c. 475 a.e.c</death>
+            <floruit notBefore="-0530" notAfter="-0480">c. 500 a.e.c.</floruit>            
+            <idno type="wikidata-id">Q41155</idno>
+            <idno type="VIAF">101906635</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Cratylus">
+            <persName xml:lang="es">Crátilo</persName>
+            <persName xml:lang="eng">Cratylus</persName>
+            <persName xml:lang="lat">Cratylus Atheniensis</persName>
+            <!--<birth when="" type="circa">c.</birth>
+            <death when="" type="circa">c.</death>-->
+            <floruit notBefore="-0550" notAfter="-0410">c. 520 a.e.c.</floruit>            
+            <idno type="wikidata-id">Q125247</idno>
+            <idno type="VIAF">47152640</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Seneca">
+            <persName xml:lang="es">Séneca el Joven</persName>
+            <persName xml:lang="eng">Seneca the Younger</persName>
+            <persName xml:lang="lat">Lucius Annaeus Seneca</persName>
+            <birth when="-0004">4 a.e.c</birth>
+            <death when="0065">65</death>                       
+            <idno type="wikidata-id">Q2054</idno>
+            <idno type="VIAF">90637919</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Plutarchus">
+            <persName xml:lang="es">Plutarco</persName>
+            <persName xml:lang="eng">Plutarch</persName>
+            <persName xml:lang="lat">Lucius Mestrius Plutarchus</persName>
+            <birth when="0045" type="circa">c. 45</birth>
+            <death when="0120" type="circa">c. 120</death>                     
+            <idno type="wikidata-id">Q41523</idno>
+            <idno type="VIAF">268955446</idno>
+          </person>
+
+
+
+          <person xml:id="Porphyrius">
+            <persName xml:lang="es">Porfirio</persName>
+            <persName xml:lang="eng">Porphyry of Tyre</persName>
+            <persName xml:lang="lat">Porphyrius</persName>
+            <persName xml:lang="grc">Πορφύριος</persName>
+            <birth when="0233" type="circa">c. 233</birth>
+            <death when="0301" type="circa">c. 301</death>                     
+            <idno type="wikidata-id">Q203445</idno>
+            <idno type="VIAF">64016141</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Plotinus">
+            <persName xml:lang="es">Plotino</persName>
+            <persName xml:lang="eng">Plotinus</persName>
+            <persName xml:lang="lat">Plotinus</persName>
+            <persName xml:lang="grc">Πλωτίνος</persName>
+            <birth when="0204" type="circa">c. 204</birth>
+            <death when="0270">270</death>                     
+            <idno type="wikidata-id">Q134189</idno>
+            <idno type="VIAF">108386765</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Longinus">
+            <persName xml:lang="es">Dionisio Longino</persName>
+            <persName xml:lang="eng">Cassius Longinus</persName>
+            <persName xml:lang="lat">Longinus</persName>
+            <persName xml:lang="grc">Κάσσιος Λογγινος</persName>
+            <birth when="0213" type="circa">c. 213</birth>
+            <death when="0273" type="circa">c. 273</death>                     
+            <idno type="wikidata-id">Q436634</idno>
+            <idno type="VIAF">42634532</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Origenes">
+            <persName xml:lang="es">Orígenes</persName>
+            <persName xml:lang="eng">Origen</persName>
+            <persName xml:lang="lat">Origenes</persName>
+            <persName xml:lang="grc">Ώριγένης</persName>
+            <birth when="0184" type="circa">c. 184</birth>
+            <death when="0253" type="circa">c. 253</death>                     
+            <idno type="wikidata-id">Q170472</idno>
+            <idno type="VIAF">95155322</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Dionysius">
+            <persName xml:lang="es">Pseudo Dionisio Areopagita</persName>
+            <persName xml:lang="eng">Pseudo-Dionysius the Areopagite</persName>
+            <persName xml:lang="lat">Dionysius Areopagita</persName>
+            <persName xml:lang="grc">Διονύσιος Ο Άρεοπαγίτης</persName>
+            <!--  <birth notBefore=""></birth>
+            <death when="" type="circa"></death> -->                    
+            <idno type="wikidata-id">Q312816</idno>
+            <idno type="VIAF">59878274</idno>
+          </person>
+          
+                
+          
+          <person xml:id="Ammonius">
+            <persName xml:lang="es">Amonio de Hermia</persName>
+            <persName xml:lang="eng">Ammonius Hermiae</persName>
+            <persName xml:lang="lat">Ammonius Hermiae</persName>
+            <birth when="0440">c. 440</birth>
+            <death when="0523">c. 523</death>
+            <idno type="wikidata-id">Q123147</idno>
+            <idno type="VIAF">283087561</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Simplicius">
+            <persName xml:lang="es">Simplicio de Cilicia</persName>
+            <persName xml:lang="eng">Simplicius of Cilicia</persName>
+            <persName xml:lang="lat">Simplicius</persName>
+            <birth when="0490" type="circa">c. 490</birth>
+            <death when="0560" type="circa">c. 560</death>
+            <idno type="wikidata-id">Q351518</idno>
+            <idno type="VIAF">71399875</idno>
+          </person>
+          
+         </listPerson>
+
+
+
+
+        <listPerson type="Medievales">
+
+          <!--<person xml:id="_">
+            <persName xml:lang="es"></persName>
+            <persName xml:lang="eng"></persName>
+            <persName xml:lang="lat"></persName>
+            <birth when="" type="circa">c.</birth>
+            <death when="" type="circa">c.</death>
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno>
+            </person>-->
+
+
+          <person xml:id="Augustinus">
+            <persName xml:lang="es">Agustín de Hipona</persName>
+            <persName xml:lang="eng">Augustine of Hippo</persName>
+            <persName xml:lang="lat">Augustinus Hipponensis</persName>
+            <birth when="0354">354</birth>
+            <death when="0430">430</death>
+            <idno type="wikidata-id">Q8018</idno>
+            <idno type="VIAF">66806872</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Boethius">
+            <persName xml:lang="es">Boecio</persName>
+            <persName xml:lang="eng">Boethius</persName>
+            <persName xml:lang="lat">Boethius</persName>
+            <birth when="0477" type="circa">c. 477</birth>
+            <death when="0524">524</death>
+            <idno type="wikidata-id">Q102851</idno>
+            <idno type="VIAF">100218964</idno>
+          </person>
+          
+          
+          
+          <person xml:id="GNazianzenus">
+            <persName xml:lang="es">Gregorio Nacianceno</persName>
+            <persName xml:lang="eng">Gregory of Nazianzus</persName>
+            <persName xml:lang="lat">Gregorius Nazianzenus</persName>
+            <persName xml:lang="grc">Γρηγόριος Ναζιανζηνός</persName>
+            <birth when="0329" type="circa">c. 329</birth>
+            <death when="0390">390</death>
+            <idno type="wikidata-id">Q44011</idno>
+            <idno type="VIAF">108675755</idno>
+          </person>
+          
+          
+
+
+          <person xml:id="Ockham">
+            <persName xml:lang="es">Guillermo de Ockham</persName>
+            <persName xml:lang="eng">William of Ockham</persName>
+            <persName xml:lang="lat">Gulielmus Occamus</persName>
+            <birth when="1287" type="circa">c.1287</birth>
+            <death when="1347" type="circa">c.1347</death>
+            <idno type="wikidata-id">Q43936</idno>
+            <idno type="VIAF">41835567</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Biel">
+            <persName xml:lang="es">Gabriel Biel</persName>
+            <persName xml:lang="eng">Gabriel Biel</persName>
+            <persName xml:lang="lat">Gabriel Biel</persName>
+            <birth when="1418">1418</birth>
+            <death when="1495">1495</death>
+            <idno type="wikidata-id">Q61369</idno>
+            <idno type="VIAF">19692948</idno>
+          </person>
+
+
+
+
+          <person xml:id="Caramuel">
+            <persName xml:lang="es">Juan Caramuel y Lobkowitz</persName>
+            <persName xml:lang="eng">Juan Caramuel y Lobkowitz</persName>
+            <persName xml:lang="lat">Ioannes Caramuel Lobkowitz</persName>
+            <birth when="1606">1606</birth>
+            <death when="1682">1682</death>
+            <idno type="wikidata-id">Q689925</idno>
+            <idno type="VIAF">51773022</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Eugubinus">
+            <persName xml:lang="es">Agustín Esteuco</persName>
+            <persName xml:lang="eng">Agostino Steuco</persName>
+            <persName xml:lang="lat">Augustinus Steuchus Eugubinus</persName>
+            <birth when="1497" type="circa">c. 1497</birth>
+            <death when="1548" type="circa">c. 1548</death>
+            <idno type="wikidata-id">Q395722</idno>
+            <idno type="VIAF">59880366</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Baronius">
+            <persName xml:lang="es">César Baronio</persName>
+            <persName xml:lang="eng">Cesare Baronio</persName>
+            <persName xml:lang="lat">Caesar Baronius</persName>
+            <birth when="1538">1538</birth>
+            <death when="1607">1607</death>
+            <idno type="wikidata-id">Q317900</idno>
+            <idno type="VIAF">17326794</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Gavardus">
+            <persName xml:lang="es">Federico Nicolás Gavardo</persName>
+            <persName xml:lang="eng">Fridericus Nicolaus Gavardus</persName>
+            <persName xml:lang="lat">Fridericus Nicolaus Gavardi</persName>
+            <birth when="1640">1640</birth>
+            <death when="1715">1715</death>
+            <!-- <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF">309594087</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Aegidius">
+            <persName xml:lang="es">Gil de Roma</persName>
+            <persName xml:lang="eng">Giles of Rome</persName>
+            <persName xml:lang="lat">Aegidius Romanus</persName>
+            <birth when="1243" type="circa">c. 1243</birth>
+            <death when="1316">1316</death>
+            <idno type="wikidata-id">Q380647</idno>
+            <idno type="VIAF">100187638</idno>
+          </person>
+          
+                    
+                    
+          
+          <person xml:id="Μerinero">
+            <persName xml:lang="es">Juan Merinero López</persName>
+            <persName xml:lang="eng">Juan Merinero López</persName>
+            <persName xml:lang="lat">Ioannes de Merinero</persName>
+            <birth when="1538">1538</birth>
+            <death when="1663">1663</death>
+            <idno type="wikidata-id">Q64733556</idno>
+            <idno type="VIAF">86874415</idno>
+          </person>
+        
+        
+        
+        
+          <person xml:id="Aquinas">
+            <persName xml:lang="es">Tomás de Aquino</persName>
+            <persName xml:lang="eng">Thomas Aquinas</persName>
+            <persName xml:lang="lat">Thomas Aquinas</persName>
+            <birth when="1225">1225</birth>
+            <death when="1274">1274</death>
+            <idno type="wikidata-id">Q9438</idno>
+            <idno type="VIAF">100910150</idno>
+          </person>
+          
+          
+          
+          
+          
+          <person xml:id="Zumel">
+            <persName xml:lang="es">Francisco Zumel</persName>
+            <persName xml:lang="eng">Francisco Zumel</persName>
+            <persName xml:lang="lat">Franciscus Zumel</persName>
+            <birth when="1540">1540</birth>
+            <death when="1607">1607</death>
+            <idno type="wikidata-id">Q518117</idno>
+            <idno type="VIAF">24940717</idno>
+          </person>
+             
+                    
+          
+          
+          <person xml:id="Picus">
+            <persName xml:lang="es">Giovanni Pico della Mirandola</persName>
+            <persName xml:lang="eng">Giovanni Pico della Mirandola</persName>
+            <persName xml:lang="lat">Ioannes Picus de Mirandula</persName>
+            <birth when="1463">1463</birth>
+            <death when="1494">1494</death>
+            <idno type="wikidata-id">Q182128</idno>
+            <idno type="VIAF">34491108</idno>
+          </person>
+          
+          
+          
+          
+          
+          <person xml:id="Conimbricenses">
+            <name xml:lang="es">Comentarios del Colegio conimbricense de la Compañía de Jesús</name>
+            <name xml:lang="eng"></name>
+            <name xml:lang="lat">Commentii collegii conimbricencis Societatis Iesu</name>
+            <!-- <birth when=""></birth>
+            <death when=""></death> -->
+            <idno type="wikidata-id">Q5161079</idno>
+            <idno type="VIAF">154791777</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Complutenses">
+            <name xml:lang="es"></name>
+            <name xml:lang="eng"></name>
+            <name xml:lang="lat">Collegium Complutense philosophicum discalceatorum fratrum Ordo Beatissimae Virginis Mariae de Monte Carmelo</name>
+            <!-- birth when=""></birth>
+            <death when=""></death> -->
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno>
+          </person>
+          
+          
+          
+          <person xml:id="Lovanienses">
+            <name xml:lang="es"></name>
+            <name xml:lang="eng"></name>
+            <name xml:lang="lat"></name>
+            <!-- birth when=""></birth>
+            <death when=""></death> -->
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno>
+          </person>
+          
+          
+          
+          <person xml:id="AlbertusMagnus">
+            <persName xml:lang="es">Alberto Magno</persName>
+            <persName xml:lang="eng">Albert the Great</persName>
+            <persName xml:lang="lat">Albertus Magnus</persName>
+            <birth when="1193" type="circa">c. 1193</birth>
+            <death when="1280">1280</death>
+            <idno type="wikidata-id">Q60059</idno>
+            <idno type="VIAF">88125532</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Scotus">
+            <persName xml:lang="es">Juan Duns Escoto</persName>
+            <persName xml:lang="eng">John Duns Scotus</persName>
+            <persName xml:lang="lat">Ioannes Duns Scotus</persName>
+            <birth when="1265" type="circa">c. 1265</birth>
+            <death when="1308">1308</death>
+            <idno type="wikidata-id">Q190089</idno>
+            <idno type="VIAF">120697851</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Avicenna">
+            <persName xml:lang="es">Avicena</persName>
+            <persName xml:lang="eng">Avicenna</persName>
+            <persName xml:lang="lat">Avicenna</persName>
+            <birth when="0980" type="circa">c. 980</birth>
+            <death when="1037">1037</death>
+            <idno type="wikidata-id">Q8011</idno>
+            <idno type="VIAF">89770781</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Caietanus">
+            <persName xml:lang="es">Tomás de Vio Cayetano</persName>
+            <persName xml:lang="eng">Thomas Cajetan</persName>
+            <persName xml:lang="lat">Thomas de Vio Caietanu</persName>
+            <birth when="1469">1469</birth>
+            <death when="1534">1534</death>
+            <idno type="wikidata-id">Q435853</idno>
+            <idno type="VIAF">49196005</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Torrejon">
+            <persName xml:lang="es">Pedro Fernández de Torrejón</persName>
+            <persName xml:lang="eng">Pedro Fernández de Torrejón</persName>
+            <persName xml:lang="lat">Petrus Fernandez de Torrejon</persName>
+            <birth when="1594" type="circa">c. 1594</birth>
+            <death when="1645">1645</death>
+            <!--  <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF"></idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Martinez">
+            <persName xml:lang="es">Juan Martínez de Prado</persName>
+            <persName xml:lang="eng">Juan Martínez de Prado</persName>
+            <persName xml:lang="lat">Ioannes Martinez de Prado</persName>
+            <birth when="1605" type="circa">c. 1605</birth>
+            <death when="1668">1668</death>
+            <!--  <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF">164145857057522921479</idno> 
+          </person>
+          
+          
+          
+          
+          
+          <person xml:id="Suarez">
+            <persName xml:lang="es">Francisco Suárez</persName>
+            <persName xml:lang="eng">Francisco Suárez</persName>
+            <persName xml:lang="lat">Franciscus Suarez</persName>
+            <birth when="1548">1548</birth>
+            <death when="1610">1617</death>
+            <idno type="wikidata-id">Q316339</idno>
+            <idno type="VIAF">39385631</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Monlorius">
+            <persName xml:lang="es">Juan Bautista Monllor</persName>
+            <persName xml:lang="eng">Juan Bautista Monllor</persName>
+            <persName xml:lang="lat">Ioannes Baptista Monlorius</persName>
+            <birth when="1539">1539</birth>
+            <death when="1570">1570</death>
+            <idno type="wikidata-id">Q56000114</idno>
+            <idno type="VIAF">67283140</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Capreolus">
+            <persName xml:lang="es">Juan Capreolo</persName>
+            <persName xml:lang="eng">John Capreolus</persName>
+            <persName xml:lang="lat">Ioannes Capreolus</persName>
+            <birth when="1380" type="circa">c. 1380</birth>
+            <death when="1444">1444</death>
+            <idno type="wikidata-id">Q6170357</idno>
+            <idno type="VIAF">24717984</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Soncinas">
+            <persName xml:lang="es">Pablo Barbo Soncinas</persName>
+            <persName xml:lang="eng">Paulus Soncinas</persName>
+            <persName xml:lang="lat">Paulus Barbus Soncinatus</persName>
+            <birth when="1458" type="circa">c. 1458</birth>
+            <death when="1494">1494</death>
+            <idno type="wikidata-id">Q56000114</idno>
+            <idno type="VIAF">Q5812793</idno>
+          </person>
+
+
+
+
+          <person xml:id="Toletus">
+            <persName xml:lang="es">Francisco de Toledo</persName>
+            <persName xml:lang="eng">Francisco de Toledo</persName>
+            <persName xml:lang="lat">Franciscus Toletus</persName>
+            <birth when="1532">1532</birth>
+            <death when="1596">1596</death>
+            <idno type="wikidata-id">Q1379453</idno>
+            <idno type="VIAF">76364159</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Rubius">
+            <persName xml:lang="es">Antonio Rubio de Rueda</persName>
+            <persName xml:lang="eng">Antonio Rubio</persName>
+            <persName xml:lang="lat">Antonius Ruvius Rodensis</persName>
+            <birth when="1548">1548</birth> 
+            <death when="1615">1615</death>
+            <idno type="wikidata-id">Q28502629</idno>
+            <idno type="VIAF">24651941</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Iavellus">
+            <persName xml:lang="es">Crisóstomo Iavelo</persName>
+            <persName xml:lang="eng">Chrysostomus Javellus</persName>
+            <persName xml:lang="lat">Chrysostomus Iavelli Canapicii</persName>
+            <birth when="1470" type="circa">c. 1470</birth>
+            <death when="1538" type="circa">c. 1538</death>
+            <idno type="wikidata-id">Q3767067</idno>
+            <idno type="VIAF">9899287</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Arauxo">
+            <persName xml:lang="es">Franciso de Araujo y Chaves</persName>
+            <persName xml:lang="eng">Francisco de Araujo</persName>
+            <persName xml:lang="lat">Franciscus de Arauxo</persName>
+            <birth when="1580">1580</birth>
+            <death when="1664">1664</death>
+            <idno type="wikidata-id">Q5867834</idno>
+            <idno type="VIAF">6757402</idno>
+          </person>
+          
+          
+          
+          
+          
+          <person xml:id="Sanchez">
+            <persName xml:lang="es">Juan Sánchez Sedeño</persName>
+            <persName xml:lang="eng">Juan Sánchez Sedeño</persName>
+            <persName xml:lang="lat">Ioannes Sanchez Sedeno</persName>
+            <birth when="1552" type="circa">c. 1552</birth>
+            <death when="1615">1615</death>
+            <idno type="wikidata-id">Q64876357</idno>
+            <idno type="VIAF">957980 </idno> 
+          </person>
+          
+          
+          
+          
+          <person xml:id="Gallego">
+            <persName xml:lang="es">Bernabé Gallego de la Vera</persName>
+            <persName xml:lang="eng">Bernabé Gallego de la Vera</persName>
+            <persName xml:lang="lat">Baranbas Gallego de Vera</persName>
+            <!-- <birth when=""></birth> -->
+            <death when="1661">1661</death>
+            <!-- <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF">4087160848423608210009 </idno> 
+          </person>
+          
+          
+          
+          
+          
+          <person xml:id="GAriminensis">
+            <persName xml:lang="es">Gregorio de Rímini</persName>
+            <persName xml:lang="eng">Gregorio of Rimini</persName>
+            <persName xml:lang="lat">Gregorio Ariminensis</persName>
+            <birth when="1300" type="circa">c. 1300</birth>
+            <death when="1358">1358</death>
+            <idno type="wikidata-id">Q540799</idno>
+            <idno type="VIAF">40715843</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Aureolus">
+            <persName xml:lang="es">Pedro Auréolo</persName>
+            <persName xml:lang="eng">Peter Auriol</persName>
+            <persName xml:lang="lat">Petrus Aureolus</persName>
+            <birth when="1280" type="circa">c. 1280</birth>
+            <death when="1322">1322</death>
+            <idno type="wikidata-id">Q1383191</idno>
+            <idno type="VIAF">5087740</idno>
+          </person>
+                 
+          
+         
+          
+          <person xml:id="Vazquez">
+            <persName xml:lang="es">Gabriel Vázquez</persName>
+            <persName xml:lang="eng">Gabriel Vásquez</persName>
+            <persName xml:lang="lat">Gabriel Vazquez</persName>
+            <birth when="1550">1549</birth>
+            <death when="1664">1604</death>
+            <idno type="wikidata-id">Q352513</idno>
+            <idno type="VIAF">20476819</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Lalemandetius">
+            <persName xml:lang="es">Jean Lalemandet</persName>
+            <persName xml:lang="eng">Jean Lalemandet</persName>
+            <persName xml:lang="lat">Ioannes Lalemandetius</persName>
+            <birth when="1595">1595</birth>
+            <death when="1647">1647</death>
+            <idno type="wikidata-id">Q4253395</idno>
+            <idno type="VIAF">33058017</idno>
+          </person>
+          
+          
+          
+                    
+          <person xml:id="Porretanus">
+            <persName xml:lang="es">Gilberto de Poitiers</persName>
+            <persName xml:lang="eng">Gilbert of Poitiers</persName>
+            <persName xml:lang="lat">Gilbertus Porretanus</persName>
+            <birth when="1070" type="circa">c. 1070</birth>
+            <death when="1154" type="circa">c. 1154</death>
+            <idno type="wikidata-id">Q583119</idno>
+            <idno type="VIAF">100177951</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Horstius">
+            <persName xml:lang="es">Jacob Merlo Horstius</persName>
+            <persName xml:lang="eng">Jacob Merlo Horstius</persName>
+            <persName xml:lang="lat">Iacobus Merlonus Horstius</persName>
+            <birth when="1597" type="circa">c. 1597</birth>
+            <death when="1644">1644</death>
+            <idno type="wikidata-id">Q52147672</idno>
+            <idno type="VIAF">76372616</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Durandus">
+            <persName xml:lang="es">Durán de San Porciano</persName>
+            <persName xml:lang="eng">Durand of Saint-Pourçain</persName>
+            <persName xml:lang="lat">Durandus a Sancto Porciano</persName>
+            <birth when="1275" type="circa">c. 1275</birth>
+            <death when="1334">1334</death>
+            <idno type="wikidata-id">Q1266754</idno>
+            <idno type="VIAF">76671601</idno>
+          </person>
+          
+                    
+          
+          
+          <person xml:id="FMayronis">
+            <persName xml:lang="es">Francisco de Mayronis</persName>
+            <persName xml:lang="eng">Francis of Mayrone</persName>
+            <persName xml:lang="lat">Franciscus de Mayronis</persName>
+            <birth when="1595" type="circa">c. 1280</birth>
+            <death when="1647" type="circa">c. 1328</death>
+            <idno type="wikidata-id">Q1995114</idno>
+            <idno type="VIAF">191026298</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Masius">
+            <persName xml:lang="es">Diego Mas</persName>
+            <persName xml:lang="eng">Diego Mas</persName>
+            <persName xml:lang="lat">Didacus Masius</persName>
+            <birth when="1553">1553</birth>
+            <death when="1608">1608</death>
+            <idno type="wikidata-id">Q11917148</idno>
+            <idno type="VIAF">51093154 </idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="BTorresCanarensis">
+            <persName xml:lang="es">Bartolomé de Torres</persName>
+            <persName xml:lang="eng">Bartolomé Torres</persName>
+            <persName xml:lang="lat">Bartholomaeus Torres</persName>
+            <birth when="1512">1512</birth>
+            <death when="1568">1568</death>
+            <idno type="wikidata-id">Q55604943</idno>
+            <idno type="VIAF">24593087</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Niphus">
+            <persName xml:lang="es">Agostino Nifo</persName>
+            <persName xml:lang="eng">Agostino Nifo</persName>
+            <persName xml:lang="lat">Augustinus Niphus</persName>
+            <birth when="1473" type="circa">c. 1473</birth>
+            <death when="1545" type="circa">c. 1545</death>
+            <idno type="wikidata-id">Q395689</idno>
+            <idno type="VIAF">73879631</idno>
+          </person>
+                    
+          
+          
+          
+          
+          <person xml:id="Ona">
+            <persName xml:lang="es">Pedro de Oña</persName>
+            <persName xml:lang="eng">Pedro de Oña</persName>
+            <persName xml:lang="lat">Petrus de Oña</persName>
+            <birth when="1595">1560</birth>
+            <death when="1647">1626</death>
+            <idno type="wikidata-id">Q79639559</idno>
+            <idno type="VIAF">51093154 </idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Canterus">
+            <persName xml:lang="es">Juan Cantero</persName>
+            <persName xml:lang="eng">Juan Cantero</persName>
+            <persName xml:lang="lat">Ioannes Cantero</persName>
+            <!--  <birth when=""></birth>
+            <death when=""></death> 
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"> </idno> -->
+          </person>
+                    
+          
+          
+          
+          <person xml:id="Fonseca">
+            <persName xml:lang="es">Pedro de Fonseca</persName>
+            <persName xml:lang="eng">Pedro da Fonseca</persName>
+            <persName xml:lang="lat">Petrus Fonsecae</persName>
+            <birth when="1528">1528</birth>
+            <death when="1599">1599</death>
+            <idno type="wikidata-id">Q1365381</idno>
+            <idno type="VIAF">68979762</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Anglicus">
+            <persName xml:lang="es">Juan Venator</persName>
+            <persName xml:lang="eng">John Huntman</persName>
+            <persName xml:lang="lat">Ioannes Venator Anglicus</persName>
+            <birth when="1373" type="circa">c. 1373</birth>
+            <death when="1414" type="circa">c. 1414</death>
+            <idno type="wikidata-id">Q99993866</idno>
+            <idno type="VIAF">22309840</idno>
+          </person>
+          
+          
+          
+          <person xml:id="AAndreas">
+            <persName xml:lang="es">Antonio Andrés</persName>
+            <persName xml:lang="eng">Antonius Andreas</persName>
+            <persName xml:lang="lat">Antonius Andreas</persName>
+            <birth when="1280" type="circa">c. 1280</birth>
+            <death when="1320">1320</death>
+            <idno type="wikidata-id">Q3620412</idno>
+            <idno type="VIAF">284758617</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Ayala">
+            <persName xml:lang="es">Martín Pérez de Ayala</persName>
+            <persName xml:lang="eng">Martín Pérez de Ayala</persName>
+            <persName xml:lang="lat">Martinus Perez de Ayala</persName>
+            <birth when="1504">1504</birth>
+            <death when="1566">1566</death>
+            <idno type="wikidata-id">Q6002841</idno>
+            <idno type="VIAF">49369593</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Soto">
+            <persName xml:lang="es">Domingo de Soto</persName>
+            <persName xml:lang="eng">Domingo de Soto</persName>
+            <persName xml:lang="lat">Dominicus de Soto</persName>
+            <birth when="1494">1494</birth>
+            <death when="1560">1560</death>
+            <idno type="wikidata-id">Q1237514</idno>
+            <idno type="VIAF">88774753</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Banez">
+            <persName xml:lang="es">Domingo Báñez</persName>
+            <persName xml:lang="eng">Domingo Báñez</persName>
+            <persName xml:lang="lat">Dominicus Bañez</persName>
+            <birth when="1528">1528</birth>
+            <death when="1604">1604</death>
+            <idno type="wikidata-id">Q934185</idno>
+            <idno type="VIAF">88708934</idno>
+          </person>
+          
+          
+          
+          <person xml:id="Veracrux">
+            <persName xml:lang="es">Alonso Gutiérrez de la Veracruz</persName>
+            <persName xml:lang="eng">Alonso de la Veracruz</persName>
+            <persName xml:lang="lat">Alphonsus de Vera Cruce</persName>
+            <birth when="1504" type="circa">c. 1504</birth>
+            <death when="1584">1584</death>
+            <idno type="wikidata-id">Q666737</idno>
+            <idno type="VIAF">12347830</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="TMercadus">
+            <persName xml:lang="es">Tomás de Mercado</persName>
+            <persName xml:lang="eng">Tomás de Mercado</persName>
+            <persName xml:lang="lat">Thomas de Mercado</persName>
+            <birth when="1525">1525</birth>
+            <death when="1575">1575</death>
+            <idno type="wikidata-id">Q2837053</idno>
+            <idno type="VIAF">228679151</idno>
+          </person>
+          
+          
+          
+          
+          <person xml:id="Lombardus">
+            <persName xml:lang="es">Pedro Lombardo</persName>
+            <persName xml:lang="eng">Peter Lombard</persName>
+            <persName xml:lang="lat">Petrus Lombardus</persName>
+            <birth when="1096" type="circa">c. 1096</birth>
+            <death when="1160">1160</death>
+            <idno type="wikidata-id">Q315347</idno>
+            <idno type="VIAF">51797933</idno>
+          </person>
+          
+          
+                    
+          
+          <person xml:id="Molina">
+            <persName xml:lang="es">Luis de Molina</persName>
+            <persName xml:lang="eng">Luis de Molina</persName>
+            <persName xml:lang="lat">Ludovicus de Molina</persName>
+            <birth when="1535">1535</birth>
+            <death when="1600">1600</death>
+            <idno type="wikidata-id">Q436077</idno>
+            <idno type="VIAF">5030712</idno>
+          </person>
+          
+          
+          
+                    
+          <person xml:id="Hurdado">
+            <persName xml:lang="es">Pedro Hurtado de Mendoza</persName>
+            <persName xml:lang="eng">Pedro Hurtado de Mendoza</persName>
+            <persName xml:lang="lat">Petrus Hurtado de Mendoza</persName>
+            <birth when="1578">1578</birth>
+            <death when="1651">1651</death>
+            <idno type="wikidata-id">Q12265675</idno>
+            <idno type="VIAF">42897949</idno>
+          </person>
+          
+                              
+          
+          
+          <person xml:id="Cabero">
+            <persName xml:lang="es">Crisóstomo Cabero</persName>
+            <persName xml:lang="eng">Crisostomo Cabero</persName>
+            <persName xml:lang="lat">Chrysostomus Cabero</persName>
+            <birth when="1580">1580</birth>
+            <death when="1653">1653</death>
+            <idno type="wikidata-id">Q85508042</idno>
+            <!--  <idno type="VIAF"> </idno> -->
+          </person>
+          
+          
+          
+          
+          <person xml:id="Aversa">
+            <persName xml:lang="es">Rafael Aversa</persName>
+            <persName xml:lang="eng">Raphael Aversa</persName>
+            <persName xml:lang="lat">Raphael de Aversa</persName>
+            <birth when="1589">1589</birth>
+            <death when="1657">1657</death>
+            <!-- <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF">79120330</idno>
+          </person>          
+          
+          
+          
+          <person xml:id="Salablanca">
+            <persName xml:lang="es">Diego de Jesús, Salablanca</persName>
+            <persName xml:lang="eng">Diego de Jesús, Salablanca</persName>
+            <persName xml:lang="lat">Didacus a Iesu, Salablanca</persName>
+            <birth when="1570">1570</birth>
+            <death when="1621">1621</death>
+            <idno type="wikidata-id">Q97065613</idno>
+            <idno type="VIAF">87817111</idno>
+          </person>   
+          
+          
+          
+          
+          <person xml:id="PVeneto">
+            <persName xml:lang="es">Pablo de Venecia</persName>
+            <persName xml:lang="eng">Paul of Venice</persName>
+            <persName xml:lang="lat">Paulus Venetus</persName>
+            <birth when="1369">1369</birth>
+            <death when="1429">1429</death>
+            <idno type="wikidata-id">Q2064265</idno>
+            <idno type="VIAF">19672889</idno>
+          </person>   
+          
+          
+          
+          
+          <person xml:id="Titelmannus">
+            <persName xml:lang="es">Francisco Titelmans</persName>
+            <persName xml:lang="eng">Franciscus Titelmans</persName>
+            <persName xml:lang="lat">Franciscus Titelmannus</persName>
+            <birth when="1502">1502</birth>
+            <death when="1597">1597</death>
+            <idno type="wikidata-id">Q134009</idno>
+            <idno type="VIAF">27074875</idno>
+          </person>   
+          
+          
+          
+          
+          
+          <person xml:id="Villalpandus">
+            <persName xml:lang="es">Gaspar Cardillo de Villalpando</persName>
+            <persName xml:lang="eng">Gaspar Cardillo de Villalpando</persName>
+            <persName xml:lang="lat">Gaspar Cardillo de Villalpando</persName>
+            <birth when="1527">1527</birth>
+            <death when="1581">1581</death>
+            <idno type="wikidata-id">Q5875795</idno>
+            <idno type="VIAF">20494710</idno>
+          </person>   
+          
+          
+          
+          <person xml:id="Niger">
+            <persName xml:lang="es">Pedro Gregorio Niger</persName>
+            <persName xml:lang="eng">Peter Schwartz</persName>
+            <persName xml:lang="lat">Petrus Georgius Niger</persName>
+            <birth when="1434" type="circa">c. 1434</birth>
+            <death when="1483" type="circa">c. 1483</death>
+            <idno type="wikidata-id">Q744494</idno>
+            <idno type="VIAF">24716287</idno>
+          </person>   
+          
+          
+          
+          
+          <person xml:id="PerezOSB">
+            <persName xml:lang="es">Antonio Pérez</persName>
+            <persName xml:lang="eng">Antonio Pérez</persName>
+            <persName xml:lang="lat">Antonius Perez</persName>
+            <birth when="1562" type="circa">c. 1562</birth>
+            <death when="1637">1637</death>
+            <idno type="wikidata-id">Q27824292</idno>
+            <idno type="VIAF">10933908</idno>
+          </person>  
+          
+          
+                    
+          
+          <person xml:id="Burley">
+            <persName xml:lang="es">Walter Burley</persName>
+            <persName xml:lang="eng">Walter Burley</persName>
+            <persName xml:lang="lat">Gualterius Burlaeus</persName>
+            <birth when="1275" type="circa">c. 1275</birth>
+            <death when="1375" type="circa">c. 1375</death>
+            <idno type="wikidata-id">Q1862572</idno>
+            <idno type="VIAF">86734224</idno>
+          </person>  
+          
+                    
+          
+          
+          <person xml:id="Ferrara">
+            <persName xml:lang="es">Francisco Silvestre de Ferrara</persName>
+            <persName xml:lang="eng">Francesco Silvestri</persName>
+            <persName xml:lang="lat">Franciscus Silvester Ferrariensis</persName>
+            <birth when="1474" type="circa">c. 1474</birth>
+            <death when="1528">1528</death>
+            <idno type="wikidata-id">Q5479589</idno>
+            <idno type="VIAF">24674940</idno>
+          </person>  
+          
+          
+          
+          
+          <person xml:id="Murcia">
+            <persName xml:lang="es">Francisco Murcia de la Llana</persName>
+            <persName xml:lang="eng">Francisco Murcia de la Llana</persName>
+            <persName xml:lang="lat">Franciscus Murcia de la Llana</persName>
+            <!--  <birth when=""></birth> -->
+            <death when="1639" type="circa">c. 1639</death>
+            <!-- <idno type="wikidata-id"></idno> -->
+            <idno type="VIAF">198256483</idno>
+          </person>  
+          
+          
+          
+          <person xml:id="Flandria">
+            <persName xml:lang="es">Domingo de Flandria</persName>
+            <persName xml:lang="eng">Dominicus de Flandria</persName>
+            <persName xml:lang="lat">Dominicus de Flandria</persName>
+            <birth when="1425" type="circa">c. 1425</birth>
+            <death when="1481" type="circa">c. 1481</death>
+            <idno type="wikidata-id">Q97064860</idno>
+            <idno type="VIAF">100173629</idno>
+          </person>  
+          
+          
+          
+          
+          <person xml:id="Lulius">
+            <persName xml:lang="es">Raimundo Lullius</persName>
+            <persName xml:lang="eng">Ramon Llull</persName>
+            <persName xml:lang="lat">Raimundus Lullus</persName>
+            <birth when="1232" type="circa">c. 1232</birth>
+            <death when="1316" type="circa">c. 1316</death>
+            <idno type="wikidata-id">Q193660</idno>
+            <idno type="VIAF">120696927</idno>
+          </person>  
+          
+          
+          
+          <person xml:id="ISanctoThoma">
+            <persName xml:lang="es">Juan de Santo Tomás</persName>
+            <persName xml:lang="eng">John of St. Thomas</persName>
+            <persName xml:lang="lat">Ioannes a Sancto Thoma</persName>
+            <birth when="1589">1589</birth>
+            <death when="1644">1644</death>
+            <idno type="wikidata-id">Q3735496</idno>
+            <idno type="VIAF">56620194</idno>
+          </person>  
+                   
+    
+          
+        </listPerson>
+
+
+
+
+
+
+
+
+        <listPerson type="Medieval">
+
+  
+
+          <person xml:id="MarsiliusPatavinus">
+            <persName xml:lang="es">Marsilio de Padua</persName>
+            <persName xml:lang="eng">Marsilius of Padua</persName>
+            <persName xml:lang="lat">Marsilius Patavinus</persName>
+            <persName xml:lang="ita">Marsiglio da Padova</persName>
+            <birth when="1275" type="circa">c.1275</birth>
+            <death when="1342" type="circa">c.1342</death>
+            <idno type="wikidata-id">Q315357</idno>
+            <idno type="VIAF">34445104</idno>
+            </person>
+
+
+
+          <!--<person xml:id="_">
+            <persName xml:lang="es"></persName>
+            <persName xml:lang="eng"></persName>
+            <persName xml:lang="lat"></persName>
+            <birth when="" type="circa">c.</birth>
+            <death when="" type="circa">c.</death>
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno>
+            </person>-->
+
+
+
+          <person xml:id="BernardusClairvaux">
+            <persName xml:lang="es">Bernardo de Clairvaux</persName>
+            <persName xml:lang="eng">Bernard of Clairvaux</persName>
+            <persName xml:lang="lat">Bernardus Claraevallensis</persName>
+            <birth when="1090">1090</birth>
+            <death when="1153">1153</death>
+            <idno type="wikidata-id">Q188411</idno>
+            <idno type="VIAF">59875293</idno>
+          </person>
+
+       
+       
+          <person xml:id="Wycliffe">
+            <persName xml:lang="es">John Wycliffe</persName>
+            <persName xml:lang="eng">John Wycliffe</persName>
+            <birth when="1320" type="circa">c.1320</birth>
+            <death when="1384">1384</death>
+            <idno type="wikidata-id">Q173893</idno>
+            <idno type="VIAF">68939042</idno>
+            <occupation>teólogo, traductor de la Biblia, filósofo</occupation>
+          </person>
+
+
+
+
+
+
+
+          <person xml:id="GarciaPuyazuelo">
+            <persName xml:lang="es">Martín García Puyazuelo</persName>
+            <persName xml:lang="eng">Martín García Puyazuelo</persName>
+            <birth when="1441" type="circa">c.1441</birth>
+            <death when="1521">1521</death>
+            <idno type="wikidata-id">Q11935714</idno>
+            <idno type="VIAF">120448731</idno>
+          </person>
+
+        </listPerson><!--Medieval-->
+
+
+
+       
+        
+        
+        
+        <listPerson type="Otros">
+          
+          <person xml:id="Chrysaorius">
+            <persName xml:lang="es">Crisaorio</persName>
+            <persName xml:lang="eng">Chrysaorius</persName>
+            <persName xml:lang="lat">Chrysaorius</persName>
+            <persName xml:lang="grc">Χρυσαόριος</persName>
+            <!--<birth when="" type="circa"></birth>
+            <death when="" type="circa"></death>                     
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno>-->
+          </person>
+
+
+
+          <person xml:id="Christus">
+            <persName xml:lang="es">Jesús de Nazaret</persName>
+            <persName xml:lang="eng">Jesus of Nazareth</persName>
+            <persName xml:lang="lat">Iesus Nazarenus</persName>            
+            <!-- <birth when="" type="circa"></birth>
+            <death when="" type="circa"></death> -->                    
+            <idno type="wikidata-id">Q302</idno>
+            <idno type="VIAF">38323081</idno>
+          </person>    
+                    
+                    
+                    
+                    
+          <person xml:id="Zebedaeus">
+            <persName xml:lang="es">Zebedeo</persName>
+            <persName xml:lang="eng">Zebedee</persName>
+            <persName xml:lang="lat">Zebedaeus</persName>            
+            <!-- <birth when="" type="circa"></birth>
+            <death when="" type="circa"></death>                   
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno> -->  
+          </person>   
+          
+          
+          
+          
+          <person xml:id="Sophroniscus">
+            <persName xml:lang="es">Sofronisco</persName>
+            <persName xml:lang="eng">Sophroniscus</persName>
+            <persName xml:lang="lat">Sophroniscus</persName>            
+            <!-- <birth when="" type="circa"></birth>
+            <death when="" type="circa"></death>                   
+            <idno type="wikidata-id"></idno>
+            <idno type="VIAF"></idno> -->  
+          </person>   
+          
+          
+  
+        </listPerson>
+        
+        
+      </listPerson>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="InIsa">In Isagogem Porphyrii, liber vere aureaus, in quo continentur quinque voces necessariae</title>
+        <author xml:id="GAS">Gregorio Agustín Salgado, OSA</author>
+        <editor xml:id="WA">Wainer Andrés Durán Guerrero</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2020-08-06">06 de Agosto de 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="BNC" n="biblnacicol150">Bogotá, D.C., Biblioteca Nacional de Colombia, MS RM150</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding location="internal" method="parallel-segmentation"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la"><!--lat-->
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#BNC" facs="M93v" n="93-v"/>
+        <cb ed="#BNC" n="a"/>
+        <lb ed="#BNC" n="7"/>
+        <!-- #V has two columns -->
+      </div>
+    </front>
+    
+    <body>
+     <div>
+         <div>
+             <cb ed="#BNC" n="a"/>
+             <lb ed="#BNC" n="1"/><head>Quaestiones, in universam Aristotelis Dialecticam, quae hac
+             tempesta<lb ed="#BNC" n="2" break="no"/>te agitari solent, solutae luminibus
+             Augustinia<lb ed="#BNC" n="3" break="no"/>nis, fundamentis Aegidianis, ac
+             Ange<lb ed="#BNC" n="4" break="no"/>licis splendoribus, necnon
+             doctri<lb ed="#BNC" n="5" break="no"/>nis selectis praecipuorum
+             <lb ed="#BNC" n="6"/>Doctorum ornatae.</head>
+             <lb ed="#BNC" n="7"/><head><choice><orig>Praelogus</orig><reg>Prologus</reg></choice></head>
+             
+             <p>
+                 <lb ed="#BNC" n="8"/>Cum ipsa natura sponte largeque cupidinem rationalitatis praestiterit hominibus sophiae omnibus cunctisque ardentius 
+                 <lb ed="#BNC" n="9"/>scire competit desiderare. Syllogismus ubi demonstratio certe apodicon diceretur, scire simul at est, id
+                 <lb ed="#BNC" n="10"/>faciens est: demonstrationis autem ipsum est effectus scire. Dum enim esse inquantum huiusce sine causa non potest; non est demonstratio non 
+                 <lb ed="#BNC" n="11"/><choice><orig>infalibilis</orig><reg>infallibilis</reg></choice>: homine in videndo completum undequaque desiderium perfecta rationale. Dicebatur quippe  
+                 syllogis<lb ed="#BNC" n="12" break="no"/>mum demonstrationem futuram fore: quapropter ipsa ut cognitione visura et sit; syllogismum senseo tactum praecise in
+                 <lb ed="#BNC" n="13"/>intelligentia. Syllogismus enim vero quando quodam fuerit aggregatum partibus ex partibus totum poterit optime
+                 cog<lb ed="#BNC" n="14" break="no"/>nosci non ignoratis. Syllogismi primo oportet partes fuisse cognitas, at syllogismi certe
+                 intellec<lb ed="#BNC" n="15" break="no"/>turus sit. Conclusio propoesque omnes mihi et quae videntur enuntiantiones autem propinque sunt syllogismi partium   
+                 <lb ed="#BNC" n="16"/>quaepiam. Simulac enuntiationis vero partes existentes ut quaedam remotae fuerint termini: ista ideo
+                 <lb ed="#BNC" n="17"/>oportet tractatum <unclear>ire</unclear> deque enuntiatione, qeque terminis deque syllogismo, scilicet, antequam tractetur. Cum autem terminus 
+                 <lb ed="#BNC" n="18"/>sine complexione qui dicitur quilibet significat substantiam quantitate aut significat, significabit 
+                 <lb ed="#BNC" n="19"/>aut qualitatem aut aliorum praedicamentorum aliquid significaverit ideoque de enuntiatione antequam
+                 <lb ed="#BNC" n="20"/>tractetur oportet praedicamenta determinatum ire. Hic ut sumitur et nihil cum aliud sit 
+                 praedicamen<lb ed="#BNC" n="21" break="no"/>tum quam praedicabilium ordinatio in praedicamentali ordine; praedicabilia fuisse interest praecognoscibilia.
+                 <lb ed="#BNC" n="22"/>Nos autem ipsum omnibus perventuri ad naturaliter desideratum coneupitumque Dei Sumus Opus Maximum cum
+                 <lb ed="#BNC" n="23"/>tenturi methodum mentis auxilio prae oculis positam.
+             </p>
+             
+             <p>
+                 <lb ed="#BNC" n="24"/>Igitur huius sciae explicationem (Deo auspice) aggredios. Et omissis variis vetustis
+                 <lb ed="#BNC" n="25"/>quae Dialecticae divisionibus; apud omnes celebris solita que receptaque a cunctis Doctores ea est 
+                 Dia<lb ed="#BNC" n="26" break="no"/>lecticam tres dividens in partes, scienti intellectus tria in membra ac distinguens operationes. Dum
+                 <lb ed="#BNC" n="27"/>Intellectus scopus finisque operationesque et eius dirigere sit in ordine ad syllogismum menteficiendum; ideo 
+                 <lb ed="#BNC" n="28"/>necessium est tum in divisione Dialecticam, tum operationes in partitione assimilanas fuisse hoc es,
+                 <lb ed="#BNC" n="29"/>fuisse conformandas. Omnibus infusse patet, clareque constat plures nec pasiciores tres intellectus tantum
+                 ope<lb ed="#BNC" n="30" break="no"/>rationes esse: appraehentionem et parter seu divisionem cum compositione seu cum ratiosinatione discursum et esse;
+                 <lb ed="#BNC" n="31"/>sic et omnibus dividendam similiter sicuti sequendam triplicem Dialecticam in partem esse.
+             </p>
+             
+             <p>
+                 <lb ed="#BNC" n="32"/>Prima Cathegoriarum, ide est, Praedicamentorum. Sententia Perihermeneias, id est, De interpretatione.
+                 
+                 
+                 <lb ed="#BNC" n="1"/>Tertia Analyticorum, id est, de resolutione. In prima simplicibus de vocivus primae operari 
+                 corres<lb ed="#BNC" n="2" break="no"/>pondentibus contemplabimini laborantem Peripateticorum Principem non solum clasibus in assignandis,  
+                 <lb ed="#BNC" n="3"/>quas possibiliter fuere ad reducenda syllogismi incompleta, remota materia, quae talia
+                 <lb ed="#BNC" n="4"/>entia sunt, verum vero ipsis in coordinandis subiecti, praedicati in unaquaque clasi ratione. In secunda
+                 <lb ed="#BNC" n="5"/>de enuntiantione, seu <unclear>propositione</unclear> prima nimium syllogismi materia agentem entis tenturi intellectus
+                 <lb ed="#BNC" n="6"/>secundus correspondentem operationi. In tertia fusse lateque de syllogismo tertiae operari
+                 <lb ed="#BNC" n="7"/>correspondente videbitur tractare. Congrue videbitur hanc in partes, parte divisam quatuorque
+                 <lb ed="#BNC" n="8"/>ire. Prima de primo Analysi appelata. Secunda de posteriori Analysi dicta.
+                 Ter<lb ed="#BNC" n="9" break="no"/>tia topicorum et quarta elenchorum est vocata. In prima de syllogismi natura tractat, deque
+                 <lb ed="#BNC" n="10"/>proprietatibus. Secunda de demonstratione, quae ex necessaria materia constans est syllogismus. Tertia de
+                 <lb ed="#BNC" n="11"/>syllogismis topicis, quales sunt quae constant probabili materia. Ultimaque quarta de syllogismis
+                 <lb ed="#BNC" n="12"/>sophisticis quales sunt quae materia constant apparente. Est divisio, series est, est ordo intellectus talis.
+             </p>
+             
+             <p>
+                 <lb ed="#BNC" n="13"/>Primum parti indubitatum est de Genere, de Differentia, de Specie, de Proprio, de
+                 Acciden<lb ed="#BNC" n="14" break="no"/>te libellum Porphyrium addidisse ab ipso compotum. Aristotelis es valde necessaria ad Cathegoriarum
+                 <lb ed="#BNC" n="15"/>intelligentiam horum talis cognitio. Immo fuit omnibus optime videndum tractatum huic et
+                 ra<lb ed="#BNC" n="16" break="no"/>tionis-entis et universalium superaddi ab Expositoribus et illis in Porphirii praedicabilibus infertum.
+                 <lb ed="#BNC" n="17"/>Dum enim voces reipsa huiuscemodi illae nimirum genus, differentia, species, proprium et accidens universalis, haut entia 
+                 <lb ed="#BNC" n="18"/>realia, sed rationis et pro formali dictae sint, esunque: stabilitum est fore partes inter Dialecticae collocandas inter 
+                 <lb ed="#BNC" n="19"/>Metaphysicae non incongrue cunctis et videatur et spectare. Dum igitur praedicabilia facile percipienda fuerint: rationis
+                 <lb ed="#BNC" n="20"/>entibus in prmis universalibus dein collaturi disputationis locum sumus; sic pars omnibus prior erit completa
+                 vi<lb ed="#BNC" n="21" break="no"/>denda. Postquam prudentes sic facile agentes sic breviter tulerimus totam Dialecticam aperte nobis.                 
+             </p>
+             
+             <p>
+                 <lb ed="#BNC" n="22"/>Quapropter aggreditur speciali studio Dialecticam qui indiget non ut deficiat huius sciae non ut
+                 exe<lb ed="#BNC" n="23" break="no"/>dat in propriis et in alienis. Et quod pluribus contingat ne quorum evenit <choice><orig>brebitis</orig><reg>brevitatis</reg></choice>
+                 <lb ed="#BNC" n="24"/>causa quidam et secretiorem Dialecticae doctrinam praetermittunt nobiliorem: ita 
+                 <lb ed="#BNC" n="25"/>vero physicis sicut et metaphysicis ipsam, sicut et ipsam implicantur
+                 comm<lb ed="#BNC" n="26" break="no"/>unicantur titulo Dialecticae et quaestionibus quidem Physicam,  
+                 Me<lb ed="#BNC" n="27" break="no"/>taphysicam tradidisse quidam. Consulentes utrumque extremum
+                 <lb ed="#BNC" n="28"/>conabimur veritati semper vitare 
+                 <lb ed="#BNC" n="29"/>Sic enim et Caribdim, sic et
+                 <lb ed="#BNC" n="30"/>Scylam vitandam
+                 in<lb ed="#BNC" n="31" break="no"/>cendam meo
+                 <lb ed="#BNC" n="32"/>videri.
+             </p>
+             
+         </div>
+     </div>
+    </body>
+  </text>
+</TEI>
