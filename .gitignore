@@ -15,4 +15,4 @@
 *.docx
 .DS_Store
 /temp/**/*
-/bak/**/*
+/otros/**/*

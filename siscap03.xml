@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="InIsa">In Isagogem Porphyrii... Cuestiones sobre el Capítulo 3</title>
+        <author xml:id="GAS">Gregorio Agustín Salgado, OSA</author>
+        <editor xml:id="WA">Wainer Andrés Durán Guerrero</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2020-08-06">06 de Agosto de 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="BNC" n="biblnacicol150">Bogotá, D.C., Biblioteca Nacional de Colombia, MS RM150</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding location="internal" method="parallel-segmentation"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la"><!--lat-->
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#BNC" n="156-v"/>
+        <cb ed="#BNC" n="a"/>
+        <lb ed="#BNC" n="1"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="siscap03">
+        
+        
+        <div>
+          <pb ed="#BNC" n="156-v"/><!--p. 308--> <!-- Numeración anterior tachada, indica página 126 -->
+          <cb ed="#BNC" n="a"/>
+          <lb ed="#BNC" n="1"/><head>Caput tertium Porphirii de Differentia
+            <lb ed="#BNC" n="2"/>tertio Praedicabili</head>
+          <div>
+            <lb ed="#BNC" n="3"/><head>Textus</head>
+            <cb ed="#BNC" n="b"/>
+            <p>
+              <lb ed="#BNC" n="4"/><title>ΚΕΦΑΛΑΙΟΝ Β</title>
+            </p>
+            
+            
+            <p n="1778" xml:lang="grc">
+              <cit>
+                <quote>
+                  <lb ed="#BNC" n="5"/>Διαφορὰ δὲ κοινῶς τε καὶ ἰδίως καὶ
+                  ἰδιαί<lb ed="#BNC" n="6" break="no"/>τατα λεγέσθω. Κοινῶς μὲν γὰρ διαφέρειν
+                  <lb ed="#BNC" n="7"/>ἕτερον ἑτέρου λέγεται τὸ ἑτερότητι
+                  διαλλά<lb ed="#BNC" n="8" break="no"/>ττον ὁπωσοῦν ἤ πρὸς ἄλλο, καὶ τὰ ἕτερα.
+                </quote>
+                <bibl>
+                  Porphyrius, <title>Isagoge</title>, p. ed. ???
+                </bibl>
+              </cit>
+            </p>
+            <cb ed="#BNC" n="c"/>
+            <p>
+              <lb ed="#BNC" n="9"/><title>Caput tertium</title>
+            </p>
+            
+            
+            <p n="1778">
+              <cit>
+                <quote>
+                  <lb ed="#BNC" n="10"/>Differentia vero et communiter et proprie et
+                  <lb ed="#BNC" n="11"/>proprissime dicatur. Differre namque qui propriam
+                  <lb ed="#BNC" n="12"/>communiter dicitur cum diversitate aliqua
+                  <lb ed="#BNC" n="13"/>quouis modo ut a seipso aut ab alio differt, etc.
+                </quote>
+                <bibl>
+                  Porphyrius, <title>Isagoge</title>, trad. Boethius, p.???
+                </bibl>
+              </cit>
+            </p>
+          </div>
+          <cb ed="#BNC" n="a"/>
+          <div>
+            <lb ed="#BNC" n="14"/><head>Summa Textus in omne caput</head>
+            <p n="1779">
+              <lb ed="#BNC" n="15"/>Duas continet partes hoc caput. In prima quinque traduntur divisiones differentiae, in secunda totidem dantur definitiones.
+              <lb ed="#BNC" n="16"/>Quoad primum, primo dividitur differentia in commune, propriam et proprissimam, verbi gratia, sedere risibile, rationale.
+              Se<lb ed="#BNC" n="17" break="no"/>cundo, in differentiam accidentalem ut communis et propria; et in essentialem et proprissima. Aliter in facientum diversum
+              <lb ed="#BNC" n="18"/>et varium, et in facientem omnino aliud. Tertio, in differentiam separabilem ut moveri, quiescere; et in
+              in<lb ed="#BNC" n="19" break="no"/>separabilem ut simum, aquilinum, rationale. Quarto, differentia inseparabilis dividitur in inseparabilem per se
+              <lb ed="#BNC" n="20"/>ut rationale et in inseparabilem per accidens ut aquilinum. Haec potest suscipere magis minusve, secus illa.
+              <lb ed="#BNC" n="21"/>Quinto, differentia per se dividitur in divisivam generis ut rationale et in constitutivam et sensibili respectu animalis.
+            </p>
+            
+            
+            <p n="1780">
+              <lb ed="#BNC" n="22"/>Quoad secundum, prima definitio est: <quote>Differentia est id, quod exedit genus.</quote> Secunda: <quote>Differentia est quae
+                praedi<lb ed="#BNC" n="23" break="no"/>catur de pluribus differentibus specie in quale quid.</quote> Tertia: <quote>Differentia est id, quod ea, quae sunt sub eodem genere separat.</quote>
+              <lb ed="#BNC" n="24"/>Quarta: <quote>Differentia est id quod singula differunt.</quote> Quinta: <quote>Differentia est qua ita singula differunt, ut contineat ad
+                <lb ed="#BNC" n="25"/>substantiam et rationem, sit qui pars rei, cuius est differentia.</quote> Contra primam <choice><orig>obiectii</orig><reg>obiecti</reg></choice> vel genus continet differentias vel non? Si continet: igitur species
+              <lb ed="#BNC" n="26"/>per differentiam non <choice><orig>exedit</orig><reg>excedit</reg></choice> genus. Si non: igitur species ex nihilo fit. Respondeo. Genus continere differentias in potentia, speciem vero in actu:
+              <lb ed="#BNC" n="27"/>ergo hoc pacto species <choice><orig>exedit</orig><reg>excedit</reg></choice> genus: igitur species non fit ex nihilo. Sic respondet sibi ipsi <name ref="#Porphyrius">Porphyrius</name>.
+            </p>
+          </div>
+          
+          
+          <div>
+            <div>
+              <lb ed="#BNC" n="28"/><head>Annotationes circa Litteram Capitis</head>
+              <cb ed="#BNC" n="b"/>
+              <p n="1781">
+                <lb ed="#BNC" n="29"/>Primo igitur notandum est differentiam significare
+                <cb ed="#BNC" n="c"/>
+                distan<lb ed="#BNC" n="30" break="no"/>tiam, distinctionem et diversitatem inter aliqua.
+                <pb ed="#BNC" n="157-r"/><!--p. 309-->
+                <!-- Se omite la numeración, es la página 127 -->
+                <cb ed="#BNC" n="a"/>
+                <lb ed="#BNC" n="1"/>Unde dupliciter sumitur, scilicet late pro quacunque
+                <lb ed="#BNC" n="2"/>diversitate et stricte. Pro cuius intelligentia
+                <lb ed="#BNC" n="3"/>notandum est, aliud est differre, aliud diversum esse,
+                <lb ed="#BNC" n="4"/>aliud igitur est differentia et aliud diversitas. Quae autem se
+                <lb ed="#BNC" n="5"/>ipsis differunt et no per aliud superadditum, ut
+                <lb ed="#BNC" n="6"/>sunt primo diversa non differunt, sed sunt diversa.
+                <lb ed="#BNC" n="7"/>Quae autem in aliquo conveniunt et in alio different
+                <lb ed="#BNC" n="8"/>dicuntur proprie differre, nam per superadditum differunt.
+                <lb ed="#BNC" n="9"/>Igitur omnis differentia supponit convenientiam et quae non
+                <lb ed="#BNC" n="10"/>habent ullam sut diversa ut praedicamenta et ipsae
+                <lb ed="#BNC" n="11"/>differentiae, quae sunt rationes differendi.
+              </p>
+              
+              
+              <p n="1782">
+                <lb ed="#BNC" n="12"/>Notato 2. Circa primam divisionem, quod
+                dif<lb ed="#BNC" n="13" break="no"/>ferentia communis non dicitur talis quia invenitur in utroque
+                <lb ed="#BNC" n="14"/>extremo; nam sessio non distinguit sedentem a
+                se<lb ed="#BNC" n="15" break="no"/>dente, sed autem non sedente. Dicitur enim communis quia
+                neu<lb ed="#BNC" n="16" break="no"/>tri extremorum est accidens proprium, et converso.
+                Dif<lb ed="#BNC" n="17" break="no"/>ferentia propria aut proprissima non dicitur talis praecise
+                <lb ed="#BNC" n="18"/>quia non invenitur in altero extremo, sed quia aut est
+                <lb ed="#BNC" n="19"/>passio aut constitutivum.
+              </p>
+              
+              
+              <p n="1783">
+                <lb ed="#BNC" n="20"/>Notato 3. Circa secundam. Quod haec divisio
+                <lb ed="#BNC" n="21"/>non est distincta a praecedenti. Siquidem differentia communis et
+                <lb ed="#BNC" n="22"/>propria coincidunt cum differentia per accidens seu
+                <lb ed="#BNC" n="23"/>quae facit diversum et varium. Differentia vero
+                pro<lb ed="#BNC" n="24" break="no"/>prissima coincidit cum differentia per se seu quae
+                <lb ed="#BNC" n="25"/>facit aliud. Unde cum Divo <name ref="#Aquinas">Thoma</name> est sciendum
+                re<lb ed="#BNC" n="26" break="no"/>lativum aliud <choice><orig>neutrius</orig><reg>neutris</reg></choice> generis dupliciter sumi.
+                <lb ed="#BNC" n="27"/>Primo ut significat diversitatem formalem in
+                <lb ed="#BNC" n="28"/>essentia, secundo ut significat in essentia
+                diversi<lb ed="#BNC" n="29" break="no"/>tatem materialem. Unde homo est aliud ab equo et
+                <lb ed="#BNC" n="30"/>Petrus aliud a panne. Cum enim in essentia divina
+                nul<lb ed="#BNC" n="31" break="no"/>la diversitas inveniatur <choice><orig>nullomodo</orig><reg>nullo modo</reg></choice> Filius est aliud
+                <lb ed="#BNC" n="32"/>a Patre, nisi adiective aliud suppositum vel alius.
+              </p>
+              <cb ed="#BNC" n="b"/>
+              <p n="1784">
+                <lb ed="#BNC" n="33"/>Sicut hoc ita sit tamen hic <unclear>hic</unclear> aliud sumitur
+                pri<lb ed="#BNC" n="34" break="no"/>mo modo, scilicet per diversitate formali, quam facit
+                dif<lb ed="#BNC" n="35" break="no"/>ferentia essentialis. Denique differentia faciens aliud dicitur
+                <lb ed="#BNC" n="36"/>specifica; at faciens diversum et varium
+                simp<lb ed="#BNC" n="37" break="no"/>pliciter dicitur differentia, non ratione praestationis
+                dig<lb ed="#BNC" n="38" break="no"/>nitatis, sed potius indignitatis, admodum quo bruta
+                <lb ed="#BNC" n="39"/>appellare solemus sine addito animalia. Tertia et
+                <lb ed="#BNC" n="40"/>quarta divisio non distinguuntur ab praedictis.
+              </p>
+              
+              
+              <p n="1785">
+                <lb ed="#BNC" n="41"/>Notato 4. Circa ultimam. Quod membra
+                di<lb ed="#BNC" n="42" break="no"/>videntia possunt dupliciter intelligi. Primo ita
+                <lb ed="#BNC" n="43"/>ut eiusdem generis sed differentia constitutiva et divisiva.
+                <lb ed="#BNC" n="44"/>Nam animal constituitur sensibilitate et dividitur et dividitur
+                ratio<lb ed="#BNC" n="45" break="no"/>nalitate. Secundo iuxta diversas rationes
+                eius<lb ed="#BNC" n="46" break="no"/>dem differentiae. Nam rationale secundum unam rationale unam rationem est constitutivum
+                <lb ed="#BNC" n="47"/>hominis et secundum aliam est divisivum animalis. Quaestio 9.
+              </p>
+            </div>
+            
+            
+            <div>
+              <div>
+                <lb ed="#BNC" n="48"></lb><head>Quaestio 11: De Differentia</head>
+              </div>
+              
+              
+              <div>
+                <p n="1786">
+                  <lb ed="#BNC" n="49"/>Superst examinare de natura constitutiva seu
+                  per<lb ed="#BNC" n="50" break="no"/>fectiva, quod intendimus in hac quaestione: et
+                  simi<lb ed="#BNC" n="51" break="no"/>liter cognoscere respecti cuius differentia sit universalis
+                  no<lb ed="#BNC" n="52" break="no"/>minanda, sed prius est agendum de prolixa
+                  dif<lb ed="#BNC" n="53" break="no"/>ferentiae divisione. Une Articulo 1, etc.
+                </p>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="54"/><head>Articulus 1. An bene dividatur
+                      dif<lb ed="#BNC" n="55" break="no"/>ferentia in communem, propriam et proprissimam?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1787">
+                    <lb ed="#BNC" n="56"/>Notato 1. Hanc divisionem esse adaequatam, cuius ratio
+                    <lb ed="#BNC" n="57"/>est: ista divisio fit per membra <choice><orig>exaurientia</orig><reg>exhaurientia</reg></choice>
+                    <lb ed="#BNC" n="58"/>et adaequantia totum divisum: igitur est adaequata. Probatur
+                    <lb ed="#BNC" n="59"/>antecedens. Omnis forma faciens differre vel est essentialis, et
+                    <lb ed="#BNC" n="60"/>intrinseca vel accidentalis? Si essentialis: igitur differentia est
+                    <pb ed="#BNC" n="157-v"/><!--p. 310-->
+                    <!-- Se omite la numeración, es la página 128 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>proprissima. Si accidentalis vel illud accidens est
+                    <lb ed="#BNC" n="2"/>separabile vel inseparabile? Si inseparabile est
+                    <lb ed="#BNC" n="3"/>proprium; si separabile, est commune etiam aliis: igitur.
+                  </p>
+                  
+                  
+                  <p n="1788">
+                    <lb ed="#BNC" n="4"/>Contra hoc obiectio 1. Propria passio facit differre,
+                    <lb ed="#BNC" n="5"/>sed non essentialiter, cum non sit constitutiva, nec
+                    accidentali<lb ed="#BNC" n="6" break="no"/>ter, nam quae habent diversas passiones differunt essentialiter.
+                    <lb ed="#BNC" n="7"/>Respondeo distinguendo maiorem. Propria passio facit differre
+                    acci<lb ed="#BNC" n="8" break="no"/>dentaliter proprie formaliter et virtualiter seu
+                    illati<lb ed="#BNC" n="9" break="no"/>ve essentialiter, concedo; secus, nego. Passio enim sequitur ad
+                    <lb ed="#BNC" n="10"/>differentiam proprissimam. Unde licet ipsa sit differentia
+                    acciden<lb ed="#BNC" n="11" break="no"/>talis proprie, tamen infert illam.
+                  </p>
+                  
+                  
+                  <p n="1789">
+                    <lb ed="#BNC" n="12"/>Obiectio 2. Differentiae individuales in
+                    <lb ed="#BNC" n="13"/>substantia faciunt differre, sed non essentialiter alioquin
+                    <lb ed="#BNC" n="14"/>differrent specie, nec accidentaliter quia
+                    subs<lb ed="#BNC" n="15" break="no"/>tantitaliter differunt: igitur. Respondeo differentiam hic
+                    divi<lb ed="#BNC" n="16" break="no"/>sam esse capacem intentionis universalis, cumque individuatio sit
+                    <lb ed="#BNC" n="17"/>huius incapax, ideo non continetur sub hac divisio est.
+                    <lb ed="#BNC" n="18"/>Ex ea parte autem qua facit substantialiter differre
+                    <lb ed="#BNC" n="19"/>reducitur ad differentiam proprissimam. Et ex ea qua
+                    pro<lb ed="#BNC" n="20" break="no"/>venit a <choice><orig>quamtitate</orig><reg>quantitate</reg></choice> reducitur ad communem.
+                  </p>
+                  
+                  
+                  <p n="1790">
+                    <lb ed="#BNC" n="21"/>Instabis: <name ref="#Porphyrius">Porphyrius</name> tradens
+                    exem<lb ed="#BNC" n="22" break="no"/>plum pro differentia communi ponit differentiam inter <name ref="#Socrates">Socratem</name>
+                    <lb ed="#BNC" n="23"/>et <name ref="#Plato">Platonem</name>, sed talis est individualis: igitur
+                    indi<lb ed="#BNC" n="24" break="no"/>vidualis est communis. Respondeo. <unclear>Secundo</unclear> individuatione in
+                    <lb ed="#BNC" n="25"/>substantia facere differre proprie, hoc est
+                    inseparabi<lb ed="#BNC" n="26" break="no"/>liter. Ad minorem argumenti distinguo secundam partem. Nec
+                    acciden<lb ed="#BNC" n="27" break="no"/>taliter accidentalitate praedicamentali, concedo;
+                    acciden<lb ed="#BNC" n="28" break="no"/>talitate praedicabili, nego. Bene stat, quod differunt
+                    <lb ed="#BNC" n="29"/>substantialiter et non essentialiter, sed accidentaliter
+                    <lb ed="#BNC" n="30"/>dicto modo. Quare individuatio non dividit
+                    forma<lb ed="#BNC" n="31" break="no"/>liter substantiam, sed tantum materialiter.
+                  </p>
+                  
+                  
+                  <p n="1791">
+                    <lb ed="#BNC" n="32"/>Notato 2. Quod differentia in communi nihil
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>est aliud quam forma faciens differre. Unde
+                    du<lb ed="#BNC" n="34" break="no"/>plex oritur ordo in differentia. Primo, ad subiectum seu rem
+                    <lb ed="#BNC" n="35"/>quam facit differre. Secundo, ad extremum seu terminum
+                    <lb ed="#BNC" n="36"/>a quo facit differre. Cum enim sit segregatio
+                    <lb ed="#BNC" n="37"/>dicit subiectum quod segregat et terminum a quos
+                    segre<lb ed="#BNC" n="38" break="no"/>gat. Primus ordo constituit differentiam praedicabilem.
+                    <lb ed="#BNC" n="39"/>Secundus constituit differentiam <choice><orig>methaphysicam</orig><reg>metaphysicam.</reg></choice>.
+                  </p>
+                  
+                  
+                  <p n="1792">
+                    <lb ed="#BNC" n="40"/>Suposito divisionem esse adaequatam
+                    quaerun<lb ed="#BNC" n="41" break="no"/>tur duo, scilicet quodnam sit divisum et quae membra
+                    di<lb ed="#BNC" n="42" break="no"/>videntia? Et an haec divisio sit univoca vel
+                    a<lb ed="#BNC" n="43" break="no"/>naloga? Circa primum divisum et membra
+                    divi<lb ed="#BNC" n="44" break="no"/>dentia <choice><orig>quator</orig><reg>quattor</reg></choice> modis possunt comparari.
+                  </p>
+                  
+                  
+                  <p n="1793">
+                    <lb ed="#BNC" n="45"/>Primo, si sumantur materialiter quo
+                    <lb ed="#BNC" n="46"/>pacto est quo id quod denominatur a formalitate
+                    <lb ed="#BNC" n="47"/>differentiae in communi, dividatur in commune propriam et
+                    <lb ed="#BNC" n="48"/>proprissimam? Secundo, si divisum sumatur
+                    ma<lb ed="#BNC" n="49" break="no"/>terialiter et membra formaliter. Tertio si
+                    divi<lb ed="#BNC" n="50" break="no"/>sum sumatur formaliter et dividentia
+                    materia<lb ed="#BNC" n="51" break="no"/>liter. Quarto si tam divisum quam dividentia
+                    <lb ed="#BNC" n="52"/>sumantur formaliter.
+                  </p>
+                  
+                  
+                  <p n="1794">
+                    <lb ed="#BNC" n="53"/>Dico 1. Si divisum et dividentia
+                    <lb ed="#BNC" n="54"/>sumuntur primo intentionaliter per naturis denominatis,
+                    <lb ed="#BNC" n="55"/>haec divisio est analoga. Probatur. Non potest abstrahi ratio
+                    <lb ed="#BNC" n="56"/>univoca ab entitatibus denominatis intentionibus
+                    <lb ed="#BNC" n="57"/>differentiae communis propriem et proprissimem. Verbi gratia ab
+                    albedi<lb ed="#BNC" n="58" break="no"/>ne, <choice><orig>nasicurvitate</orig><reg>nasi curvitate</reg></choice> et rationalitate: igitur talis
+                    <lb ed="#BNC" n="59"/>divisio non est univoca. Antecedens patet. A rebus
+                    diva<lb ed="#BNC" n="60" break="no"/>gantibus per omnia praedicamenta non potest abstrahi ratio
+                    <lb ed="#BNC" n="61"/>univoca; tales sunt differentiae <unclear>primo</unclear> intentionaliter sumptae:
+                    <lb ed="#BNC" n="62"/>igitur. Eadem ratione diximus universale materialiter non esse
+                    uni<lb ed="#BNC" n="63" break="no"/>vocum quinque praedicabilibus.
+                  </p>
+                  
+                  
+                  <p n="1795">
+                    <lb ed="#BNC" n="64"/>Dico 2. Si divisum sumatur
+                    <pb ed="#BNC" n="158-r"/><!--p. 311-->
+                    <!-- Se omite la numeración, es la página 129 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>materialiter et dividentia formaliter est divisio subiecti
+                    <lb ed="#BNC" n="2"/>in accidentia. Constat, siquidem tunc subiectum
+                    dividi<lb ed="#BNC" n="3" break="no"/>tur in diversas intentiones formalitates-ve. Dico 3.
+                    <lb ed="#BNC" n="4"/>Si divisum sumatur formaliter et dividentia
+                    mate<lb ed="#BNC" n="5" break="no"/>rialiter divisio est accidentis in substantia. Siquidem
+                    <lb ed="#BNC" n="6"/>tunc illa formalitas differentiae dividitur in diversa
+                    <lb ed="#BNC" n="7"/>substantia. Quare secunda divisio similis est illi, qua
+                    <lb ed="#BNC" n="8"/><del><unclear>ruborum</unclear></del> homo dividitur in album et nigrum. Tertio illi qua
+                    <lb ed="#BNC" n="9"/>album in lac et <choice><orig>sacharum</orig><reg>saccharum.</reg></choice>
+                  </p>
+                  
+                  
+                  <p n="1796">
+                    <lb ed="#BNC" n="10"/>Dico 4. Si divisum et dividentia
+                    <lb ed="#BNC" n="11"/>sumantur formaliter divisio est analogi in
+                    analoga<lb ed="#BNC" n="12" break="no"/>ta. Est communis inter Thomistas. Probatur ratione. Sola
+                    <lb ed="#BNC" n="13"/>differentia proprissima participat simpliciter
+                    diffe<lb ed="#BNC" n="14" break="no"/>rentialitate et ipsa sola constituit tertium praedicabile:
+                    <lb ed="#BNC" n="15"/>igitur differentiae communis et propria solum analogice
+                    conve<lb ed="#BNC" n="16" break="no"/>niunt cum illa. Probatur antecedens. Formalissima ratio differentiaee
+                    <lb ed="#BNC" n="17"/>constituentis tertium praedicabile est universalitas naturae constitutivae
+                    <lb ed="#BNC" n="18"/>et perfectibilis, sed universalitas naturae constitutive seu
+                    per<lb ed="#BNC" n="19" break="no"/>fectibilis non potest simpliciter convenire differentiis
+                    <lb ed="#BNC" n="20"/>communi et propriae: igitur solum convenit simpliciter
+                    dif<lb ed="#BNC" n="21" break="no"/>ferentiae proprissimae. Probatur minor. Actus seu constitutivum
+                    <lb ed="#BNC" n="22"/>debet esse in eodem genere cum potentia, cuius est actus seu
+                    <lb ed="#BNC" n="23"/>constitutivum, sed differentiae communis et propria non sunt
+                    <lb ed="#BNC" n="24"/>in eodem genere cum genere: igitur universalitas naturae, etc.
+                    <lb ed="#BNC" n="25"/>Maior patet. Alias ex utraque non fieret unum per se. Probatur
+                    <lb ed="#BNC" n="26"/>minor. Differentiae communis et propria sunt extra genus
+                    fa<lb ed="#BNC" n="27" break="no"/>ciuntque cum illo unum per accidens: igitur non sunt in
+                    eo<lb ed="#BNC" n="28" break="no"/>dem genere.
+                  </p>
+                  
+                  
+                  <p n="1797">
+                    <lb ed="#BNC" n="29"/>Confirmatur: illa divisio est analoga, quae
+                    <lb ed="#BNC" n="30"/>dicit divisum non simpliciter idem in membris
+                    divi<lb ed="#BNC" n="31" break="no"/>dentibus, sed solum secundum quod; sed si habet ratio
+                    com<lb ed="#BNC" n="32" break="no"/>mmunis, quae dividitur hac divisione: igitur est analoga.
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>Minor, in qua est difficultas manet probata praefata
+                    <lb ed="#BNC" n="34"/>ratione: igitur est divisio analogi in analogata.
+                  </p>
+                  
+                  
+                  <p n="1798">
+                    <lb ed="#BNC" n="35"/>Ex dictis sequitur 1. Divisum in hac
+                    divi<lb ed="#BNC" n="36" break="no"/>sione non esse differentiam constituentem tertium praedicabile.
+                    Siqui<lb ed="#BNC" n="37" break="no"/>dem haec potius est membrum dividens. Sequitur 2.
+                    Di<lb ed="#BNC" n="38" break="no"/>visum nec esse secundam intentionem ex quinque praedicabilibus
+                    <lb ed="#BNC" n="39"/>ut videnti constabit? Quod igitur est?
+                  </p>
+                  
+                  
+                  <p n="1799">
+                    <lb ed="#BNC" n="40"/>Dico 5. In formis realibus differentia
+                    <choice><orig>me<lb ed="#BNC" n="41" break="no"/>thaphysica</orig><reg>metaphysica</reg></choice> seu formalitas differendi est realis.
+                    No<lb ed="#BNC" n="42" break="no"/>tant dixi formalitas, non intentio ut communiter Auctores
+                    <lb ed="#BNC" n="43"/>loquuntur ne involvamus intentiones logicas cum
+                    formali<lb ed="#BNC" n="44" break="no"/>tatibus <choice><orig>methaphysicis</orig><reg>metaphysicis</reg></choice>. Haec formalitas non est ipsa forma, sed
+                    mu<lb ed="#BNC" n="45" break="no"/>nus faciendi differre, quod consistit in respectu ad
+                    <lb ed="#BNC" n="46"/>terminum a quo separat, vide numero 891.
+                  </p>
+                  
+                  
+                  <p n="1800">
+                    <lb ed="#BNC" n="47"/>Antiquam probetur hoc assertum notato et
+                    <lb ed="#BNC" n="48"/>considerato <choice><orig>quatuor</orig><reg>quattuor</reg></choice> in ipsa differentia. Primum, forma
+                    <lb ed="#BNC" n="49"/>faciens differre. Secundum, segregatio seu
+                    di<lb ed="#BNC" n="50" break="no"/>visio ex ipsa forma resultans. Tertium relatio
+                    dif<lb ed="#BNC" n="51" break="no"/>ferentiae seu dissimilitudinis. Quantum, ipsa
+                    <lb ed="#BNC" n="52"/>ratio tertii praedicabilis. Nego loquimur in hoc asserto de
+                    <lb ed="#BNC" n="53"/>ipsa forma, nec de ratione tertii praedicabilis; solum
+                    loqui<lb ed="#BNC" n="54" break="no"/>mur de formalitate seu munere differendi.
+                  </p>
+                  
+                  
+                  <p n="1801">
+                    <lb ed="#BNC" n="55"/>Probatur. Effectus illius formalitatis est realis: igitur
+                    <lb ed="#BNC" n="56"/>ipsa realis est. Antecedens probatur. <unclear>A parte rei</unclear> datur distincto et
+                    se<lb ed="#BNC" n="57" break="no"/>gregatio <unclear><del>realia</del></unclear> inter differentia, ceu inter Petrum et
+                    <lb ed="#BNC" n="58"/>aequum alia ratione convenientes, sed talis
+                    convenien<lb ed="#BNC" n="59" break="no"/>tia et similitudo realis est: igitur et distincto realis
+                    <lb ed="#BNC" n="60"/>est, nam realiter non sunt idem.
+                  </p>
+                  
+                  
+                  <p n="1802">
+                    <lb ed="#BNC" n="61"/>Contra hoc ultimum assertum. Obiectio 1. Differentia
+                    <lb ed="#BNC" n="62"/>supponit convenientiam, sed convenientia est rationis: igitur
+                    <lb ed="#BNC" n="63"/>et formalitas differendi. Respondeo negando minorem.
+                    Conve<lb ed="#BNC" n="63" break="no"/>nientia enim et similitudo inter Petrum et Paulum,
+                    <pb ed="#BNC" n="158-v"/><!--p. 312-->
+                    <!-- Se omite la numeración, es la página 130 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>et inter Petrum et equum est realis. Unde aequivoco
+                    labo<lb ed="#BNC" n="2" break="no"/>rant Auctores contrarii non discernentes convenientiam ab
+                    <lb ed="#BNC" n="3"/>unitatem. Unitas enim communis non datur <unclear>a parte rei</unclear>, ast datur
+                    <lb ed="#BNC" n="4"/>convenientia et similitudo.
+                  </p>
+                  
+                  
+                  <p n="1803">
+                    <lb ed="#BNC" n="5"/>Obiectio 2. Differentia supponit differentiam
+                    gene<lb ed="#BNC" n="6" break="no"/>ricam convenientiam: igitur non realem, sed rationis. Respondeo distinguendo
+                    <lb ed="#BNC" n="7"/>antecedens. Genericam convenientiam fundamentalem, concedo;
+                    forma<lb ed="#BNC" n="8" break="no"/>lem, nego. Sufficit quod supponat convenientiam, qua
+                    <lb ed="#BNC" n="9"/>fundamentum, non vero qua relationem.
+                  </p>
+                  
+                  
+                  <p n="1804">
+                    <lb ed="#BNC" n="10"/>Contra tres primas assertiones non
+                    inve<lb ed="#BNC" n="11" break="no"/>nio difficultatem resolvendam. Quare contra 4. Obiectio
+                    <lb ed="#BNC" n="12"/>1. Formalitas differendi univoce et simpliciter
+                    <lb ed="#BNC" n="13"/>exercetur a quacunque differentia: igitur est divisio univoca.
+                    <lb ed="#BNC" n="14"/>Respondeo negando antecedens. Differentia proprissima tollit
+                    identi<lb ed="#BNC" n="15" break="no"/>tatem, quod est oppositum differentiae simpliciter:
+                    accidenta<lb ed="#BNC" n="16" break="no"/>lis autem secundum quo. Vide numero 896.
+                  </p>
+                  
+                  
+                  <p n="1805">
+                    <lb ed="#BNC" n="17"/>Obiectio 2. Si haec divisio esset analoga
+                    <lb ed="#BNC" n="18"/>maxime, quia differentia proprissima facit differre
+                    es<lb ed="#BNC" n="19" break="no"/>sentialiter et aliae accidentaliter, quando hoc non obstat: igitur.
+                    <lb ed="#BNC" n="20"/>Probatur minor. Hoc non obstat ut praedicabilia conveniant
+                    u<lb ed="#BNC" n="21" break="no"/>nivoce, cum tria conveniant essentialiter et alia
+                    acci<lb ed="#BNC" n="22" break="no"/>dentaliter: igitur non obstat.
+                  </p>
+                  
+                  
+                  <p n="1806">
+                    <lb ed="#BNC" n="23"/>Respondeo negando minorem. Ad cuius probationem
+                    <lb ed="#BNC" n="24"/>nego consequentiam et paritatem. Disparitas est quia
+                    praedicabili<lb ed="#BNC" n="25" break="no"/>tas non consequitur rem ut est in se, sed ut intellectam. Intellectus
+                    <lb ed="#BNC" n="26"/>enim absolute et univoce applicat praediatum ad
+                    su<lb ed="#BNC" n="27" break="no"/>biectum sive sit essentiale sive accidentale in qua
+                    ap<lb ed="#BNC" n="28" break="no"/>plicatione stat praedicatio. Similiter hoc modo
+                    abstra<lb ed="#BNC" n="29" break="no"/>hit unum a multis sive essentialiter convenientibus
+                    <lb ed="#BNC" n="30"/>sive accidentaliter, in quo universalitas fundatur. At
+                    <lb ed="#BNC" n="31"/>differre non est effectus solius intellectus, cum in re unum
+                    <lb ed="#BNC" n="32"/>ab alio differat; forma a quae essentialiter facit
+                    <cb ed="#BNC" n="b"/>
+                    di<lb ed="#BNC" n="33" break="no"/>ferre tollit simpliciter identitatem, quae est in
+                    <lb ed="#BNC" n="34"/>essentia: accidentalis non tollit, ut dictum est.
+                  </p>
+                  
+                  
+                  <p n="1807">
+                    <lb ed="#BNC" n="35"/>Obiectio 3. Convenientia et similitudo
+                    <lb ed="#BNC" n="36"/>essentialis et accidentalis univoce conveniunt in
+                    <lb ed="#BNC" n="37"/>ratione <surplus>in ratione</surplus> assimilandi: igitur similiter differentia
+                    <lb ed="#BNC" n="38"/>essentialis et accidentalis univoce conveniunt.
+                    <lb ed="#BNC" n="39"/>Consequentia constat. Respondeo distinguendo consequens. <choice><orig>Quamtum</orig><reg>Quantum</reg></choice> ad relationem, concedo;
+                    <lb ed="#BNC" n="40"/><choice><orig>Quamtum</orig><reg>Quantum</reg></choice> ad formalitatem, nego. Non loquimur hic de
+                    re<lb ed="#BNC" n="41" break="no"/>latione praedicamentali. Nam certum est relationem differentiae
+                    uni<lb ed="#BNC" n="42" break="no"/>voce convenire in praedicamento relationis sive sit
+                    re<lb ed="#BNC" n="43" break="no"/>latio differentiae essentialis sive accidentalis.
+                  </p>
+                  
+                  
+                  <p n="1808">
+                    <lb ed="#BNC" n="44"/>Obiectio 4. Quamvis accidens dependeat a
+                    <lb ed="#BNC" n="45"/>substantia hoc non tollit quominus aeque
+                    denominen<lb ed="#BNC" n="46" break="no"/>tur ab intentionibus sit generis, etc. Igitur quamvis differentia
+                    commu<lb ed="#BNC" n="47" break="no"/>nis et propria dependeant a proprissima, hoc non
+                    tol<lb ed="#BNC" n="48" break="no"/>lit quominus aeque conveniant univoce in
+                    ali<lb ed="#BNC" n="49" break="no"/>qua secunda intentione.
+                  </p>
+                  
+                  
+                  <p n="1809">
+                    <lb ed="#BNC" n="50"/>Respondeo negando consequentiam et paritatem.
+                    Dispa<lb ed="#BNC" n="51" break="no"/>ritas est, quia licet accidens dependeat a substantia
+                    <lb ed="#BNC" n="52"/>habet tam in suo genere quidquid requiritur ad
+                    fun<lb ed="#BNC" n="53" break="no"/>das intentiones generis, speciei et differentiae. Siquidem
+                    <lb ed="#BNC" n="54"/>habet gradus habentes rationem actus, et potentiae, et compositi
+                    <lb ed="#BNC" n="55"/>intra idem genus ac proinde reperitur perfectibile,
+                    per<lb ed="#BNC" n="56" break="no"/>fectivum et perfectum: igitur genus, species et differentia. At
+                    <lb ed="#BNC" n="57"/>differentia communis et propria etiam respectu cuius sunt
+                    <lb ed="#BNC" n="58"/>differentiae sunt actus extranei et alterius generis
+                    <lb ed="#BNC" n="59"/>facientesque cum eo unum per accidens: igitur non habent
+                    <lb ed="#BNC" n="60"/>quidquid requiritur ad constituendam intentionem constitutivam
+                    <lb ed="#BNC" n="61"/>huius praedicabilis.
+                  </p>
+                  
+                  
+                  <p n="1810">
+                    <lb ed="#BNC" n="62"/>Obiectio 5. Quando intellectus comparat risibilitatem
+                    <lb ed="#BNC" n="63"/><unclear>Primo</unclear>, ut quo distinguitur ab aequo, et quando illi
+                    com<lb ed="#BNC" n="64" break="no"/>parat albedinem, ut id quo differet ab aethiope,
+                    <pb ed="#BNC" n="159-r"/><!--p. 313-->
+                    <!-- Se omite la numeración, es la página 131 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>illi tribuit intentiones universalis, sed tales intentiones non
+                    per<lb ed="#BNC" n="2" break="no"/>tinet ad primum et secundum praedicabile, nec etiam
+                    <lb ed="#BNC" n="3"/>ad quartum et quintum: igitur ad tertium. Probatur minor. Per
+                    <lb ed="#BNC" n="4"/>talem actum non cognoscitur risibilitas ut perfluens ab
+                    <lb ed="#BNC" n="5"/>essentiam, nec albedo ut contingens: sed prout sic
+                    perti<lb ed="#BNC" n="6" break="no"/>net ad quartum et quintum praedicabile: igitur. Respondeo distinguendo minorem. Nec
+                    <lb ed="#BNC" n="7"/> ad quartum et quintum directe, concedo; reductive, nego. Tunc
+                    <lb ed="#BNC" n="8"/>sumitur incomplete illa ratio. Articulo 2. etc.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="9"/><head>Articulus 2. Respectu cuius sit
+                      dif<lb ed="#BNC" n="10" break="no"/>ferentia universalis, et praedicationis?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1811">
+                    <lb ed="#BNC" n="11"/>Notato 1. Differentias communem et propriam non
+                    constitue<lb ed="#BNC" n="12" break="no"/>re praedicabilia sub conceptu differentiae, cum non <unclear>precentur</unclear>
+                    <lb ed="#BNC" n="13"/>in quale essentialiter, sed solum sub conceptibus quarto et
+                    <lb ed="#BNC" n="14"/>quinto praedicabilis. Unde relictis solum restat agere
+                    <lb ed="#BNC" n="15"/>de differentia proprissima. Haec enim sic definitur:
+                    <quote>Dif<lb ed="#BNC" n="16" break="no"/>ferentia est id quod de pluribus et differentibus specie
+                      <lb ed="#BNC" n="17"/>hoc ipso quale quid praedicatur.</quote> Est descriptiva ut
+                    <lb ed="#BNC" n="18"/>diximus de definitione generis. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> alia definitio, scilicet
+                    <lb ed="#BNC" n="19"/>quarta convenit essentialiter differentiae, imo non est alia
+                    <lb ed="#BNC" n="20"/>ab ea, quam dedimus ut essentialem. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> definitiones
+                    conpe<lb ed="#BNC" n="21" break="no"/>tunt differentiae <choice><orig>methaphysice</orig><reg>metaphysice</reg></choice> acceptae.
+                  </p>
+                  
+                  
+                  <p n="1812">
+                    <lb ed="#BNC" n="22"/>Notato 2. In nostra differentia tres esse
+                    <lb ed="#BNC" n="23"/>respectus, scilicet respectus ad genus, quod differentia
+                    contra<lb ed="#BNC" n="24" break="no"/>hit et supra quod aliquid addit. Secundus ad
+                    <lb ed="#BNC" n="25"/>speciem, quam constituit contrahendo genus et
+                    sepa<lb ed="#BNC" n="26" break="no"/>rando speciem ab aliis. Tertius ad inferiora de
+                    <lb ed="#BNC" n="27"/>quibus praedicatur in quale quid. Iuxta hos respectus
+                    <lb ed="#BNC" n="28"/>insurgunt tres difficultates. Prima, an sit
+                    universa<lb ed="#BNC" n="29" break="no"/>lis respectu speciei vel respectu inferiorum?
+                    <lb ed="#BNC" n="30"/>Secunda, quomodo in definitione tertii praedicabilis
+                    <cb ed="#BNC" n="b"/>
+                    di<lb ed="#BNC" n="31" break="no"/>catur praedicari de specie differentibus, quod videtur solum
+                    con<lb ed="#BNC" n="32" break="no"/>venire differentiae subalternae? Tertia an
+                    differen<lb ed="#BNC" n="33" break="no"/>tia contineantur sub genere, ita quod differentiae inferiores
+                    <lb ed="#BNC" n="34"/>contineantur in superioribus? Has ultimas
+                    resol<lb ed="#BNC" n="35" break="no"/>vam in sequentibus articulis. Prima hic.
+                  </p>
+                  
+                  
+                  <p n="1813">
+                    <lb ed="#BNC" n="36"/>Notato 3. Differentiam habere inferiora
+                    im<lb ed="#BNC" n="37" break="no"/>mediata et mediata: verbi gratia reale potest praedicari de
+                    <lb ed="#BNC" n="38"/>Petro et Paulo ut de inferioribus hominis, et potest
+                    <lb ed="#BNC" n="39"/>praedicari de hoc et illo rationali ut de inferioribus
+                    im<lb ed="#BNC" n="40" break="no"/>mediatis. Inquirimus igitur respectu quorum constituatur
+                    <lb ed="#BNC" n="41"/>universalis? Similiter cum differentia convertatur cum specie
+                    <lb ed="#BNC" n="42"/>et species sit universalis, dubitatur an ratione speciei,
+                    <lb ed="#BNC" n="43"/>quam constituit sit universalis. Loquimur tam de
+                    spe<lb ed="#BNC" n="44" break="no"/>cie athoma, quam de subalterna proportionabiliter.
+                  </p>
+                  
+                  
+                  <p n="1814">
+                    <lb ed="#BNC" n="45"/>Prima sententia asserit, differentiam constitui per
+                    <lb ed="#BNC" n="46"/>ordinem ad propria inferiora, ut rationale non
+                    <lb ed="#BNC" n="47"/>constituitur in esse universalis per ordinem ad hominem, neque
+                    <lb ed="#BNC" n="48"/>per ordinem ad Petrum et Paulum, sed ordinem ad
+                    <lb ed="#BNC" n="49"/>hoc et illud rationale. Haec opinio non
+                    cognos<lb ed="#BNC" n="50" break="no"/>cit Patronos, refertur a
+                    <cit>
+                      <ref>
+                        <name ref="#Sanchez">Sanchez</name> libro 3, questione 28
+                      </ref>
+                    </cit>.
+                    <lb ed="#BNC" n="51"/>Secunda tenet constitui per ordinem ad speciem,
+                    <lb ed="#BNC" n="52"/>ita ut haec praedicatio <mentioned>homo est rationalis</mentioned> sit tertio praedicabilis.
+                    <lb ed="#BNC" n="53"/>Ita <name ref="#Caietanus"><choice><orig>Cayetanus</orig><reg>Caietanus</reg></choice></name>, <name ref="#Soto">Soto</name>, <name ref="#Toletus">Toletus</name> hic.
+                  </p>
+                  
+                  
+                  <p n="1815">
+                    <lb ed="#BNC" n="54"/>Dico 1. Inferiora propria tertium
+                    praedica<lb ed="#BNC" n="52" break="no"/>bilis non sunt haec et illa differentia, sed individua
+                    <lb ed="#BNC" n="56"/>speciei. Ita communiter Dialectici. Probatur
+                    efficaci<lb ed="#BNC" n="57" break="no"/>ter. Illa sunt inferiora differentiae qua tertii
+                    praedicabi<lb ed="#BNC" n="58" break="no"/>lis, de quibus praedicatur in quale quid, sed de hac et
+                    <lb ed="#BNC" n="59"/>illa differentia non praedicatur in quale quid: igitur haec et
+                    il<lb ed="#BNC" n="60" break="no"/>la differentia non sunt inferiora propria differentiae quo
+                    ta<lb ed="#BNC" n="61" break="no"/>lis. Probatur minor. Praedicari ut tota essentia, non est praedicari
+                    <lb ed="#BNC" n="62"/>in quale quid, sed hac et illa differentia praedicatur ut
+                    <pb ed="#BNC" n="159-v"/><!--p. 314 -->
+                    <!-- Se omite la numeración, es la página 132 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/><surplus>ut</surplus> tota essentia: igitur non praedicatur in quale quid. Probatur minor.
+                    <lb ed="#BNC" n="2"/>Nam quando dico <mentioned>rationale est rationale</mentioned> non est praedicatio in quale, cum non
+                    <lb ed="#BNC" n="3"/>precetur aliqua differentia, sed tota et integra essentia.
+                  </p>
+                  
+                  
+                  <p n="1816">
+                    <lb ed="#BNC" n="4"/>Dico 2. <del>Species</del> Differentia constituitur
+                    <lb ed="#BNC" n="5"/>universalis per ordinem ad individua, non per ordinem ad
+                    spe<lb ed="#BNC" n="6" break="no"/>ciem. Probatur ratione. Universale constituitur per ordinem ad
+                    infe<lb ed="#BNC" n="7" break="no"/>riora, sed species non est inferior respectu differentiae:
+                    <lb ed="#BNC" n="8"/>igitur differentia non constituitur universalis per ordinem ad speciem.
+                    <lb ed="#BNC" n="9"/>Probat minor. Nam species est aequalis differentiae: igitur non <unclear>inferiore</unclear>  .
+                  </p>
+                  
+                  
+                  <p n="1817">
+                    <lb ed="#BNC" n="10"/>Respondent contrarii 1: differentiam esse et
+                    <lb ed="#BNC" n="11"/>aequalem et superiorem. Primum physice et secundum
+                    <lb ed="#BNC" n="12"/>logice. Probant assumptum. Species praedicatione formali
+                    cons<lb ed="#BNC" n="13" break="no"/>tituitur universalis, sed differentia praedicatur formaliter tum de
+                    indi<lb ed="#BNC" n="14" break="no"/>viduis, tum de specie: igitur. Sed contra eo dictis de
+                    <lb ed="#BNC" n="15"/>medio tollitur praedicatio aequalis de aequali ab omnibus
+                    <lb ed="#BNC" n="16"/><choice><orig>consesa</orig><reg>concessa</reg></choice> aptiorque ad <choice><orig>demenstrationem</orig><corr>demonstrationem</corr></choice> perfectissimam:
+                    <lb ed="#BNC" n="17"/>igitur ruit responsio.
+                  </p>
+                  
+                  
+                  <p n="1818">
+                    <lb ed="#BNC" n="18"/>Rursus universale tantum est superius
+                    respec<lb ed="#BNC" n="19" break="no"/>tu eorum a quibus abstrahitur abstractione universali
+                    logi<lb ed="#BNC" n="20" break="no"/>ce loquendo, sed differentia non abstrahitur ab specie
+                    <lb ed="#BNC" n="21"/>abstractione universali, sed formali: igitur differentia non est
+                    supe<lb ed="#BNC" n="22" break="no"/>rior respectu speciei. Probatur minor. Ab illis aliquid
+                    <lb ed="#BNC" n="23"/>abstrahitur abstractione universali, quae immediate
+                    <lb ed="#BNC" n="24"/>unit in una ratione, in quibus qui multiplicatur per
+                    <lb ed="#BNC" n="25"/>contractionem, sed differentia non unit in una ratione
+                    spe<lb ed="#BNC" n="26" break="no"/>ciem cum individuis, nec per contractionem
+                    multipli<lb ed="#BNC" n="27" break="no"/>catur in specie et individuis, sed in his tantum: igitur.
+                  </p>
+                  
+                  
+                  <p n="1819">
+                    <lb ed="#BNC" n="28"/>Respondent 2: differentiam praedicatam de
+                    ape<lb ed="#BNC" n="29" break="no"/>cie virtute praedicari de pluribus contentis in
+                    spe<lb ed="#BNC" n="30" break="no"/>cie: igitur praedicari de <choice><orig>spe<del>ciebus</del></orig><reg>specie</reg></choice><unclear>speciebus</unclear>
+                    aequivalet praedicari de
+                    <lb ed="#BNC" n="31"/>pluribus. Sed contra prima continentia virtualis non
+                    <lb ed="#BNC" n="32"/>sufficit ad veram universalis praedicationem: igitur ruit doctrina.
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>Probatur antecedens. Non minus universale est simpliciter unum quam
+                    <lb ed="#BNC" n="34"/>multa sunt simpliciter ad quae ordinatur, sed
+                    in<lb ed="#BNC" n="35" break="no"/>dividua contenta in specie non sunt simpliciter
+                    <lb ed="#BNC" n="36"/>multa: igitur differentia non est universalis respectu speciei eo
+                    <lb ed="#BNC" n="37"/>quod contineat individua. Probatur minor. Individua
+                    <lb ed="#BNC" n="38"/>ut contenta in specie sunt unum teste <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name>
+                    <lb ed="#BNC" n="39"/><name ref="#Porphyrius">Porphyrium</name>: <quote>participatione speciei plures homines sunt
+                      <lb ed="#BNC" n="40"/>unus homo</quote>, igitur.
+                  </p>
+                  
+                  
+                  <p n="1820">
+                    <lb ed="#BNC" n="41"/>Contra secunda. Quando differentia praedicatur de specie,
+                    <lb ed="#BNC" n="42"/>species tunc formaliter nos est universalis, sed subiicibilis:
+                    <lb ed="#BNC" n="43"/>igitur non continet prout sic inferiora. Patet consequentia. Praedicatum
+                    <lb ed="#BNC" n="44"/>qua tale debet potentia continere subiectum: igitur subiectum qua
+                    <lb ed="#BNC" n="45"/>tale similiter debet continere praedicatum actu: igitur
+                    conti<lb ed="#BNC" n="46" break="no"/>nere inferiora potentia non convenit subiecto qua tali, sed
+                    <lb ed="#BNC" n="47"/>quando differentia praedicatur de specie, species est subiectum: igitur qua
+                    <lb ed="#BNC" n="48"/>tale non explicat continentiam praefatam.
+                  </p>
+                  
+                  
+                  <p n="1821">
+                    <lb ed="#BNC" n="49"/>Obiectio 1. Quodlibet universale habet suum
+                    correla<lb ed="#BNC" n="50" break="no"/>tivum, sed correlativum differentiae, verbi gratia rationalis non est homo,
+                    <lb ed="#BNC" n="51"/>nec Petrus cum <unclear>sint</unclear> correlativa generis et speciei:
+                    <lb ed="#BNC" n="52"/>igitur differentiae inferiora non sunt individua. Respondeo distignuendo
+                    <lb ed="#BNC" n="53"/>minorem. Nec Petrus ut subicitur integrae essentiae, concedo; ut
+                    <lb ed="#BNC" n="54"/>subiicitur constitutivo qualificativo, nego.
+                    Secun<lb ed="#BNC" n="55" break="no"/>dum diversas subiicibilitas individuum
+                    constitui<lb ed="#BNC" n="56" break="no"/>tur correlativum praedicabilium.
+                  </p>
+                  
+                  
+                  <p n="1822">
+                    <lb ed="#BNC" n="57"/>Obiectio 2. Differentia formaliter quatenus talis
+                    <lb ed="#BNC" n="58"/>est universalis, sed est talis in ordine ad speciem: igitur est
+                    <lb ed="#BNC" n="59"/>universalis in ordine ad speciem. Probatur minor. Prout
+                    or<lb ed="#BNC" n="60" break="no"/>dinatur ad speciem dicit constitutivum esse illius: igitur.
+                    <lb ed="#BNC" n="61"/>Respondeo distinguendo maiorem. Differentia quatenus talis est universalis
+                    <lb ed="#BNC" n="62"/>reduplicando supra entitatem seu formalitatem
+                    <lb ed="#BNC" n="63"/>differendi, nego; reduplicando supra intentionem
+                    <lb ed="#BNC" n="64"/>seu relationem ad inferiora, concedo. Et distinguo minorem.
+                    <pb ed="#BNC" n="160-r"/><!--p. 315 -->
+                    <!-- Se omite la numeración, es la página 133 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>Est talis in ordine ad speciem, reduplicando
+                    su<lb ed="#BNC" n="2" break="no"/>pra tendentiam, nego; supra formalitatem, concedo.
+                    <choice><orig>Ce<lb ed="#BNC" n="3" break="no"/>terum</orig><reg>Ceterum</reg></choice>, si <unclear>termino</unclear> talis reduplicet supra differentiam
+                    dif<lb ed="#BNC" n="4" break="no"/>ferentiae nego maiorem. Nam ut postea videbimus
+                    dif<lb ed="#BNC" n="5" break="no"/>ferentia non includit genus: homo enim qua rationalis non est
+                    <lb ed="#BNC" n="6"/>animal ut patet: igitur similiter.
+                  </p>
+                  
+                  
+                  <p n="1823">
+                    <lb ed="#BNC" n="7"/>Obiectio 3. Haec praedicatio <mentioned>homo est rationalis</mentioned> est
+                    ter<lb ed="#BNC" n="8" break="no"/>tii praedicabilis, sed ibi praedicatur differentia de specie: igitur.
+                    <lb ed="#BNC" n="9"/>Confirmatur: universale constituitur in esse universalis per ordinem
+                    <lb ed="#BNC" n="10"/>ad immediatum correlativum, sed species est
+                    im<lb ed="#BNC" n="11" break="no"/>mediatum et individuum mediatum: igitur.
+                  </p>
+                  
+                  
+                  <p n="1824">
+                    <lb ed="#BNC" n="12"/>Respondeo distinguendo maiorem. Est tertii praedicabilis
+                    <lb ed="#BNC" n="13"/>materialiter et <choice><orig>methaphysice</orig><reg>metaphysice</reg></choice>, concedo; formaliter et logice, nego.
+                    Prae<lb ed="#BNC" n="14" break="no"/>dicatur enim res quae est tertiam praedicabile, non tamen sub
+                    forma<lb ed="#BNC" n="15" break="no"/>litate praedicabilis et universalis. Quaeris quomodo
+                    appel<lb ed="#BNC" n="16" break="no"/>landa sit haec praedicatio? Appellatur tertii praedicati,
+                    i<lb ed="#BNC" n="17" break="no"/>dem dices, quando praedicatur propia passio de specie, scilicet esse
+                    <lb ed="#BNC" n="18"/>quarti praedicati.
+                  </p>
+                  
+                  
+                  <p n="1825">
+                    <lb ed="#BNC" n="19"/>Ad confirmationem distinguo maiorem. Per
+                    or<lb ed="#BNC" n="20" break="no"/>dinem ad immediatum correlativum constitutionis, nego;
+                    <lb ed="#BNC" n="21"/>praedicationis, concedo. Et minorem. Species est immediatum
+                    <lb ed="#BNC" n="22"/>correlativum constitutionis, concedo; praedicationis, nego et vice
+                    <lb ed="#BNC" n="23"/>versa ad secundam partem. Igitur species est
+                    im<lb ed="#BNC" n="24" break="no"/>mediatam constitutam per differentiam individuam vero est
+                    <lb ed="#BNC" n="25"/>immediatam correlativam praedictionis. Praeterea
+                    spe<lb ed="#BNC" n="26" break="no"/>cies respicit differentiam <choice><orig>methaphysice</orig><reg>metaphysice</reg></choice> individuum
+                    logi<lb ed="#BNC" n="27" break="no"/>ce. Unde differentia respicit speciem in ratione
+                    cons<lb ed="#BNC" n="28" break="no"/>titutivi et individua in ratione praedicabilis.
+                  </p>
+                  
+                  
+                  <p n="1826">
+                    <lb ed="#BNC" n="29"/>Obiectio 4. Differentia eadem relatione tagit
+                    <lb ed="#BNC" n="30"/>speciem et individua, sed prout tangit
+                    in<lb ed="#BNC" n="31" break="no"/>dividua est universalis: igitur ut tangit speciem. Probatur
+                    <lb ed="#BNC" n="32"/>maior. Respiciendo speciem respicit omnia
+                    <cb ed="#BNC" n="b"/>
+                    conten<lb ed="#BNC" n="33" break="no"/>ta in specie: igitur. Confirmatur: differentia praedicatur de
+                    spe<lb ed="#BNC" n="34" break="no"/>cie ut aequalis et ad convertentiam, sed solum ut
+                    <lb ed="#BNC" n="35"/>universalis est aequalis: igitur praedicatur ut universalis.
+                  </p>
+                  
+                  
+                  <p n="1827">
+                    <lb ed="#BNC" n="36"/>Respondeo distinguendo maiorem. Eadem relatione
+                    consti<lb ed="#BNC" n="37" break="no"/>tutivi, concedo; eadem relatione praedicabilitatis, nego. Et
+                    <lb ed="#BNC" n="38"/>minorem. Prout tangit individua relatione
+                    constituti<lb ed="#BNC" n="39" break="no"/>vi, nego; relatione praedicabilitatis, concedo. Ad probationem distinguo
+                    <lb ed="#BNC" n="40"/>antecedens. Respiciendo speciem constitutive, concedo;
+                    praedicabi<lb ed="#BNC" n="41" break="no"/>liter, nego. Ad confirmationem distinguo minorem. Ut universalis est
+                    <lb ed="#BNC" n="42"/>aequalis universalitate habita per ordinem ad speciem,
+                    <lb ed="#BNC" n="43"/>nego; per ordinem ad individua, concedo. Articulo 3. etc.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="44"/><head>Articulus 3. Quomodo intelligenda sit
+                      <lb ed="#BNC" n="45"/>definitio Porphyrii differentiae praedicabilis?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1828">
+                    <lb ed="#BNC" n="46"/>Dico 1. Contra non nullos dari differentias ultimas et
+                    sim<lb ed="#BNC" n="47" break="no"/>plices convertibilesque cum speciebus. Ita
+                    <reg>
+                      Divus <name ref="#Aquinas">Thomas</name> 2
+                      <lb ed="#BNC" n="48"/><title>Posteriorum</title> lectione 13 et 7 <title>Metaphysicae</title> texto 42, lectione 12 et
+                      <lb ed="#BNC" n="49"/>communiter Doctores. Et constat ratione. in rebus materialibus differentia
+                      <lb ed="#BNC" n="50"/>sumitur a forma ut iam vidimus. Sed in re materiali est
+                      <lb ed="#BNC" n="51"/>quaedam forma ultima per quam ultimo constituitur in suo
+                      <lb ed="#BNC" n="52"/>esse: igitur et differentia ultima
+                    </reg>
+                    Item talis forma est una et
+                    <lb ed="#BNC" n="53"/>simplex, non compota ex pluribus formis: igitur etiam
+                    dif<lb ed="#BNC" n="54" break="no"/>ferentia ultima est una et simplex, non compota ex
+                    <lb ed="#BNC" n="55"/>pluribus differentiis.
+                  </p>
+                  
+                  
+                  <p n="1829">
+                    <lb ed="#BNC" n="56"/>Confirmatur 1. Differentia subalterna est simplex:
+                    <lb ed="#BNC" n="57"/>igitur etiam infima. Consequentia tenet. Nam si a gradu
+                    imper<lb ed="#BNC" n="58" break="no"/>fecto et potentiali, quae tribuit forma sumitur
+                    <lb ed="#BNC" n="59"/>differentia simplex: igitur a fortiori a gradu perfecto
+                    <lb ed="#BNC" n="60"/>et actuali. Confirmatur 2: passiones consequtae gradus
+                    <lb ed="#BNC" n="61"/>infimos et specificos sunt simplices et aliis
+                    per<lb ed="#BNC" n="62" break="no"/>fectiores: igitur et differentiae a quibus dimanant radicaliter.
+                  </p>
+                  
+                  
+                  <pb ed="#BNC" n="160-v"/><!--p. 316 -->
+                  <!-- Se omite la numeración, es la página 134 -->
+                  <cb ed="#BNC" n="a"/>
+                  <p n="1830">
+                    <lb ed="#BNC" n="1"/>Obiectio 1. Ex
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristotele</name> 2 <title>Posteriorum</title> capitulo 14 <quote>talia
+                          <lb ed="#BNC" n="2"/>eo usque sumenda sunt (loquitur de differentiis) quousque
+                          <lb ed="#BNC" n="3"/>tot fuerit sumpta: ut unumquodque illorum quidem
+                          plu<lb ed="#BNC" n="4" break="no"/>ribus competat cuncta autem simul non plura sese
+                          ex<lb ed="#BNC" n="5" break="no"/>tendant</quote>
+                      </ref>
+                    </cit>.
+                    Igitur non admittit tot differentias ultimas
+                    <lb ed="#BNC" n="6"/>quot species. Nam hoc videtur deduci ex textu:
+                    <lb ed="#BNC" n="7"/>igitur non dantur. Respondeo.
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> 2 <title>Posteriorum</title> lectione 13;
+                        <lb ed="#BNC" n="8"/><name ref="#Aristoteles">Aristotelem </name>ibi loqui de differentiis accidentalibus
+                        convinci<lb ed="#BNC" n="9" break="no"/>tis divisim latius patentibus, sed simul adaequantibus
+                      </ref>
+                    </cit>.
+                  </p>
+                  
+                  
+                  <p n="1831">
+                    <lb ed="#BNC" n="10"/>Obiectio 2. Ex
+                    <cit>
+                      <ref>
+                        <name ref="#Porphyrius">Porphyrio</name> capitulo <title>De
+                          communi<lb ed="#BNC" n="11" break="no"/>tatibus generis et differentiae asserente</title>
+                      </ref>
+                    </cit>
+                    idem cum <name ref="#Aristoteles">Aristotele</name>
+                    <lb ed="#BNC" n="12"/>citato: igitur. Respondeo ut supra. <choice><orig>Authoritas</orig><reg>Auctoritas</reg></choice>
+                    <name ref="#Porphyrius">Porphy<lb ed="#BNC" n="13" break="no"/>rii</name> et explanatio est resolutio praesentis
+                    <choice><orig>dificul<lb ed="#BNC" n="14" break="no"/>tatis<reg>difficultatis</reg></orig></choice>, unde infra.
+                    
+                  </p>
+                  
+                  
+                  <p n="1832">
+                    <lb ed="#BNC" n="15"/>Obiectio 3. Per differentias subalternas simul
+                    sump<lb ed="#BNC" n="16" break="no"/>tas sufficienter constituitur species ab aliisque
+                    distingui<lb ed="#BNC" n="17" break="no"/>tur: igitur superfluunt ultimae. Probatur antecedens. Haec est optima
+                    <lb ed="#BNC" n="18"/>definitio trinitatis ex
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name>: <quote>trinitas est numerus
+                          <lb ed="#BNC" n="19"/>impar primus</quote>
+                      </ref>
+                    </cit>
+                    in qua singulae particulae latius
+                    <lb ed="#BNC" n="20"/>patent definitio, scilicet trinitate. Siquidem numerus
+                    im<lb ed="#BNC" n="21" break="no"/>par etiam competit numero quinario, septenario,
+                    <lb ed="#BNC" n="22"/>etc., similiter numerus primus competit binario.
+                    <lb ed="#BNC" n="23"/>At utrumque simul, scilicet esse imparem primum solum
+                    com<lb ed="#BNC" n="24" break="no"/>petit trinario: igitur hae differentiae subalternae
+                    sufficien<lb ed="#BNC" n="25" break="no"/>ter constituunt trinitatem.
+                  </p>
+                  
+                  
+                  <p n="1833">
+                    <lb ed="#BNC" n="26"/>Respondeo. Differentias essentiales subalternas
+                    <lb ed="#BNC" n="27"/>non posse constituere speciem ultimo;
+                    accidenta<lb ed="#BNC" n="28" break="no"/>les <choice><orig>quamtumcunque</orig><reg>quantumcunque</reg></choice> convinctas solum significare
+                    pro<lb ed="#BNC" n="29" break="no"/>priam et specificam differentiam. Hoc enim quando
+                    ignora<lb ed="#BNC" n="30" break="no"/>mus ultimam differentiam licete facere, sicut <name ref="#Aristoteles"><choice><orig>Phylosophus</orig><reg>Philosophus</reg></choice></name>
+                    <lb ed="#BNC" n="31"/>fecit definiendo trinitatem. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> illae
+                    dif<lb ed="#BNC" n="32" break="no"/>ferentiae assignatae non sunt essentiales. Siquidem cum idem genus
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>semel sumptum tantum possit in species dividi:
+                    nu<lb ed="#BNC" n="34" break="no"/>merus una divisione adaequate dividitur in parem
+                    <lb ed="#BNC" n="35"/> et imparem; alia in primum et non primum et non primum: igitur
+                    ne<lb ed="#BNC" n="36" break="no"/>cessario aliqua differentia est accidentalis. Sic
+                    lu<lb ed="#BNC" n="37" break="no"/>cet <name ref="#Aristoteles">Aristoteles</name>, sic <name>Porphyrius</name>.
+                  </p>
+                  
+                  
+                  <p n="1834">
+                    <lb ed="#BNC" n="38"/>Supposito enim dari differentias ultimas
+                    pro<lb ed="#BNC" n="39" break="no"/>adit <choice><orig>dificultas</orig><reg>difficultas</reg></choice>, quomodo differentiae athomae possit
+                    com<lb ed="#BNC" n="40" break="no"/>petere definitio data, scilicet praedicari de differentibus
+                    spe<lb ed="#BNC" n="41" break="no"/>cie? Ratio dubitandi est quia hoc solum differentiis
+                    <lb ed="#BNC" n="42"/>subalternis convenit. Ergo non infimis et si hoc: igitur
+                    <lb ed="#BNC" n="43"/>diminute procedit <name ref="#Porphyrius">Porphyrius</name>.
+                  </p>
+                  
+                  
+                  <p n="1835">
+                    <lb ed="#BNC" n="44"/>Prima sententia docet perdictam definitionem
+                    conve<lb ed="#BNC" n="45" break="no"/>nire etiam differentiis infimis. Videamus quo
+                    pac<lb ed="#BNC" n="46" break="no"/>to. Aliqui sic explicantur: differentia infima praedicatur
+                    <lb ed="#BNC" n="47"/>de pluribus differentibus specie non in se, sed ab
+                    a<lb ed="#BNC" n="48" break="no"/>liis; verbi gratia rationale praedicatur de Petro et Paulo, quae inter se
+                    <lb ed="#BNC" n="49"/>non differunt specie, at specie differunt ab
+                    e<lb ed="#BNC" n="50" break="no"/>quo et leone.
+                  </p>
+                  
+                  
+                  <p n="1836">
+                    <lb ed="#BNC" n="51"/>Haec subtilitas nimis <choice><orig>crasa</orig><reg>crassa</reg></choice> est
+                    (lo<lb ed="#BNC" n="52" break="no"/>quor cum <name ref="#Complutenses">Complutensibus</name>) unde reiicitur primo sensus huius
+                    <lb ed="#BNC" n="53"/>propositis, Petrus et Paulus differunt specie, hic est
+                    <lb ed="#BNC" n="54"/>Petrus est unus specie similiter Paulus; at ille non est
+                    <lb ed="#BNC" n="55"/>eiusdem speciei ac est iste, hoc est falsum: igitur. Secundo non
+                    <lb ed="#BNC" n="56"/>minus Petrus et Paulus differunt specie ab aliquibus
+                    <lb ed="#BNC" n="57"/>quam genere ab aliis, sed propter id, differentia praedicatur de
+                    <lb ed="#BNC" n="58"/>differentibus specie: igitur propter hoc differentia praedicatur de
+                    <lb ed="#BNC" n="59"/>differentibus genere.
+                  </p>
+                  
+                  
+                  <p n="1836"> <!-- Se repite esta numueración de párrafo -->
+                    <lb ed="#BNC" n="60"/>Alii aliter praecedunt, scilicet differentiam praedicari
+                    <lb ed="#BNC" n="61"/>de pluribus specie differentibus per non
+                    repugnan<lb ed="#BNC" n="62" break="no"/>tiam: est antiquissima haec explicatio defenditur
+                    <lb ed="#BNC" n="63"/>a <name ref="#Caietanus">Caietano</name> et ab aliis. Probatur haec sententia: plures
+                    <lb ed="#BNC" n="64"/>definitiones explicantur per non repugnantiam: igitur haec. Probatur
+                    <pb ed="#BNC" n="161-r"/><!--p. 317 -->
+                    <!-- Se omite la numeración, es la página 135 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>antecedens. Definitio quanti ab
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristotele</name> data 5 <title>Metaphysicae</title>, scilicet
+                        <lb ed="#BNC" n="2"/><quote><choice><orig>quamtum</orig><reg>quantum</reg></choice> est, quod est divisibile in ea, quae insunt, etc. Et
+                          <lb ed="#BNC" n="3"/>positive conveniat pluribus ut ligno, lapidi, aliis
+                          <lb ed="#BNC" n="4"/>convenit per non repugnantiam ratione communi ut Caelo.</quote>
+                      </ref>
+                    </cit>              
+                    I<lb ed="#BNC" n="5" break="no"/>tem minimum naturale qua tale non possit dividi,
+                    <lb ed="#BNC" n="6"/>tam qua <choice><orig>quamtum</orig><reg>quantum</reg></choice> potest dividi non repugnanter: igitur
+                    quam<lb ed="#BNC" n="7" break="no"/>vis differentia ultima qua talis non praedicetur de
+                    differen<lb ed="#BNC" n="8" break="no"/>tibus specie, quia tamen ei non repugnat qua differentia est,
+                    <lb ed="#BNC" n="9"/>dicetur per non repugnantiam praedicari de illis.
+                  </p>
+                  
+                  
+                  <p n="1837">
+                    <lb ed="#BNC" n="10"/>Contra nam si semel admittatur definitio per
+                    <lb ed="#BNC" n="11"/>non repugnantiam ratione communi in plura tamen
+                    inve<lb ed="#BNC" n="12" break="no"/>nimus absurda. Tunc enim haec esset bona
+                    de<lb ed="#BNC" n="13" break="no"/>finitio aequus est substantia sensibilis rationalis: patet,
+                    <lb ed="#BNC" n="14"/>licet equo qua equo repugnet rationalitas, non tam
+                    <lb ed="#BNC" n="15"/>repugnat qua animali: igitur per non repugnantiam ratione
+                    commu<lb ed="#BNC" n="16" break="no"/>ni est rationalis similiter de omnibus. Patet sequela.
+                    <lb ed="#BNC" n="17"/>Non minus rationale et irrationalem sunt differentiae oppositae
+                    <lb ed="#BNC" n="18"/>quam esse subalternum et infimum, sed hoc non obsta
+                    <lb ed="#BNC" n="19"/>quominus definitio differentiae subalternae competat per non
+                    re<lb ed="#BNC" n="20" break="no"/>pugnantiam differentiae infimae: igitur ne illud obstat
+                    <lb ed="#BNC" n="21"/>quominus definitio rationalis per non repugnantiam
+                    <lb ed="#BNC" n="22"/>competat hinnibili. His relictis.
+                  </p>
+                  
+                  
+                  <p n="1838">
+                    <lb ed="#BNC" n="23"/>Dico 2. Definitio tradita non competit
+                    <lb ed="#BNC" n="24"/>differentiae athomae. Probatur definitio tradita competit
+                    dif<lb ed="#BNC" n="25" break="no"/>ferentiae quae praedicatur de pluribus specie differentibus,
+                    <lb ed="#BNC" n="26"/>sed differentia athoma non praedicatur de pluribus specie
+                    <lb ed="#BNC" n="27"/>differentibus alioqui non esset athoma: igitur praefata
+                    <lb ed="#BNC" n="28"/>definitio non competit differentiae athomae.
+                  </p>
+                  
+                  
+                  <p n="1839">
+                    <lb ed="#BNC" n="29"/>Dubitas cur <name ref="#Porphyrius">Porphyrius</name> solam
+                    dif<lb ed="#BNC" n="30" break="no"/>ferentiam subalternam definit? Respondeo primo cum <name ref="#Burley">Burleo</name>. <!-- Gualterius Burley -->
+                    <lb ed="#BNC" n="31"/>Sicut capitulo praecedenti plures adducit definitiones
+                    <lb ed="#BNC" n="32"/>speciei, quarum aliquae conveniunt specie infimae,
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>et subalternae aliae vero soli differentiae infimae. Ita hic
+                    <lb ed="#BNC" n="34"/>plures adducit definitiones convenientes utrique differentiae
+                    <lb ed="#BNC" n="35"/>ut 1 et 3 et 4 et 5 et aliam, quae solum
+                    conve<lb ed="#BNC" n="36" break="no"/>nit subalternae sit secundam.
+                  </p>
+                  
+                  
+                  <p n="1840">
+                    <lb ed="#BNC" n="37"/>Secundo. Respondeo cum communi Doctoribus. Id
+                    <lb ed="#BNC" n="38"/>fecisse <name ref="#Porphyrius">Porphyrium</name> quia cum differentia athoma convertatur
+                    <lb ed="#BNC" n="39"/>cum specie tractata specie consequenter tractata
+                    <lb ed="#BNC" n="40"/>fuit illa. Item differentiae subalternae sunt communiores
+                    <lb ed="#BNC" n="41"/>et notiores, athomae vero multiplice et vix
+                    cog<lb ed="#BNC" n="47" break="no"/>nitae. Item quia definita differentia subalterna facili
+                    <lb ed="#BNC" n="43"/>negotio definitur infima. Unde.
+                  </p>
+                  
+                  
+                  <p n="1841">
+                    <lb ed="#BNC" n="44"/>Dico 3. Differentia ex suo conceptu est
+                    <lb ed="#BNC" n="45"/>quod praedicatur de pluribus et specie differentibus
+                    <lb ed="#BNC" n="46"/>in quale quid, sunt <choice><orig>expraesa</orig><reg>expressa</reg></choice> verba <name ref="#Porphyrius">Porphyrii</name>.
+                    Di<lb ed="#BNC" n="47" break="no"/>co 4. Differentia subalterna est quae de pluribus
+                    dif<lb ed="#BNC" n="48" break="no"/>ferentibus specie hoc ipso quod quale quid praedicatur.
+                    Di<lb ed="#BNC" n="49" break="no"/>co 5. Differentia athoma est quae de pluribus nego
+                    <lb ed="#BNC" n="50"/>differentibus hoc ipso quod quale quid praedicatur. Sic
+                    ma<lb ed="#BNC" n="51" break="no"/>net clara meo videri tota controversia.
+                  </p>
+                  
+                  
+                  <p n="1842">
+                    <lb ed="#BNC" n="52"/>Ast argumenta <name ref="#Caietanus">Caietani</name> resolvamus.
+                    <lb ed="#BNC" n="53"/>Nego antecedens. Ad probationem nego assumptum. <choice><orig>Quamtum</orig><reg>Quantum</reg></choice> qua tale
+                    <lb ed="#BNC" n="54"/>divisibile est positive. At in Caelo divisio est
+                    im<lb ed="#BNC" n="55" break="no"/>pedita, quod autem non exerciatur in Caelo et in minimo
+                    <lb ed="#BNC" n="56"/>naturali provenit non ratione <choice><orig>quamtitatis</orig><reg>quantitatis</reg></choice>, sed ratione
+                    subi<lb ed="#BNC" n="57" break="no"/>ecti in quo est.
+                  </p>
+                  
+                  
+                  <p n="1843">
+                    <lb ed="#BNC" n="58"/>Respondeo secundo cum Doctore <name ref="#Aquinas">Thoma</name> propriam passionem
+                    <choice><orig>quamti<lb ed="#BNC" n="59" break="no"/>tatis</orig><reg>quantitatis</reg></choice> non esse divisibilitatem realem, naturalemve, sed
+                    <lb ed="#BNC" n="60"/>divisibilitatem per designationem seu
+                    <choice><orig>matema<lb ed="#BNC" n="61" break="no"/>ticam</orig><reg>mathematicam</reg></choice>: haec autem potest covenire Caelo, et minimo
+                    natura<lb ed="#BNC" n="62" break="no"/>li. Praeterea quod definitio divini per non repugnantiam
+                    <lb ed="#BNC" n="63"/>competere possit uni membro dividenti, non infert
+                    <lb ed="#BNC" n="64"/>huic convenire definitionem alterius membri per non re
+                    <pb ed="#BNC" break="no" n="161-v"/> <!--p. 318-->
+                    <!-- Se omite la numeración, es la página 136 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" break="no" n="1"/><sic>re</sic>pugnantiam.
+                  </p>
+                  
+                  
+                  <p n="1844">
+                    <lb ed="#BNC" n="2"/>Infertur ex dictis hanc esse definitionem
+                    rigu<lb ed="#BNC" n="3" break="no"/>rosam tertium praedicabilis: quod praedicatur de pluribus in quale
+                    <lb ed="#BNC" n="4"/>quid. Nam praedicari de differentibus specie vel
+                    diffe<lb ed="#BNC" n="5" break="no"/>rentibus numero est per accidens differentiae et competit ratione
+                    <lb ed="#BNC" n="6"/>naturae. Qua propter divisio in differentiam infimam et
+                    <lb ed="#BNC" n="7"/>subalternam est accidentis in substantia. Articulo 4.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="8"/><head>Articulus 4. An differentia athoma
+                      inclu<lb ed="#BNC" n="9" break="no"/>dat subalternas?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1845">
+                    <lb ed="#BNC" n="10"/>Tria sub unico quaeruntur. Primo, an differentiae subalternae
+                    <lb ed="#BNC" n="11"/>includantur in athomis: verbi gratia sensibilitas in rationali.
+                    <lb ed="#BNC" n="12"/>Secundo, an genus includatur in differentia athoma: verbi gratia animal
+                    <lb ed="#BNC" n="13"/>in rationali. Tertio, an tam differentiae subalternae quam genus
+                    preceden<lb ed="#BNC" n="14" break="no"/>tur de differentia athoma.
+                  </p>
+                  
+                  
+                  <p n="1846">
+                    <lb ed="#BNC" n="15"/>Suppono ut certum differentiam athomam per
+                    materia<lb ed="#BNC" n="16" break="no"/>li dicere speciem, quam constituit, verbi gratia rationale hominem: per
+                    forma<lb ed="#BNC" n="17" break="no"/>li vero dicere ullum gradum, qui simul cum differentia constituit
+                    <lb ed="#BNC" n="18"/>speciem, verbi gratia rationale rationalitatem. In primo sensu
+                    <lb ed="#BNC" n="19"/>non est dubium, nam realiter rationale est homo, est animal, est
+                    sensi<lb ed="#BNC" n="20" break="no"/>bile cum gradus <choice><orig>methaphysici</orig><reg>metaphysici</reg></choice> non distinguantur realiter.
+                    So<lb ed="#BNC" n="21" break="no"/>lum est difficultas in sensu formali; an, scilicet differentia
+                    atho<lb ed="#BNC" n="22" break="no"/>ma secundum quod exprimit et prout distinguitur ratione a
+                    <lb ed="#BNC" n="23"/>genere et differentiis subalternis includat tam genus
+                    <lb ed="#BNC" n="24"/>quam differentias genericas.
+                  </p>
+                  
+                  
+                  <p n="1847">
+                    <lb ed="#BNC" n="25"/>Prima sententia affirmat. Ita
+                    <cit>
+                      <ref>
+                        <name ref="#Soncinas">Soncinas</name>
+                        <lb ed="#BNC" n="26"/>7 <title>Metaphysicae</title> questione 35;
+                      </ref>
+                    </cit>
+                    Beatus <name ref="#AlbertusMagnus">Albertus</name> et <name ref="#Boethius"><choice><orig>Boëtius</orig><reg>Boethius</reg></choice></name> et
+                    nomina<lb ed="#BNC" n="27" break="no"/>lium turba et alii. Secunda negat. Ita
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristo<lb ed="#BNC" n="28" break="no"/>teles</name> 6 <title>Topicorum</title>, capitulo 6 et 3 <title>Physicae</title>, textu 10
+                      </ref>
+                    </cit>;              
+                    <name ref="#Scotus">Scotus</name>,
+                    <lb ed="#BNC" n="29"/><name ref="#Suarez">Suarez</name>, <name ref="#Ona">Oña</name>, <name ref="#Masius">Masius</name>, <name ref="#AAndreas">Antonius Andreas</name>, <name ref="#Niphus">Niphus</name>
+                    <lb ed="#BNC" n="30"/><name ref="#Villalpandus">Villalpandus</name>, <name ref="#Avicenna"><choice><orig>Avicena</orig><reg>Avicenna</reg></choice></name>, <name ref="#Ferrara">Ferrara</name> et omnes Thomistae.
+                  </p>
+                  
+                  
+                  <p n="1848">
+                    <lb ed="#BNC" n="31"/> Dico 1. Genus non includitur in differentia
+                    a<lb ed="#BNC" n="32" break="no"/>thoma. Ita
+                    <cit>
+                      <ref>
+                        <name ref="#Aquinas">Divus Thomas</name> 3 <title>Methaphysicae</title> lectione 8 et 1 <title>Contra
+                          <lb ed="#BNC" n="33"/>gentes</title> capitulo 17 et <title>De ente et essentia</title> capitulo 7.
+                      </ref>
+                    </cit>
+                    Probatur. Genus et
+                    <lb ed="#BNC" n="34"/>differentia formaliter comparantur ut actus et potentia, sed actus
+                    <lb ed="#BNC" n="35"/>est extra ratione potentiae et econtra: igitur extra rationem differentiae
+                    <lb ed="#BNC" n="36"/>est genus et econtra. Secundo, genus est contrahibile et differentia
+                    <lb ed="#BNC" n="37"/>contractiva, sed contrahibile est extra conceptum
+                    contrahen<lb ed="#BNC" n="38" break="no"/>tis: igitur. Tertio, genus et differentia sunt partes compositis
+                    <choice><orig>me<lb ed="#BNC" n="39" break="no"/>thsphysicae</orig><reg>metaphysicae</reg></choice>, sed de ratione partis est excludere aliam
+                    compar<lb ed="#BNC" n="40" break="no"/>tem: igitur. Quarto, differentiae sunt omnino diversae: igitur non
+                    inclu<lb ed="#BNC" n="41" break="no"/>dunt genus. Probatur consequentia. Si in aliquo convenirent non
+                    <lb ed="#BNC" n="42"/>essent primo diversae; sed si includerent genus in
+                    <lb ed="#BNC" n="43"/>illo convenirent: igitur. Quinto, si differentiae
+                    include<lb ed="#BNC" n="44" break="no"/>rent genus, hoc dupliciter conveniret speciebus:
+                    se<lb ed="#BNC" n="45" break="no"/>mel ratione seu et iterum ratione differentiae, hoc est
+                    absur<lb ed="#BNC" n="46" break="no"/>dum, alioqui in definitionibus daretur nugatio haec sit,
+                    <lb ed="#BNC" n="47"/>homo est animal, animal rationale ut videnti patebit: igitur. Sexto, si
+                    in<lb ed="#BNC" n="48" break="no"/>cluderetur in differentiis: esset analogum ut patet: igitur.
+                  </p>
+                  
+                  
+                  <p n="1849">
+                    <lb ed="#BNC" n="49"/>Dico 2. Differentiae genericae seu subalternae
+                    <lb ed="#BNC" n="50"/>non includuntur in athomis. Eisdem rationibus probatur.
+                    Ea<lb ed="#BNC" n="51" break="no"/>dem est ratio de differentiis subalternis, ac de genere, sed genus
+                    <lb ed="#BNC" n="52"/>non includitur in athomis: igitur. Maior patet. Siquidem
+                    dif<lb ed="#BNC" n="53" break="no"/>ferentia subalterna est pars quidditativa generis: igitur. Secundo,
+                    <lb ed="#BNC" n="54"/>differentia contrahens genus, contrahit etiam differentiam genericam,
+                    <lb ed="#BNC" n="55"/>sed differentia contrahens genus est extra rationem generis: igitur.
+                    <lb ed="#BNC" n="56"/>Tertio, si differentia subalterna includeretur in athoma esset
+                    <lb ed="#BNC" n="57"/>ut integra essentia: igitur quae conveniunt subalterne
+                    dif<lb ed="#BNC" n="58" break="no"/>ferunt athome sub eadem ratione. Tenet consequentia. Differentia
+                    <lb ed="#BNC" n="59"/>athoma est simplex, alioqui esset species composita
+                    <lb ed="#BNC" n="60"/>ex contrahibili et contrahente: igitur in una, eademque
+                    sim<lb ed="#BNC" n="61" break="no"/>plici entitate convenirent et different.
+                  </p>
+                  
+                  
+                  <p n="1850">
+                    <lb ed="#BNC" n="62"/>Dico 3. <choice><orig>Neam</orig><corr>Nec</corr></choice> genus, nec differentia subalternae
+                    <pb ed="#BNC" n="166-r"/><!--p. 319 -->
+                    <!-- Se omite la numeración, es la página 137 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>praedicantur de athomis. Probatur faciliter. Omnis praedicatio
+                    sup<lb ed="#BNC" n="2" break="no"/>ponit identitatem, sed formaliter genus et differentiae
+                    subal<lb ed="#BNC" n="3" break="no"/>ternae non identificantur athomis: igitur non praedicantur
+                    forma<lb ed="#BNC" n="4" break="no"/>liter. Dixi formaliter: siquidem materialiter et identice
+                    <lb ed="#BNC" n="5"/>praedicantur propter identitatem materialem et in tertio.
+                  </p>
+                  
+                  
+                  <p n="1851">
+                    <lb ed="#BNC" n="6"/>Obiectio 1. Ex
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristotele</name> 7 <name>Methaphysicae</name> textu 43
+                        di<lb ed="#BNC" n="7" break="no"/>cente tria
+                      </ref>
+                    </cit>.
+                    Primum, differentiae communes seu superiores
+                    <lb ed="#BNC" n="8"/>clauduntur in infimis, unde nihil refert si in
+                    <lb ed="#BNC" n="9"/>definitione ponantur illae omnes sive ista sola. Secundum,
+                    <lb ed="#BNC" n="10"/>differentia infima est tota rei substantia quare ea
+                    posi<lb ed="#BNC" n="11" break="no"/>ta in definitione non licet superiorem adiungere; alioqui
+                    <lb ed="#BNC" n="12"/>daretur nugatio, scilicet homo est animal rationale sensibile.
+                    Ter<lb ed="#BNC" n="13" break="no"/>tium, ut inveniatur ultima differentia debet procedi per
+                    <lb ed="#BNC" n="14"/>divisionem differentiae superioris in inferiores, scilicet eius
+                    <lb ed="#BNC" n="15"/>per se divisivas: verbi gratia habere pedes dividitur per se
+                    <lb ed="#BNC" n="16"/>in habere pedes fissos vel non fissos, sed verum est
+                    dice<lb ed="#BNC" n="17" break="no"/>ra fissio pedum aliqua pedalitas est: igitur de differentia
+                    <lb ed="#BNC" n="18"/>infima praedicatur subalterna. Item
+                    <cit>
+                      <ref>
+                        10 <title>Methaphysicae</title> textu 23
+                      </ref>
+                    </cit>
+                    <lb ed="#BNC" n="19"/>ostendi in generibus, sub quibus inveniuntur
+                    contra<lb ed="#BNC" n="20" break="no"/>ria, differentias medias componi differentiis contrariis: igitur.
+                    
+                  </p>
+                  
+                  
+                  <p n="1852">
+                    <lb ed="#BNC" n="21"/>Respondeo <name ref="#Aristoteles">Aristotelem</name> in primo et secundo
+                    lo<lb ed="#BNC" n="22" break="no"/>qui materialiter et identice
+                    <cit>
+                      <ref>
+                        <name ref="#Complutenses">Complutenses</name>
+                        <lb ed="#BNC" n="23"/>Distinctione 7, quaestione 4, numero 43
+                      </ref>
+                    </cit>.
+                    Ad tertium dico: differentias
+                    com<lb ed="#BNC" n="24" break="no"/>munes dividi per alias non formaliter hoc ratione sui, sed
+                    <lb ed="#BNC" n="25"/>materialiter, hoc est ratione generis constituti per differentiam
+                    supe<lb ed="#BNC" n="26" break="no"/>riorem. <name ref="#Aristoteles">Aristoteles</name> maluit dicere differentias superiores
+                    <lb ed="#BNC" n="27"/>dividi non genut ut ostenderat differentias tam per se
+                    <lb ed="#BNC" n="28"/>quam per accidens alicuius generis. Quando genus est in
+                    poten<lb ed="#BNC" n="29" break="no"/>tia ex intrinseca ratione ad differentias dividitur per se
+                    <lb ed="#BNC" n="30"/>differentiis; sic dividitur animal bipes in habere pedes
+                    <lb ed="#BNC" n="31"/>fissos vel no fissos. Quando vero est in potentia non ratione suae
+                    <lb ed="#BNC" n="32"/>differentiae constitutivae, sed aliunde, <unclear>tund</unclear> dividitur
+                    <cb ed="#BNC" n="b"/>
+                    dif<lb ed="#BNC" n="33" break="no"/>ferentiis per accidens; sic dividitur animal bipes in album
+                    <lb ed="#BNC" n="34"/>et nigrum: igitur non solum differentia habendi pedes, sed etiam
+                    <lb ed="#BNC" n="35"/>ipsum animal dividitur. Unde fissio est pedalitas
+                    red<lb ed="#BNC" n="36" break="no"/>dit hunc sensum fissio continetur sub pedalitate,
+                    <lb ed="#BNC" n="37"/>sicut differentiae continentur sub genere, cuius pars est differentia
+                    <lb ed="#BNC" n="38"/>generica. Sic <name ref="#ISanctoThoma">Ioannes a Sancto Thoma</name> hic. Ad alium
+                    <lb ed="#BNC" n="39"/>locum dicetur ibi non loqui seu sumere differentias
+                    me<lb ed="#BNC" n="40" break="no"/>dias per differentiis, quae sunt tertium praedicabile, sed pro
+                    <lb ed="#BNC" n="41"/>speciebus oppositis.
+                  </p>
+                  
+                  
+                  <p n="1853">
+                    <lb ed="#BNC" n="42"/>Obiectio 2. Rationale,verbi gratia est substantia: igitur vel
+                    cor<lb ed="#BNC" n="43" break="no"/>porea vel incorporea, animata vel inanimata:
+                    <lb ed="#BNC" n="44"/>ergo iam habet aliquod praedicatum superius. Respondeo distinguendo antecedens.
+                    <lb ed="#BNC" n="45"/>Rationale est substantia in quid, nego; in quale, concedo.
+                    Duplici<lb ed="#BNC" n="46" break="no"/>ter enim sumitur substantia (idem indicium est de corporeo
+                    <lb ed="#BNC" n="47"/>vel incorporeo) proprie, scilicet et late. Proprie secundum quod
+                    <lb ed="#BNC" n="48"/>substantia est primum genus corporeum et incorporeum
+                    <lb ed="#BNC" n="49"/>differentiae divisive et in hoc sensu rationale neque est substantia,
+                    <lb ed="#BNC" n="50"/>nec corporeum aut incorporeum. Hoc enim est esse substantiam
+                    <lb ed="#BNC" n="51"/>in quod seu completam et in recta linea. Late secundum
+                    <lb ed="#BNC" n="52"/>habitudinem ad suum principium et reductive et hoc
+                    <lb ed="#BNC" n="53"/>modo rationale dicitur substantia.
+                  </p>
+                  
+                  
+                  <p n="1854">
+                    <lb ed="#BNC" n="54"/>Obiectio 3. In hoc syllogismo: <mentioned>Omnis homo est
+                      <lb ed="#BNC" n="55"/>sensibilis, sed omnis homo est rationalis: igitur aliquod rationale est
+                      sen<lb ed="#BNC" n="56" break="no"/>sibile;</mentioned> praemissae sunt verae: igitur et conclusio. Respondeo distinguendo consequens
+                    <lb ed="#BNC" n="57"/>et conclusio in sensu formali, nego; materialiter et
+                    iden<lb ed="#BNC" n="58" break="no"/>tice, concedo. Non requiritur quod ex praemissis verificatis
+                    <lb ed="#BNC" n="59"/>in sensu formali sequatur conclusio etiam vera in
+                    sen<lb ed="#BNC" n="60" break="no"/>su formali, cum sufficiat in sensu indentico, quod
+                    <lb ed="#BNC" n="61"/>saepe accidit in tertia figura: verbi gratia omne lac est album;
+                    <lb ed="#BNC" n="62"/>omne lac est dulce: igitur aliquod dulce est album.
+                  </p>
+                  
+                  
+                  <p n="1855">
+                    <lb ed="#BNC" n="63"/>Instabis: tota ratio ruit si addatur
+                    <lb ed="#BNC" n="64"/>particula formaliter dicendo: omnis homo est sensibilis
+                    <pb ed="#BNC" n="166-v"/><!--p. 320 -->
+                    <!-- Se omite la numeración, es la página 138 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>formaliter; omnis homo est rationalis formaliter: igitur aliquod rationale est
+                    forma<lb ed="#BNC" n="2" break="no"/>liter sensibile. Responde falsam esse consequentiam quia variatur
+                    ap<lb ed="#BNC" n="3" break="no"/>pellatio hic formaliter. Siquidem in praemissis appellat
+                    su<lb ed="#BNC" n="4" break="no"/>pra res formaliter se includentes; at in conclusione
+                    su<lb ed="#BNC" n="5" break="no"/>pra res de quarum ratione est, unam excludere aliam.
+                    <lb ed="#BNC" n="6"/>Vide hoc diffuse in
+                    <cit>
+                      <ref>
+                        <name ref="#ISanctoThoma">Ioannes a Sancto Thoma</name> quaestione 10, articulo 3
+                      </ref>
+                    </cit>.
+                  </p>
+                  
+                  
+                  <p n="1856">
+                    <lb ed="#BNC" n="7"/>Obiectio 4. Differentia infima non est actus purus:
+                    <lb ed="#BNC" n="8"/>igitur aliquam habet compositionem: igitur potest resolvi in conceptum
+                    commu<lb ed="#BNC" n="9" break="no"/>nem seu genericum et specialem seu differentialem. Respondeo
+                    <lb ed="#BNC" n="10"/>distinguendo consequens. Aliquam habet compositionem ex his, nego; huic, concedo.
+                    <lb ed="#BNC" n="11"/>Differentia enim est pars, pars enim non est simplex sicut actus
+                    <lb ed="#BNC" n="12"/>purus simplicitate perfectionis, sed simplicitate
+                    <lb ed="#BNC" n="13"/>negationis quia non est plene perfecta. Et nego ultimam
+                    <lb ed="#BNC" n="14"/>consequentiam. Est enim alteri componibilis a quo perficiatur,
+                    <lb ed="#BNC" n="15"/>non tamen composita per resolutionem in plures conceptus, nec
+                    <lb ed="#BNC" n="16"/>subordinatur directe et formaliter superiori, sed
+                    prae<lb ed="#BNC" n="17" break="no"/>supponit illam veluti genus compositum ex illa.
+                  </p>
+                  
+                  
+                  <p n="1857">
+                    <lb ed="#BNC" n="18"/>Obiectio 5. Intellectivum ut <choice><orig>quatuor</orig><reg>quattuor</reg></choice> est
+                    dif<lb ed="#BNC" n="29" break="no"/>ferentia specifica alicuius Angeli, sed intellectivum ut
+                    <lb ed="#BNC" n="20"/><choice><orig>quatuor</orig><reg>quattuor</reg></choice> includit intellectivum: igitur genus includitur
+                    <lb ed="#BNC" n="21"/>in differentiis. Respondeo distinguendo minorem. Materialiter et
+                    iden<lb ed="#BNC" n="22" break="no"/>tice, concedo; formaliter, nego. Differentia enim expressatur in hic
+                    <lb ed="#BNC" n="23"/><choice><orig>quatuor</orig><reg>quattuor</reg></choice>. Sic
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> 1 parte, questione 50, articulo 4, 1
+                      </ref>
+                    </cit>.
+                  </p>
+                  
+                  
+                  <p n="1858">
+                    <lb ed="#BNC" n="24"/>Obiectio 6. Haec est vera praedicatio <mentioned>homo est realis</mentioned>:
+                    <lb ed="#BNC" n="25"/>igitur et haec, <mentioned>rationale est animal</mentioned>. Probat consequentia. Quidquid convenit
+                    su<lb ed="#BNC" n="26" break="no"/>biecto convenit praedicato, sed subiecto convenit animal: igitur. Respondeo
+                    <lb ed="#BNC" n="27"/>distinguendo consequens. Identice, concedo; formaliter, nego. Ad probationem
+                    <lb ed="#BNC" n="28"/>distinguo maiorem. Eodem modo, nego; diverso, scilicet dicto, concedo.
+                    <lb ed="#BNC" n="29"/>Et hoc si enim conveniat subiecto propter praedicatum ut
+                    contin<lb ed="#BNC" n="30" break="no"/>git in praesenti. <choice><orig>Caetera</orig><reg>Cetera</reg></choice> argumenta omissa
+                    fa<lb ed="#BNC" n="31" break="no"/>cio vel quia ex dictis solvuntur vel quia ex non dictis
+                    <lb ed="#BNC" n="32"/>vic intelliguntur. Articulo 5. Etc.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="33"/><head>Articulus 5. An quaelibet differentia sit
+                      per<lb ed="#BNC" n="34" break="no"/>fectior genere?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1859">
+                    <lb ed="#BNC" n="35"/>Non comparamus differentiam generi simpliciter, sed tantum
+                    <lb ed="#BNC" n="36"/>secundum quid. Loquatur
+                    <cit>
+                      <ref>
+                        Divum <name ref="#Aquinas">Thomas</name> loco citato <title>De
+                          pi<lb ed="#BNC" n="37" break="no"/>ritualibus creaturis</title>: <quote>sicut determinatum (loquitur de
+                            com<lb ed="#BNC" n="38" break="no"/>paratione differentiae cum genere) indeterminato et proprium
+                            com<lb ed="#BNC" n="39" break="no"/>muni, non autem sicut animalia et animalia natura.</quote>
+                      </ref>
+                    </cit>
+                    In hoc sensu
+                    quae<lb ed="#BNC" n="40" break="no"/>rimus an semper differentia determinet genus addendo
+                    <lb ed="#BNC" n="41"/>aliquam perfectionem? Negat
+                    <cit>
+                      <ref>
+                        <name ref="#Aquinas">Ona</name> 1 quaestione, articulo 5
+                      </ref>
+                    </cit>
+                    quem
+                    <lb ed="#BNC" n="42"/>sequuntur aliqui Magistris. <choice><orig>Afirmativa</orig><reg>Affirmativa</reg></choice> est communis.
+                  </p>
+                  
+                  
+                  <p n="1860">
+                    <lb ed="#BNC" n="43"/>Dico igitur omnis differentia est perfectior suo
+                    ge<lb ed="#BNC" n="44" break="no"/>nere nullaque dari, quae non addat aliquam perfectionem.
+                    <lb ed="#BNC" n="45"/>Ita
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristoteles</name> 8 <title>Metaphysicae</title> textu 10
+                      </ref>
+                    </cit>.
+                    Et
+                    <cit>
+                      <ref>
+                        Doctor <name ref="#Aquinas">Thomas</name> <title>De
+                          <lb ed="#BNC" n="46"/>spiritualibus creaturis</title> articulo 8, ad 9 et 1 parte, quaesitone 50
+                        <lb ed="#BNC" n="47"/>articulo 4, ad 1 et questione 57, articulo 2, ad 2
+                      </ref>
+                    </cit>
+                    Quem
+                    sequun<lb ed="#BNC" n="48" break="no"/>tur eius amantissimi Doctores.
+                  </p>
+                  
+                  
+                  <p n="1861">
+                    <lb ed="#BNC" n="49"/>Probatur ratione. Genus est perfectibile ulteriori
+                    <lb ed="#BNC" n="50"/>perfectione: igitur omnis differentia addit aliquam perfectionem.
+                    <lb ed="#BNC" n="51"/>Probatur consequentia. Illa ulterior perfectio ad quam genus est in potentia
+                    <lb ed="#BNC" n="52"/>est differentia, sed in quacunque specie actuatur et
+                    perfi<lb ed="#BNC" n="53" break="no"/>citur potentialitas generis: igitur in quacunque
+                    spe<lb ed="#BNC" n="54" break="no"/>cie differentia addit generi aliquam perfectionem. Patet minorem.
+                    <lb ed="#BNC" n="55"/>Nulla datur species, quae non sit totum actuale in
+                    es<lb ed="#BNC" n="56" break="no"/>sentia ultimo actuatum et constitutum.
+                  </p>
+                  
+                  
+                  <p n="1862">
+                    <lb ed="#BNC" n="57"/>Confirmatur: omnis actus seu forma est
+                    nobi<lb ed="#BNC" n="58" break="no"/>lior potentia seu materia, sed omnis differentia habet rationem actus
+                    <lb ed="#BNC" n="59"/>seu formae respectu generis: igitur omnis differentia est
+                    nobi<lb ed="#BNC" n="60" break="no"/>lior genere eique superaddit aliquam perfectionem.
+                    <lb ed="#BNC" n="61"/>Maiorem constat. Omnis actus aliquam tribuit potentiae perfectionem
+                    <lb ed="#BNC" n="62"/>omnisque forma tribuit etiam effectum formalem: igitur.
+                  </p>
+                  
+                  
+                  <pb ed="#BNC" n="167-r"/><!--p. 321 -->
+                  <!-- Se omite la numeración, es la página 139 -->
+                  <cb ed="#BNC" n="a"/>
+                  <p n="1863">
+                    <lb ed="#BNC" n="1"/>Obiectio 1. Volitio prava est imperfectior
+                    vo<lb ed="#BNC" n="2" break="no"/>litione in communi: igitur. Confirmatur: sapientia creata etiam
+                    <lb ed="#BNC" n="3"/>est imperfectior sapientia ut sic: igitur. Respondeo distinguendo antecedens.
+                    Vo<lb ed="#BNC" n="4" break="no"/>litio prava est imperfectior in eo moris formaliterque, concedo;
+                    <lb ed="#BNC" n="5"/>in esse rei et physice, nego. Peccatum in esse moris
+                    si<lb ed="#BNC" n="6" break="no"/>ve consistat in positivo, sive in negatio est
+                    om<lb ed="#BNC" n="7" break="no"/>nimoda imperfectio. At in esse physico superaddit
+                    a<lb ed="#BNC" n="8" break="no"/>liquam perfectionem generi volitionis. Ad
+                    confirma<lb ed="#BNC" n="9" break="no"/>tionem negatur assumptum. Cum sapientia non sit genus, sed ratio
+                    a<lb ed="#BNC" n="10" break="no"/>naloga ad creatam et in creatam. In analogis enim
+                    <lb ed="#BNC" n="11"/>maiorem perfectionem dicit analogum, quam analogata.
+                  </p>
+                  
+                  
+                  <p n="1864">
+                    <lb ed="#BNC" n="12"/>Obiectio 2. Ex his sequeretur unamquamque
+                    spe<lb ed="#BNC" n="13" break="no"/>ciem habere distinctam operationem ab aliis speciebus eiusdem
+                    ge<lb ed="#BNC" n="14" break="no"/>neris, hoc no  potest esse: igitur. Probatur minor. Probabile est omnes
+                    <lb ed="#BNC" n="15"/>species angelicas habere easdem operationes, scilicet
+                    intellige<lb ed="#BNC" n="16" break="no"/>re et velle. Item quaedam animalia non solum non habent
+                    <lb ed="#BNC" n="17"/>operationem distinctam, verum etiam carent aliquibus
+                    convenien<lb ed="#BNC" n="18" break="no"/>tibus generi. Nam talpa caret visu, olfactu
+                    pis<lb ed="#BNC" n="19" break="no"/>ces, similiter de aliis.
+                  </p>
+                  
+                  
+                  <p n="1865">
+                    <lb ed="#BNC" n="20"/>Respondeo.
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> loco citato per haec
+                        ver<lb ed="#BNC" n="21" break="no"/>ba: <quote>Illud quod constituit in specie est nobilius eo
+                          <lb ed="#BNC" n="22"/>quod constituit in genere, sicut determinatum
+                          indetermina<lb ed="#BNC" n="23" break="no"/>to: habent enim se determinatum ad indeterminatum sicut
+                          ac<lb ed="#BNC" n="24" break="no"/>tus ad potentiam. Non autem ita, quod semper illud, quod
+                          cons<lb ed="#BNC" n="25" break="no"/>tituit in specie ad nobiliorem naturam pertineat, ut
+                          <lb ed="#BNC" n="26"/>patet in speciebus alium irrationalium. Non enim
+                          consti<lb ed="#BNC" n="27" break="no"/>tuuntur huiusmodi species per additionem alicuius naturae
+                          <lb ed="#BNC" n="28"/>nobilioris supra naturam sensitivam, quae est nobilissima
+                          <lb ed="#BNC" n="29"/>in eis, sed per determinationem ad diversos gradus in
+                          <lb ed="#BNC" n="30"/>illa natura et similiter dicendum est de
+                          intellectua<lb ed="#BNC" n="31" break="no"/>li, quod est commune in angelis.</quote>
+                      </ref>
+                    </cit>
+                  </p>
+                  
+                  
+                  <p n="1866">
+                    <lb ed="#BNC" n="32"/>Unde negatur sequela. Tunc enim
+                    <lb ed="#BNC" n="33"/>differentia est radix novae operationis, quando elevat genus ad
+                    <lb ed="#BNC" n="34"/>altiorem naturam. Etiam in praefatis animalibus propria
+                    dif<lb ed="#BNC" n="35" break="no"/>ferentia uniuscuiusque est perfectior genere. Nam saltem
+                    deter<lb ed="#BNC" n="36" break="no"/>minat aliquam operationem indeterminate et confuse
+                    con<lb ed="#BNC" n="37" break="no"/>venientem generi.
+                  </p>
+                  <cb ed="#BNC" n="b"/>
+                  <p n="1867">
+                    <lb ed="#BNC" n="38"/>Obiectio 3. Differentia non elevans genus ad
+                    altio<lb ed="#BNC" n="39" break="no"/>rem naturam significat perfectionem generis magis
+                    cont<lb ed="#BNC" n="40" break="no"/>tractam et limitatam: igitur potius perfectionem auferunt.
+                    <lb ed="#BNC" n="41"/>Consequentia patet. Contractio et limitatio intra idem genus
+                    at<lb ed="#BNC" n="42" break="no"/>testatur imperfectioni rei limitatae, nam tollit aliquid
+                    <lb ed="#BNC" n="43"/>generis et non addit alterius gradus perfectionem.
+                  </p>
+                  
+                  
+                  <p n="1868">
+                    <lb ed="#BNC" n="44"/>Respondeo negando consequentiam. Ad probationem distinguo antecedens. Si
+                    <lb ed="#BNC" n="45"/>contractum sit ex se illimitatum in genere causae materialis, nego;
+                    <lb ed="#BNC" n="46"/>si sit illimitatum in alio genere, concedo.
+                    Illimita<lb ed="#BNC" n="47" break="no"/>tio in genere causae materialis est maxima imperfectio,
+                    <lb ed="#BNC" n="48"/>nam eam causat privatio perfectionis, scilicet formae
+                    <lb ed="#BNC" n="49"/>et actus, quare materia prima est ens imperfectissimum ac
+                    <lb ed="#BNC" n="50"/>prope nihil, quia ex se est omnino illimitata in
+                    <lb ed="#BNC" n="51"/>genere causae materialis, est enim pira potentia. Similiter
+                    <lb ed="#BNC" n="52"/>genus proportionabiliter in genere causae materialis est
+                    <lb ed="#BNC" n="53"/>illimitatum: igitur quod determinetur a differentiis arguit
+                    <lb ed="#BNC" n="54"/>potius perfectionem quam imperfectionem.
+                  </p>
+                  
+                  
+                  <p n="1869">
+                    <lb ed="#BNC" n="55"/>Nota genus dividi per differentias in
+                    spe<lb ed="#BNC" n="56" break="no"/>cies, non in differentias. Hic solet agitari compositio
+                    <choice><orig>me<lb ed="#BNC" n="57" break="no"/>thaphysica</orig><reg>metaphysica</reg></choice> an sit realis vel rationis? Ex dictis
+                    fa<lb ed="#BNC" n="58" break="no"/>cile respondetur esse rationis ratiosinatae. Unde
+                    <lb ed="#BNC" n="59"/>talis compositio supponit in re fundamentum, quod non
+                    <lb ed="#BNC" n="60"/>est aliud quam exuberantia rei et deficientia
+                    <lb ed="#BNC" n="61"/>intellectus, sic
+                    <cit>
+                      <ref>
+                        Fundatissimo Doctor <name ref="#Aegidius">Aegidius</name>
+                      </ref>
+                    </cit>.
+                    Aliae quaestiones
+                    ni<lb ed="#BNC" n="62" break="no"/>mius prolixe omittuntur, non tamen necessariae. Nunc
+                    <lb ed="#BNC" n="63"/>videamus alia praedicabilia, scilicet quae sunt extra essentiam
+                    <lb ed="#BNC" n="64"/>et primo de proprio quarto praedicabili.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

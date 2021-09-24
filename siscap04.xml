@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+  href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>In Isagogem Porphyrii... Cuestiones sobre el Capítulo 4</title>
+        <author xml:id="GAS">Gregorio Agustín Salgado, OSA</author>
+        <editor xml:id="WA">Wainer Andrés Durán Guerrero</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2020-08-06">06 de Agosto de 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="BNC" n="biblnacicol150">Bogotá, D.C., Biblioteca Nacional de Colombia, MS RM150</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding location="internal" method="parallel-segmentation"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la"><!--lat-->
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#BNC" n="163-v"/>
+        <cb ed="#BNC" n="a"/>
+        <lb ed="#BNC" n="1"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="siscap04">
+        
+        
+        <div>
+          <pb ed="#BNC" n="163-v"/><!--p. 322--> <!-- Numeración anterior tachada, indica página 140 -->
+          <cb ed="#BNC" n="a"/>
+          <lb ed="#BNC" n="1"/><head>Caput quartum <name ref="#Porphyrius">Porphirii</name> de Proprio
+            <lb ed="#BNC" n="2"/>quarto Praedicabili</head>
+          <div>
+            <lb ed="#BNC" n="3"/><head>Textus</head>
+            <cb ed="#BNC" n="b"/>
+            <p>
+              <lb ed="#BNC" n="4"/><title>ΚΕΦΑΛΑΙΟΝ Δ</title>
+            </p>
+            
+            
+            <p n="1870" xml:lang="grc">
+              <cit>
+                <quote>
+                  <lb ed="#BNC" n="5"/>Τὸ δὲ ἴδιον διαιροῦσι τετραχῶς · καὶ γὰρ ὃ
+                  μό<lb ed="#BNC" n="6" break="no"/>νῳ τινὶ εἴδει συμβέβηκεν, εἰ καὶ μὴ παντί,
+                  <lb ed="#BNC" n="7"/>ὡς ἀνθρώπῳ τὸ ἰατρεύειν ἢ τὸ
+                  <lb ed="#BNC" n="8"/>γεωμετρεῖν · καὶ ὃ παντί, καὶ τὰ ἕτερα.
+                </quote>
+                <bibl>
+                  Porphyrius, <title>Isagoge</title>, p. ed. ???
+                </bibl>
+              </cit>
+            </p>
+            <cb ed="#BNC" n="c"/>
+            <p>
+              <lb ed="#BNC" n="9"/><title>Caput quartum</title>
+            </p>
+            
+            
+            <p>
+              <cit>
+                <quote>
+                  <lb ed="#BNC" n="10"/>Proprium autem quatuor dividitur modis. Nam
+                  pro<lb ed="#BNC" n="11" break="no"/>prium est id quod soli cuipiam accidit speciei et
+                  <lb ed="#BNC" n="12"/>se non omni ut homini accidit mederi aut
+                  <lb ed="#BNC" n="13"/>metiri, etc.
+                </quote>
+                <bibl>
+                  Porphyrius, <title>Isagoge</title>, trad. Boethius, p.???
+                </bibl>
+              </cit>
+            </p>
+          </div>
+          <cb ed="#BNC" n="a"/>
+          <div>
+            <lb ed="#BNC" n="14"/><head>Summa Textus</head>
+            <p n="1871">
+              <lb ed="#BNC" n="15"/><choice><orig>Quatuor</orig><reg>Quattuor</reg></choice> in hoc capite adducit <name ref="#Porphyrius">Porphyrius</name> acceptiones <mentioned>proprii</mentioned>. Primo proprium dicitur quod convenit soli
+              ali<lb ed="#BNC" n="16" break="no"/>cui speciei, sed non omni; ut esse Medicum vel Geometram respectu hominis. Secundo, quod convenit omni, sed non soli;
+              <lb ed="#BNC" n="17"/>ut esse bipedem in homine. Tertio, quod convenit omni, soli, sed non semper; ut hominem canescere in senectute.
+              Quar<lb ed="#BNC" n="18" break="no"/>to, quod convenit omni, soli et semper; ut risibilitas. Hoc praefert omnibus <name ref="#Porphyrius">Porphyrius</name> est enim proprie proprium.
+            </p>
+          </div>
+          
+          
+          <div>
+            <div>
+              <lb ed="#BNC" n="19"/><head>Annotationes circa litteram Capitis huius</head>
+              <cb ed="#BNC" n="b"/>
+              <p n="1872">
+                <lb ed="#BNC" n="20"/>Acceptiones praefatae in re non sunt aliae ab illis, quas
+                <lb ed="#BNC" n="21"/>tradidit
+                <cit>
+                  <ref>
+                    <name ref="#Aristoteles">Aristoteles</name> 1 <title>Topicorum</title> capitulo 4
+                  </ref>
+                </cit>,
+                ibi dividit
+                pro<lb ed="#BNC" n="22" break="no"/>prium in prorium ad aliquid, in proprium quando et in
+                pro<lb ed="#BNC" n="23" break="no"/>prium simpliciter. Proprium ad aliquid coincidit cum
+                <lb ed="#BNC" n="24"/>proprio primo et secundo modo dictum. Dicitur ad aliquid quia debet
+                <lb ed="#BNC" n="25"/>res cuius sunt propria ad aliud comparari: verbi gratia homo dicitur
+                <lb ed="#BNC" n="26"/>Geometra comparatione ad Leonem qui Geometra non
+                di<lb ed="#BNC" n="27" break="no"/>citur. Similiter ut dicatur bipes. Proprium vero quando
+                <lb ed="#BNC" n="28"/>coincidit cum proprio tertio modo sumpto. Dicitur
+                <lb ed="#BNC" n="29"/>quando, quia non semper convenit rebus, sed aliquando. Proprium
+                de<lb ed="#BNC" n="30" break="no"/>nique simpliciter coincidit cum proprie dicto.
+              </p>
+              <cb ed="#BNC" n="c"/>
+              <p n="1873">
+                <lb ed="#BNC" n="31"/><del><add place="margin-left">tradi</add></del> Proprium quarto modo acceptum est proprium
+                denomi<lb ed="#BNC" n="32" break="no"/>nabile a relatione universalis seu quarti praedicabilis.
+                Un<lb ed="#BNC" n="33" break="no"/>de est de quo in praesenti est agendum. Alia dicuntur
+                <lb ed="#BNC" n="34"/>propria analogice. Notato nunc proprium dicitur
+                <lb ed="#BNC" n="35"/>dupliciter vel prout distinguitur ab improprio vel prout
+                <lb ed="#BNC" n="36"/>distinguitur a communi. In hoc ultimo modo sumitur
+                <lb ed="#BNC" n="37"/>hic.
+              </p>
+              
+              
+              <p n="1874">
+                <lb ed="#BNC" n="38"/>Circa primam acceptionem. Notato esse
+                <lb ed="#BNC" n="39"/>Medicum vel Geometram in exemplo alato non summi
+                <lb ed="#BNC" n="40"/>per capacitate seu aptitudine acquirendi scientias,
+                <lb ed="#BNC" n="41"/>alioqui proprium quarto modo feret dicendum. Unde
+                <pb ed="#BNC" n="164-r"/>
+                <!--p. 323--> <!-- Numeración anterior tachada, indica página 141 -->
+                <cb ed="#BNC" n="a"/>
+                <lb ed="#BNC" n="1"/>sumitur per habitu vel actu Medicinae vel Geometriae
+                <lb ed="#BNC" n="2"/>ut explicat <name ref="#Villalpandus">Villalpandum</name>.
+              </p>
+              
+              
+              <p n="1875"> <!-- Numeración de párrafo anterior tachada, p. 975 -->
+                <lb ed="#BNC" n="3"/>Circa secundam acceptionem venit in
+                du<lb ed="#BNC" n="4" break="no"/>bium, si <name ref="#Aristoteles">Aristoteles</name> asserit esse bipedem esse differentiam, quo
+                <lb ed="#BNC" n="5"/>modo nunc appellatur proprium? Respondeo <name ref="#Aristoteles">Aristotelem</name> ibi
+                lo<lb ed="#BNC" n="6" break="no"/>qui non rigorose vel loquitur de differentia propria.
+                <choice><orig>Caete<lb ed="#BNC" n="7" break="no"/>rum</orig><reg>Ceterum</reg></choice> esse bipedem est accidens commune secundum quod tantum
+                <lb ed="#BNC" n="8"/>dicitur proprium et differentis.
+              </p>
+              
+              
+              <p n="1876"> <!-- Numeración de párrafo anterior tachada, p. 976 -->
+                <lb ed="#BNC" n="9"/>Circa tertiam notato canitie dici
+                pro<lb ed="#BNC" n="10" break="no"/>prium hominibus, quia frequentior et magis nota est
+                <lb ed="#BNC" n="11"/>anities in hominibus quam in aliis animalibus. Sic
+                o<lb ed="#BNC" n="12" break="no"/>mittimus difficultatem aliquorum dicentium etiam
+                <lb ed="#BNC" n="13"/>aliis animalibus convenire. Nunc Quaestio 10. etc.
+              </p>
+            </div>
+            
+            
+            <div>
+              <div>
+                <lb ed="#BNC" n="14"></lb><head>Quaestio 12. De proprio quarto
+                  prae<lb ed="#BNC" n="15" break="no"/>dicabili</head>
+              </div>
+              
+              
+              <div>
+                <p n="?">
+                  <lb ed="#BNC" n="16"/>Multa quae circa hoc caput tractari possunt
+                  <lb ed="#BNC" n="17"/>manent ex dictis indagata, quae restant
+                  <lb ed="#BNC" n="18"/>faciliter, <choice><orig>brebiterque</orig><reg>breviterque</reg></choice> videntur in praesenti
+                  quest<lb ed="#BNC" n="19" break="no"/>tione. Unde Articulo 1. Explicatur definitio, etc.
+                </p>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="20"/><head>Articulus 1. Explicat naturam Proprii
+                      <lb ed="#BNC" n="21"/>eiusque divisiones expendit?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1877"> <!-- Numeración de párrafo anterior tachada, p. 977 -->
+                    <lb ed="#BNC" n="22"/>Proprium quadrupliciter dicitur (necessaria est
+                    re<lb ed="#BNC" n="23" break="no"/>petitio). Primo, quod competit soli specie, at
+                    <lb ed="#BNC" n="24"/>non omni individuo, ut esse Geometram. Secundo,
+                    <lb ed="#BNC" n="25"/>econtra omni individuo, at non soli speciei, ut esse
+                    <lb ed="#BNC" n="26"/>hominem bipedem. Tertio, omni speciei et omni
+                    indivi<lb ed="#BNC" n="27" break="no"/>duo, at non semper ut in senectute
+                    canesce<lb ed="#BNC" n="28" break="no"/>e. Quarto, soli speciei et omni individuo et
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="29"/>semper, ut hominem esse risibilem: hoc est maximum.
+                  </p>
+                  
+                  
+                  <p n="1878"> <!-- Numeración de párrafo anterior tachada, p. 978 -->
+                    <lb ed="#BNC" n="30"/>Pro horum intelligentia est notandum
+                    pro<lb ed="#BNC" n="31" break="no"/>prium a <name ref="#Porphyrius">Porphyrio</name> per ordinem ad speciem explicari.
+                    <lb ed="#BNC" n="32"/>Unde perfecta ratio proprii sumitur ex perfecta
+                    con<lb ed="#BNC" n="33" break="no"/>venientia cum specie. Duo nobis obiiciuntur
+                    <lb ed="#BNC" n="34"/>cognoscenda. Primum, quodnam sit divisum, et
+                    <lb ed="#BNC" n="35"/>quaenam sit divisio? Secundum, quomodo
+                    intel<lb ed="#BNC" n="36" break="no"/>ligatur definitio proprii in quarto modo?
+                  </p>
+                  
+                  
+                  <p n="1879"> <!-- Numeración de párrafo anterior tachada, p. 979 -->
+                    <lb ed="#BNC" n="37"/>Dico 1. Divisum huius divisionis
+                    <lb ed="#BNC" n="38"/>est ratio proprii communis consistens in tendentia
+                    <lb ed="#BNC" n="39"/>convenientiae ad unum cum exclusione
+                    communica<lb ed="#BNC" n="40" break="no"/>tionis alterius. Ratio est quia ratio quarto praedicabilis est
+                    <lb ed="#BNC" n="41"/>ut precetur in quale necessario accidentaliter. Nam
+                    <lb ed="#BNC" n="42"/>per hic in quale differt a genere et differentia
+                    spe<lb ed="#BNC" n="43" break="no"/>cie; per hic accidentaliter a differentia; per hic
+                    ne<lb ed="#BNC" n="44" break="no"/>cessario ab accidente communi; sed hae conditiones non
+                    <lb ed="#BNC" n="45"/>conveniuntur divisio, sed tantum uni membro, scilicet
+                    <lb ed="#BNC" n="46"/>proprio in quarto modo: igitur quartum praedicabile non est
+                    di<lb ed="#BNC" n="47" break="no"/>visum: igitur proprium communiter dictum.
+                  </p>
+                  
+                  
+                  <p n="1880"> <!-- Numeración de párrafo anterior tachada, p. 980 -->
+                    <lb ed="#BNC" n="48"/>Dico 2. Proprium communiter dictum
+                    divi<lb ed="#BNC" n="49" break="no"/>sione analoga dividitur in <choice><orig>quatuor</orig><reg>quattuor</reg></choice> modos
+                    <lb ed="#BNC" n="50"/>proprii. Est communis inter Auctores et vocamus
+                    pro<lb ed="#BNC" n="51" break="no"/>prium commune proprium <choice><orig>methaphysicum</orig><reg>metaphysicum</reg></choice>. Et ratio est:
+                    quo<lb ed="#BNC" n="52" break="no"/>tuscunque aliqua res dividitur inaequaliter
+                    divi<lb ed="#BNC" n="53" break="no"/>ditur analogice, sed sic dividitur proprium in communi:
+                    <lb ed="#BNC" n="54"/>igitur. Probatur minor. Solum proprium in quarto modo est
+                    sim<lb ed="#BNC" n="55" break="no"/>pliciter proprium, <choice><orig>caetera</orig><reg>cetera</reg></choice> vero secundum quid: igitur.
+                  </p>
+                  
+                  
+                  <p n="1881"> <!-- Numeración de párrafo anterior tachada, p. 981 -->
+                    <lb ed="#BNC" n="56"/>Ut hoc melius percipiatur nota duas
+                    re<lb ed="#BNC" n="57" break="no"/>quiri conditiones ad proprium. Prima quod conveniat
+                    <lb ed="#BNC" n="58"/>uni inseparabiliter quoad unitatem.
+                    Secun<lb ed="#BNC" n="59" break="no"/>da ut non conveniat alteri extraneo. Prima
+                    <lb ed="#BNC" n="60"/>conditio servatur quando convenit rei ubicunque inventae
+                    <pb ed="#BNC" n="164-v"/><!--p. 324-->
+                    <!-- Numeración anterior tachada, indica página 142 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>semperque, hoc est semper et firmiter et inseparabiliter.
+                    <lb ed="#BNC" n="2"/>Ut autem aliquid firmiter conveniat alicui debet habere
+                    <lb ed="#BNC" n="3"/>radicem et principium in illo, alioqui transeunter et
+                    <lb ed="#BNC" n="4"/>separabiliter conveniet vi conexionis, nec obstat
+                    <lb ed="#BNC" n="5"/>quod possit permanere, tunc erit ab extrinseco
+                    conserva<lb ed="#BNC" n="6" break="no"/>te quoad existam et non quoad convenientiam.
+                  </p>
+                  
+                  
+                  <p n="1882"> <!-- Numeración de párrafo anterior tachada, p. 982 -->
+                    <lb ed="#BNC" n="7"/>Secunda servatur, quando  convenit soli,
+                    <lb ed="#BNC" n="8"/>non debet convenire alii extra ipsum. Quapropter si
+                    <lb ed="#BNC" n="9"/>deficiat aliqua ex his conditionibus non datur
+                    simpli<lb ed="#BNC" n="10" break="no"/>citer integreque proprium. Siquidem caret ratione proprii
+                    <lb ed="#BNC" n="11"/>et conditionibus requisitis. Hae conditiones deficiunt
+                    <lb ed="#BNC" n="12"/>in tribus primis modis. Nam primum proprium
+                    con<lb ed="#BNC" n="13" break="no"/>venit soli, sed non omni nec semper: igitur est
+                    separabi<lb ed="#BNC" n="14" break="no"/>le: igitur non proprium simpliciter. Secundum convenit
+                    <lb ed="#BNC" n="15"/>omni, sed non soli: igitur convenit extraneis et est commune.
+                    <lb ed="#BNC" n="16"/>Tertium convenit omni soli, sed non semper: igitur non
+                    perma<lb ed="#BNC" n="17" break="no"/>nenter, sed separabiliter.
+                  </p>
+                  
+                  
+                  <p n="1883"> <!-- Numeración de párrafo anterior tachada, p. 983 -->
+                    <lb ed="#BNC" n="18"/>Dubitas. Cur dicantur propria? Respondeo.
+                    <lb ed="#BNC" n="19"/>Esse propria secundum quid. Tum quia habent aliquas conditiones
+                    <lb ed="#BNC" n="20"/>proprii, tum quia comparative sunt propria. Nam esse bipedem
+                    <lb ed="#BNC" n="21"/>licet absolute non sit proprium homini, comparative tamen ad
+                    <lb ed="#BNC" n="22"/>quadrupedia proprium est illi.
+                  </p>
+                  
+                  
+                  <p n="1884"> <!-- Numeración de párrafo anterior tachada, p. 984 -->
+                    <lb ed="#BNC" n="23"/>Dico 3. Talem divisionem esse
+                    adaequa<lb ed="#BNC" n="24" break="no"/>tum. Probatur tres conditiones requisitae, scilicet omni, soli, et semper
+                    <lb ed="#BNC" n="25"/>vel omnes conveniunt vel <choice><orig>dest</orig><corr>deest</corr></choice> aliqua. Sicut conveniunt
+                    <lb ed="#BNC" n="26"/>omnes est proprium simpliciter et in quarto modo. Si
+                    <lb ed="#BNC" n="27"/>deest aliqua vel est prima, scilicet omni et sic est proprium
+                    <lb ed="#BNC" n="28"/>in primo modo vel deest secundo, scilicet soli et sic est
+                    propri<lb ed="#BNC" n="29" break="no"/>um secundo modo vel deest tertio, scilicet semper et sic est
+                    <lb ed="#BNC" n="30"/>in tertio modo proprium. Si desunt omnes non est proprium.
+                  </p>
+                  
+                  
+                  <p n="1885"> <!-- Numeración de párrafo anterior tachada, p. 985 -->
+                    <lb ed="#BNC" n="31"/>Circa secundum, sic definitur proprium
+                    <lb ed="#BNC" n="32"/>in quarto modo: <quote><name ref="#Porphyrius">Porphyrius</name> est quod convenit omni, soli
+                      <cb ed="#BNC" n="b"/>
+                      <lb ed="#BNC" n="33"/>et senper.</quote> Unde sic formatur definitio quarti
+                    praedi<lb ed="#BNC" n="34" break="no"/>cabilis: <quote>Proprium est quod praedicatur de pluribus in
+                      <lb ed="#BNC" n="35"/>quale necessario accidentaliter.</quote> Sed haec definitio
+                    <lb ed="#BNC" n="36"/>articulo sequente examinabitur.
+                  </p>
+                  
+                  
+                  <p n="1886"> <!-- Numeración de párrafo anterior tachada, p. 986 -->
+                    <lb ed="#BNC" n="37"/>Dubitas. Quod est consequi seu
+                    dimana<lb ed="#BNC" n="38" break="no"/>re ab essentia, habereque illam pro radice? Dico pro nunc
+                    <lb ed="#BNC" n="39"/>dimanationem non esse causalitatem effectivam, hoc est
+                    a<lb ed="#BNC" n="40" break="no"/>gentem actionem, habentemque modum efficientiae. Ratio
+                    <lb ed="#BNC" n="41"/>est substantia sine accidentibus non efficit nec
+                    opera<lb ed="#BNC" n="42" break="no"/>tur: igitur accidentia quibus operatur dicuntur
+                    dima<lb ed="#BNC" n="43" break="no"/>nare a substantia, quin ab ipsa producantur: a quonam?
+                    <lb ed="#BNC" n="44"/>Ab agente simul cum substantia, dependent a substantia
+                    <lb ed="#BNC" n="45"/>cuius sunt passiones: igitur dimanatio nihil est aliud quam
+                    <lb ed="#BNC" n="46"/>dependentia, quia ab ipsa tamquam a principio
+                    partici<lb ed="#BNC" n="47" break="no"/>patur. Unde habet rationem activam reductive non
+                    forali<lb ed="#BNC" n="48" break="no"/>ter. Sic
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> 1 parte, quaestione 77, articulo 63 et articulo 7, 1 et
+                        <lb ed="#BNC" n="49"/><title>Opusculo 48</title> capitulo <title>De proprio</title>
+                      </ref>
+                    </cit>
+                  </p>
+                  
+                  
+                  <p n="1887"> <!-- Numeración de párrafo anterior tachada, p. 987 -->
+                    <lb ed="#BNC" n="50"/>Obiectio 1. Proprium in re est singulare: igitur
+                    <lb ed="#BNC" n="51"/>vel est proprium secundum se vel prout individuatum. Si
+                    <lb ed="#BNC" n="52"/><supplied>s</supplied>ecundum se: igitur est commune et prout sic non invenitur in re.
+                    <lb ed="#BNC" n="53"/>Si ut singularizatum: igitur non dimanat ab essentia.
+                    <lb ed="#BNC" n="54"/>Confirmatur: proprium quod est divisum dicitur de pluribus:
+                    <lb ed="#BNC" n="55"/>igitur proprium divisum non est prout est in re, sed prout est
+                    <lb ed="#BNC" n="56"/>in intellectu: igitur prout est logicum.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 988 -->
+                    <lb ed="#BNC" n="57"/>Respondeo est proprium ratione naturae, non ratione
+                    sin<lb ed="#BNC" n="58" break="no"/>gularitatis. Et distinguo consequens. Est commune analogice,
+                    <lb ed="#BNC" n="59"/>concedo; univoce, nego. Et aliam compartem: non
+                    inve<lb ed="#BNC" n="60" break="no"/>nitur in re formaliter, concedo; fundamentaliter, nego. Sicut
+                    <lb ed="#BNC" n="61"/>enim praedicata essentialia inveniuntur in re
+                    singulari<lb ed="#BNC" n="62" break="no"/>zata quin obstet, ut non sint talia ratione
+                    singu<lb ed="#BNC" n="63" break="no"/>laritatis, sic proprium invenitur in re
+                    singulari<lb ed="#BNC" n="64" break="no"/>zatum, quin sit talem ratione singularitatis. Ad
+                    <pb ed="#BNC" n="165-r"/><!--p. 325-->
+                    <!-- Numeración anterior tachada, indica página 143 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>confirmationem distinguo consequens. Proprium divisum non est in re primo
+                    in<lb ed="#BNC" n="2" break="no"/>tentionaliter, nego; secundo intentionaliter, concedo. Sicut enim genus
+                    quo<lb ed="#BNC" n="3" break="no"/>ad naturam substrata est in re et non quoad praedicabilitatem,
+                    <lb ed="#BNC" n="4"/>nisi fundamnetaliter. Sic proprium est in re quoad naturam
+                    subs<lb ed="#BNC" n="5" break="no"/>tratam et non quoad praedicabilitatem.
+                  </p>
+                  
+                  
+                  <p n="1888"> <!-- Numeración de párrafo anterior tachada, p. 989 -->
+                    <lb ed="#BNC" n="6"/>Obiectio 2. Divisum huius divisionis est
+                    <lb ed="#BNC" n="7"/>accidens vel quod abstrahit a quarto et quinto praedicabilis vel
+                    de<lb ed="#BNC" n="8" break="no"/>terminate quarto vel quinto. Si primum: igitur divisum non est proprium,
+                    <lb ed="#BNC" n="9"/>sed abstrahens. Si secundum: igitur divisum est quarto
+                    praedicabi<lb ed="#BNC" n="10" break="no"/>le. Si tertium, quomodo quarto praedicabile oppositum quinto
+                    <lb ed="#BNC" n="11"/>est membrum huius divisionis? Confirmatur: Proprium secundo
+                    <lb ed="#BNC" n="12"/>modo est accidens commune: igitur non proprium.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 990 -->
+                    <lb ed="#BNC" n="13"/>Respondeo distinguendo. Est accidens valens
+                    fund<lb ed="#BNC" n="14" break="no"/>dare conditiones proprii et convenientiam relativam ad
+                    a<lb ed="#BNC" n="15" break="no"/>liquid sub formalitate proprietatis, concedo; est accidens
+                    <choice><orig>prae<lb ed="#BNC" n="16" break="no"/>sice</orig><reg>praesicce</reg></choice> fundans praedicabilitates quarto et quinto praedicabili, nego.
+                    <lb ed="#BNC" n="17"/>Sicut enim differentia divisa in communem propriam et
+                    propris<lb ed="#BNC" n="18" break="no"/>simam non est sub conceptu praedicabilis, sed sub conceptu
+                    <lb ed="#BNC" n="19"/>facientis differre. Sic Proprium in illos modos
+                    di<lb ed="#BNC" n="20" break="no"/>visum non est sub conceptu praedicabilis, sed sub conceptu
+                    <lb ed="#BNC" n="21"/>convenientiae ad unum cum exclusione consortii.
+                  </p>
+                  
+                  
+                  <p n="1889"> <!-- Numeración de párrafo anterior tachada, p. 991 -->
+                    <lb ed="#BNC" n="22"/>Ad confirmationem distinguo antecedens. Est accidens
+                    <lb ed="#BNC" n="23"/>commune sub ratione universalitatis et praedicabilitatis, concedo;
+                    <lb ed="#BNC" n="24"/>sub conceptu convenientiae ad unum, nego.
+                    Simpli<lb ed="#BNC" n="25" break="no"/>citer est accidens commune, at secundum quid et
+                    comparati<lb ed="#BNC" n="26" break="no"/>ve est proprium; unde reductive pertinet etiam ad
+                    <lb ed="#BNC" n="27"/>quartum. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> non est inconveniens, quod simpliciter
+                    per<lb ed="#BNC" n="28" break="no"/>tineat ad unum praedicabile, secundum quid reductive
+                    <lb ed="#BNC" n="29"/>ad aliud, nam rationale secundo intentionaliter pertinet ad tertium
+                    <lb ed="#BNC" n="30"/>et tertio intentionaliter ad secundum.
+                  </p>
+                  
+                  
+                  <p n="1890"> <!-- Numeración de párrafo anterior tachada, p. 992 -->
+                    <lb ed="#BNC" n="31"/>Obiectio 3: Illa particula semper non
+                    <lb ed="#BNC" n="32"/>convenit omnibus passionibus: igitur ruit. Probatur antecedens. Primo, potest Deus
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>separare propriam passionem a subiecto, sicut separatur <choice><orig>quamtitas</orig><reg>quantitas</reg></choice>
+                    <lb ed="#BNC" n="34"/>a corpore in eucharistia vel sine illa subiectum
+                    conser<lb ed="#BNC" n="35" break="no"/>vare, ut solem sine luce. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> naturaliter potest
+                    im<lb ed="#BNC" n="36" break="no"/>pediri passio, ut motus deorsum in lapide, frigus
+                    <lb ed="#BNC" n="37"/>in aqua, potentiae sensitivae in animali: igitur. Secundo, existentia
+                    <lb ed="#BNC" n="38"/>contingenter convenit creaturae, nec potest esse passio:
+                    alio<lb ed="#BNC" n="39" break="no"/>qui idem se ipsum efficeret, sed tamen per se convenit formae
+                    <lb ed="#BNC" n="40"/>sicut rotunditas circulo teste
+                    <cit>
+                      <ref>
+                        Divo <name ref="#Aquinas">Thoma</name> 2 <title>Contra Gentes</title> 55
+                      </ref>
+                    </cit>
+                    <lb ed="#BNC" n="41"/>Igitur non stat passio in emanatione et perseitate a subiecto.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 993 -->
+                    <lb ed="#BNC" n="42"/>Respondeo negando antecedens. Ad probationem distinguo. Potest Deus
+                    <lb ed="#BNC" n="43"/>separare proprias passiones reales, concedo; modales, nego.
+                    <lb ed="#BNC" n="44"/>At hic convenit positum in definitione idem est ac debetur,
+                    <lb ed="#BNC" n="45"/>conectitur et postulatur non; dicit <choice><orig>praesice</orig><reg>praesicce</reg></choice> existere seu
+                    <lb ed="#BNC" n="46"/>adesse subiecto. Quare licet separetur passio, cum tamen
+                    deben<lb ed="#BNC" n="47" break="no"/>tur naturae, verificatur quod convenit semper. Pro speciali
+                    <lb ed="#BNC" n="48"/>doctrina scito, quod passio non potest negari subiecto per secundam
+                    <lb ed="#BNC" n="49"/>operationem, videlicet per compositionem et divisionem; licet possit per
+                    <lb ed="#BNC" n="50"/>primam. At accidens commune etiam per secundam operationem
+                    <lb ed="#BNC" n="51"/>potest negari subiecto, quin destruatur. Sic
+                    <cit>
+                      <ref>
+                        Doctor <name ref="#Aquinas">Thomas</name> <title>Opusculo
+                          <lb ed="#BNC" n="52"/>48 De accidente</title> et in 1, distinctione 26
+                      </ref>
+                    </cit>.
+                  </p>
+                  
+                  
+                  <p n="1891"> <!-- Numeración de párrafo anterior tachada, p. 994 -->
+                    <lb ed="#BNC" n="53"/>Ad aliam probationem dico omnes passiones
+                    di<lb ed="#BNC" n="54" break="no"/>manare a subiecto eique conecti, sed omnes non eodem modo.
+                    <lb ed="#BNC" n="55"/>Quaedam dimanant absolute, sine ulla alia
+                    depen<lb ed="#BNC" n="56" break="no"/>dentia quam a subiecto, ut risibilitas ab homine,
+                    diapha<lb ed="#BNC" n="57" break="no"/>nitas a Caelo, lux a Sole. Quaedam dimanant
+                    <lb ed="#BNC" n="58"/>supposito aliquo statu connaturali, ut lapidi
+                    <lb ed="#BNC" n="59"/>quiescere non absolute, sed in centro; moveri non
+                    <lb ed="#BNC" n="60"/>absolute, sed extra centrum, <unclear>gratiae</unclear> in statu consummationis
+                    <lb ed="#BNC" n="61"/>lumen gloriae in statu <unclear>causae</unclear> fides, spes; aque
+                    <lb ed="#BNC" n="62"/>in suo connaturali statu frigus, animali potentiae
+                    sen<lb ed="#BNC" n="63" break="no"/>sitivae supposito organi temperamento,
+                    de<lb ed="#BNC" n="64" break="no"/>mum gravi moveri per medium liberum non impeditum.
+                    <pb ed="#BNC" n="165-v"/><!--p. 326-->
+                    <!-- Numeración anterior tachada, indica página 144 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>Primae passiones non possunt impediri, ultimae vero possunt
+                    <lb ed="#BNC" n="2"/>ab extrinseco.
+                  </p>
+                  
+                  
+                  <p n="1892"> <!-- Numeración de párrafo anterior tachada, p. 995 -->
+                    <lb ed="#BNC" n="3"/>Ad secundum distinguo minorem. Per se convenit
+                    <lb ed="#BNC" n="4"/>formae perseitate logica, nego; perseitate physica, concedo.
+                    Per<lb ed="#BNC" n="5" break="no"/>seitas logica fundatur in habitudine convenientiae
+                    <lb ed="#BNC" n="6"/>intrinsece; physica fundatur in re ut producta et ut
+                    <lb ed="#BNC" n="7"/>subiecte influxui physico agentis. Unde existentia
+                    <lb ed="#BNC" n="8"/>non est propria passio. Sumit enim determinationem et
+                    spe<lb ed="#BNC" n="9" break="no"/>cificationem a forma cuius est; et in forma dependente
+                    <lb ed="#BNC" n="10"/>a materia solvitur existentia per segregationem formae a materia;
+                    <lb ed="#BNC" n="11"/>si autem non dependet a materia, non tollitur a forma nisi per
+                    <lb ed="#BNC" n="12"/>suspensionem actionis agentis et hoc est per
+                    anni<lb ed="#BNC" n="13" break="no"/>hilationem. Articulo 2. Quod sit Proprium, etc.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="14"/><head>Articulus 2. Quid sit proprium quartum praedicabile?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1893"> <!-- Numeración de párrafo anterior tachada, p. 996 -->
+                    <lb ed="#BNC" n="15"/>Quaerimus an definitio quarto praedicabilis coveniar omnibus propriis,
+                    <lb ed="#BNC" n="16"/>an solum proprio quarto modo? Prima sententia
+                    affir<lb ed="#BNC" n="17" break="no"/>mat. Sic <name ref="#Lovanienses">Lovanienses</name>, <name ref="#Canterus">Canterus</name> <!-- Juan Cantero, In Porphyrio Isagogem -->,
+                    <name ref="#Murcia">Murcia</name> <!-- Francisco Murcia de la Lana, Selecta ad Dialecticam -->, <name ref="#Hurtado">Hurtado</name>.
+                    <lb ed="#BNC" n="18"/>Secunda sententia asserit salte aliquod ex tribus pertinere ad hoc
+                    <lb ed="#BNC" n="19"/>praedicabile. De secundo tenet <name ref="#Fonseca">Fonseca</name>. <!-- Pedro de Fonseca, In Isagogem Porphirii Dialectica -->. De tertio
+                    <lb ed="#BNC" n="20"/>aliqui Magistri ut refert Magistro <name ref="#Rubius">Rubio</name>.
+                  </p>
+                  
+                  
+                  <p n="1894"> <!-- Numeración de párrafo anterior tachada, p. 997 -->
+                    <lb ed="#BNC" n="21"/>Dico igitur solum proprium quarto modo
+                    per<lb ed="#BNC" n="22" break="no"/>tinet simpliciter ad hoc praedicabile, <choice><orig>caeterum</orig><reg>ceterum</reg></choice> vero
+                    sim<lb ed="#BNC" n="23" break="no"/>pliciter ad quintum, reductive vero et secundum quod ad hoc.
+                    <lb ed="#BNC" n="24"/>Sic
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristoteles</name> 1 <title>Topicorum</title> 2
+                      </ref>
+                    </cit>;
+                    <cit>
+                      <ref>
+                        Doctor <name ref="#Aquinas">Thomas</name> <title>Opusculo 48</title>, capitulo
+                        <lb ed="#BNC" n="25"/>6 et 7
+                      </ref>
+                    </cit>;
+                    <name ref="#Caietanus">Caietanus</name>; <name ref="#Iavellus">Iabellus</name>; <name ref="#Soto">Soto</name>; <name ref="#Masius">Masius</name>; <name ref="#Arauxo">Arauxo</name>;
+                    <lb ed="#BNC" n="26"/><name ref="#Sanchez"><choice><orig>Sanches</orig><reg>Sanchez</reg></choice></name>; <name ref="#Toletus">Toletus</name>; <name ref="#Ona">Oña</name>; <name ref="#Rubius">Rubius</name>; <name ref="#Conimbricenses">Conimbricensis</name> et alii
+                    <cit>
+                      <ref>
+                        <name ref="#Gallego">Gallego</name> <title>Controversia 18</title>
+                      </ref>
+                    </cit>.
+                    Demum
+                    <lb ed="#BNC" n="28"/><name ref="#Complutenses">Complutensis</name>, <name ref="#ISanctoThomas">Ioannes a Sancto Thoma</name>.
+                  </p>
+                  
+                  
+                  <p n="1895"> <!-- Numeración de párrafo anterior tachada, p. 998 -->
+                    <lb ed="#BNC" n="29"/>Probatur ratione. Illud est vere et proprie et
+                    <lb ed="#BNC" n="30"/>simpliciter quod dimanat a principiis essentialibus, cum eis
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="31"/>qui habet naturalem necessariamque convexionem, sed tantum
+                    <lb ed="#BNC" n="32"/>proprium conveniens omni, soli, et semper est huiusmodi: igitur.
+                    <lb ed="#BNC" n="33"/>Probatur minor. Quod habet necessariam conexionem cum praedicatis
+                    es<lb ed="#BNC" n="34" break="no"/>sentialibus invenitur in omnibus, in quibus sunt talia principia
+                    <lb ed="#BNC" n="35"/>essentialia: igitur convenit omni habenti talia principia. Item
+                    <lb ed="#BNC" n="36"/>ergo ubi non fuerint talia principia essentialia neque
+                    e<lb ed="#BNC" n="37" break="no"/>rit tale proprium: igitur convenit solum habentibus illa.
+                    <lb ed="#BNC" n="38"/>Tandem: igitur quandiu habuerint talia principia
+                    <lb ed="#BNC" n="39"/><choice><orig>tandiu</orig><reg>tamdiu</reg></choice> habebunt proprietatem, sed quae
+                    partici<lb ed="#BNC" n="40" break="no"/>pant aliquam essentiam, semper habent illam: igitur et
+                    proprieta<lb ed="#BNC" n="41" break="no"/>tem: igitur tale proprium convenit omni, soli, semperque.
+                  </p>
+                  
+                  
+                  <p n="1896"> <!-- Numeración de párrafo anterior tachada, p. 999 -->
+                    <lb ed="#BNC" n="42"/>Confirmatur: tria prima propria vere
+                    <lb ed="#BNC" n="43"/>non dimanant a principiis essentialibus: igitur non habent
+                    neces<lb ed="#BNC" n="44" break="no"/>sariam conexionem: igitur non constituunt hoc praedicabile. Antecedens
+                    <lb ed="#BNC" n="45"/>probatur. Esse Geometram si sumatur per habitu vel actu
+                    <lb ed="#BNC" n="46"/>Geometriae, porro non fluit ab his essentia. Si vero
+                    suma<lb ed="#BNC" n="47" break="no"/>tur per inclinatione ad hanc scientiam potius quam ad aliam
+                    <lb ed="#BNC" n="48"/>provenit hoc ex principiis individualibus, a diverso
+                    <lb ed="#BNC" n="49"/>temperamento, a vario <unclear>sumderum</unclear> aspectu, sub
+                    <lb ed="#BNC" n="50"/>quo quosque natus est, vi cuius homines quibus prae est Iupiter sunt
+                    <lb ed="#BNC" n="51"/>ad scientias proclives quibus Mercurius eloquentes, etc.
+                    <lb ed="#BNC" n="52"/>Similiter esse bipedem aut anescere consequuntur ex
+                    <lb ed="#BNC" n="53"/>dispositione materiae, sicut esse masculum vel feminam,
+                    vive<lb ed="#BNC" n="54" break="no"/>ntem vel senem, etc. Igitur talia dimanant ex principiis
+                    <lb ed="#BNC" n="55"/>materialibus et individualibus non vero ex essentialibus.
+                  </p>
+                  
+                  
+                  <p n="1897"> <!-- Numeración de párrafo anterior tachada, p. 1000 -->
+                    <lb ed="#BNC" n="56"/>Obiectio 1. Tria propria speciali modo
+                    respi<lb ed="#BNC" n="57" break="no"/>ciunt inferiora: igitur non sunt accidens commune. Probatur antecedens.
+                    <lb ed="#BNC" n="58"/>Proprium primo modo respicit ratione solius, secundo modo
+                    <lb ed="#BNC" n="59"/>ratione omnis, tertio ratione omnis et solius; sed accidens
+                    <lb ed="#BNC" n="60"/>commune solum respicit ratione contingentis: ergo.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1001 -->
+                    <lb ed="#BNC" n="61"/>Respondeo distinguendo antecedens. Speciali modo, qui
+                    suf<lb ed="#BNC" n="62" break="no"/>ficit ad proprium simpliciter, nego; qui sufficit ad
+                    <pb ed="#BNC" n="166-r"/><!--p. 327-->
+                    <!-- Numeración anterior tachada, indica página 145 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>proprium secundum quod et reductive, concedo. Dictum est
+                    propri<lb ed="#BNC" n="2" break="no"/>um simpliciter constitui per illas tres conditiones, ita ut
+                    <lb ed="#BNC" n="3"/>si non inveniantur aut aliqua tantum; vel non datur
+                    <lb ed="#BNC" n="4"/>proprium vel datur tantum secundum quid.
+                  </p>
+                  
+                  
+                  <p n="1898"> <!-- Numeración de párrafo anterior tachada, p. 1002 -->
+                    <lb ed="#BNC" n="5"/>Obiectio 2. Illa propria sumpta per
+                    aptitudi<lb ed="#BNC" n="6" break="no"/>ne dimanant ab essentia: igitur pertinent ad quarto praedicabile.
+                    <lb ed="#BNC" n="7"/>Antecedens probatur. Primo ex
+                    <cit>
+                      <ref>
+                        Divo <name ref="#Aquinas">Thoma</name> <title>De ente et essentia</title> 7                  
+                      </ref>
+                    </cit>
+                    affirman<lb ed="#BNC" n="8" break="no"/>te omne accidens causari a principiis substantiae: igitur. Secundo
+                    <lb ed="#BNC" n="9"/>ab inductione, aptitudo ad esse Geometram oritur
+                    <lb ed="#BNC" n="10"/>ex principiis essentialibus naturae humanae naturaliter scire
+                    de<lb ed="#BNC" n="11" break="no"/>siderantis: igitur.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1003 -->
+                    <lb ed="#BNC" n="12"/>Respondeo concedendo antecedens. Sed tunc sunt proprium quarto
+                    <lb ed="#BNC" n="13"/>modo ut dictum est, nec sic sumuntur in praesenti. At
+                    <lb ed="#BNC" n="14"/>si sumantur pro speciali habilitate, dimanant
+                    <lb ed="#BNC" n="15"/>a principiis materialibus et individualibus, quapropter sunt
+                    <lb ed="#BNC" n="16"/>accidentia communia. Ad probationem prima distinguo omne
+                    <lb ed="#BNC" n="17"/>accidens causatur a substantia eodem modo, nego;
+                    diver<lb ed="#BNC" n="18" break="no"/>so, concedo. Quaedam causantur a substantia secundum
+                    princi<lb ed="#BNC" n="19" break="no"/>pia formalia et haec sunt passiones, quia habent conexionem
+                    <lb ed="#BNC" n="20"/>necessitatis formalis. Quaedam secundum praedicata materialia
+                    <lb ed="#BNC" n="21"/>et sunt accidentia communia seu accidentia
+                    in<lb ed="#BNC" n="22" break="no"/>dividuorum. Ad secundam respondeo sicut ad argumentum.
+                  </p>
+                  
+                  
+                  <p n="1899"> <!-- Numeración de párrafo anterior tachada, p. 1004 -->
+                    <lb ed="#BNC" n="23"/>Obiectio 3. Quod convenit omni et semper
+                    conve<lb ed="#BNC" n="24" break="no"/>nit necessario: igitur proprium secundo modo convenit necessario, verbi gratia
+                    <lb ed="#BNC" n="25"/>esse bipedem. Antecedens probatur. Non requiretur formalitas solius;
+                    a<lb ed="#BNC" n="26" break="no"/>lioqui proprium subalternum non esset proprium.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1005 -->
+                    <lb ed="#BNC" n="27"/>Respondeo negando antecedens. Albedo convenit
+                    cyg<lb ed="#BNC" n="28" break="no"/>no omni semperque et tamen est accidens commune. Ultra
+                    <lb ed="#BNC" n="29"/>requiritur quod conveniat firmiter simpliciter, non per
+                    <lb ed="#BNC" n="30"/>accidens ut dictum est. Ad probationem negatur antecedens.
+                    <lb ed="#BNC" n="31"/>Proprium subalternum soli naturae competit: igitur nihil deest.
+                  </p>
+                  
+                  
+                  <p n="1900"> <!-- Numeración de párrafo anterior tachada, p. 1006 -->
+                    <lb ed="#BNC" n="32"/>Obiectio 4. Non requiritur formalitas semper: igitur.
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>Probatur antecedens. Quod dimanat ab essentia est passio, sed quod
+                    dima<lb ed="#BNC" n="34" break="no"/>nat ab essentia non tollitur eo quod non semper coveniat, sed
+                    <lb ed="#BNC" n="35"/>tempore statuto, quod patet in potentia visia canis
+                    <lb ed="#BNC" n="36"/>possit nonum diem.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1007 -->
+                    <lb ed="#BNC" n="37"/>Respondeo negando antecedens. Ad probationem distinguo
+                    mi<lb ed="#BNC" n="38" break="no"/>norem. Non tollitur eo quod non semper conveniat quoad
+                    uni<lb ed="#BNC" n="39" break="no"/>tatem, nego; quoad existentiam, concedo. Hoc manet
+                    expli<lb ed="#BNC" n="40" break="no"/>catum numero 993. Ad exemplum, ibi non datur
+                    varia<lb ed="#BNC" n="41" break="no"/>tio secundum tempus in ipsa potentia, sed in dispositione
+                    <lb ed="#BNC" n="42"/>organica ut eliciatur visio. Articulo 3. Etc.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div>
+                <div>
+                  <div>
+                    <lb ed="#BNC" n="43"/><head>Articulus 3. In ordine ad quae
+                      pro<lb ed="#BNC" n="44" break="no"/>prium constituatur praedicabile?</head>
+                  </div>
+                </div>
+                
+                
+                <div>
+                  <p n="1901"> <!-- Numeración de párrafo anterior tachada, p. 1008 -->
+                    <lb ed="#BNC" n="45"/>Dico 1. Inferiora propria quarto praedicabilis qua talis non
+                    <lb ed="#BNC" n="46"/>sunt propria, sed individua speciei, a qua
+                    dima<lb ed="#BNC" n="47" break="no"/>nat. Probatur. Illa sunt inferiora quarto praedicabilis de
+                    qui<lb ed="#BNC" n="48" break="no"/>bus praedicatur in quale necessario accidentaliter, sed de
+                    <lb ed="#BNC" n="49"/>hoc et illo proprio non sic praedicatur: igitur propria non sunt
+                    in<lb ed="#BNC" n="50" break="no"/>feriora. Probatur minor. Praedicari in quod complete non est
+                    praedi<lb ed="#BNC" n="51" break="no"/>cari in quale necessario accidentaliter, sed de
+                    pro<lb ed="#BNC" n="52" break="no"/>priis praedicatur in quid complete: igitur. Probat minor. Praedicatur ut
+                    <lb ed="#BNC" n="53"/>species: igitur in quid complete.
+                  </p>
+                  
+                  
+                  <p n="1902"> <!-- Numeración de párrafo anterior tachada, p. 1009 -->
+                    <lb ed="#BNC" n="54"/>Dico 2. Proprium non constituitur universale et
+                    <lb ed="#BNC" n="55"/>praedicabile per ordinem ad speciem, sed per ordinem ad
+                    <lb ed="#BNC" n="56"/>individua. Probatur. Universale constituitur per ordinem ad
+                    <lb ed="#BNC" n="57"/>inferiora; sed species non est inferior proprio: igitur. Probatur
+                    <lb ed="#BNC" n="58"/>minor. Species est aequalis proprio: igitur non inferior.
+                    <lb ed="#BNC" n="59"/>Antecedens patet. Nam convertitur cum illa: igitur. Intelligito
+                    <lb ed="#BNC" n="60"/>conclusiones etiam de proprio subalterno procedimus enim
+                    <lb ed="#BNC" n="61"/>sicut de differentia.
+                  </p>
+                  
+                  
+                  <p n="1903"> <!-- Numeración de párrafo anterior tachada, p. 1010 -->
+                    <lb ed="#BNC" n="62"/>Obiectio 1. Ideo Petrus est risibilis quia est homo:
+                    <pb ed="#BNC" n="166-v"/><!--p. 328-->
+                    <!-- Numeración anterior tachada, indica página 146 -->
+                    <cb ed="#BNC" n="a"/>
+                    <lb ed="#BNC" n="1"/>prius praedicatur de specie quam de individuis. Antecedens constat.
+                    <lb ed="#BNC" n="2"/>In hoc distinguitur accidens a proprio. Siquidem homo est albus
+                    <lb ed="#BNC" n="3"/>quia Petrus est albus, at Petrus est risibilis quia homo est
+                    risi<lb ed="#BNC" n="4" break="no"/>bilis. Respondeo distinguendo antecedens. <choice><orig>methaphysice</orig><reg>metaphysice</reg></choice>, concedo; Logice nego.
+                    <lb ed="#BNC" n="5"/>Ad probationem distinguo. In hoc distinguuntur ratione metaphysica,
+                    <lb ed="#BNC" n="6"/>concedo; logica, nego. Entitas prius convenit speciei, at
+                    <lb ed="#BNC" n="7"/>praedicabilitas solum individuis. Eodem prorsus modo
+                    di<lb ed="#BNC" n="8" break="no"/>citur eadem relatione tangere speciem et individua
+                    <lb ed="#BNC" n="9"/><choice><orig>methaphysice</orig><reg>metaphysice</reg></choice>, non logice.
+                  </p>
+                  
+                  
+                  <p n="1904"> <!-- Numeración de párrafo anterior tachada, p. 1011 -->
+                    <lb ed="#BNC" n="10"/>Obiectio 2. Idem accidens respectu
+                    il<lb ed="#BNC" n="11" break="no"/>lius a quo dimanat est propria passio, respectu vero
+                    in<lb ed="#BNC" n="12" break="no"/>feriorum est accidens commune: igitur aut ruit quarto
+                    praedicabi<lb ed="#BNC" n="13" break="no"/>le aut per ordinem ad speciem constituitur. Antecedens probatur.
+                    <lb ed="#BNC" n="14"/>Omne accidens habet proprium subiectum a quo dimanat
+                    <lb ed="#BNC" n="15"/>et per quod definitur: igitur omne accidens respectu subiecti est
+                    <lb ed="#BNC" n="16"/>propria passio. At si respectu individuorum etiam
+                    <lb ed="#BNC" n="17"/>esset proprium rueret quinto praedicabile ut patet: igitur.
+                  </p>
+                  
+                  
+                  <p n="1905"> <!-- Numeración de párrafo anterior tachada, p. 1012 -->
+                    <lb ed="#BNC" n="18"/>Respondeo negando antecedens. Ad probationem distinguo antecedens.
+                    <lb ed="#BNC" n="19"/>Omne accidens habet proprium subiectum ut causam materialem et
+                    re<lb ed="#BNC" n="20" break="no"/>ceptivam, concedo; ut causam non solum receptivam, sed etiam
+                    re<lb ed="#BNC" n="21" break="no"/>ductive effectivam,nego. Accidens commune habet
+                    ha<lb ed="#BNC" n="22" break="no"/>bitudinem ad subiectum ut ad causam materialem et
+                    recepti<lb ed="#BNC" n="23" break="no"/>vam. Causa autem sic non fundat necessariam conexionem cum
+                    ac<lb ed="#BNC" n="24" break="no"/>cidentali forma. Ast proprium respicit subiectum non
+                    <lb ed="#BNC" n="25"/>solum ut causam materialem et receptivam, <choice><orig>verumetiam</orig><reg>verum etiam</reg></choice> ut
+                    princi<lb ed="#BNC" n="26" break="no"/>pium suae emanationis, unde habet causam conexionis.
+                    I<lb ed="#BNC" n="27" break="no"/>ta
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> <title>Opusculo 48 De Proprio</title>.
+                      </ref>
+                    </cit>
+                    Accidens
+                    com<lb ed="#BNC" n="28" break="no"/>mune licet dicat subiectum non tam necessariam conexionem
+                    <lb ed="#BNC" n="29"/>requisitam ad rationem proprii.
+                  </p>
+                  
+                  
+                  <p n="1906"> <!-- Numeración de párrafo anterior tachada, p. 1013 -->
+                    <lb ed="#BNC" n="30"/>Obiectio 3. Sola praedicatio quarti praedicabilis potest
+                    <lb ed="#BNC" n="31"/>a priori demonstrari ex
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristotele</name> 1 <title>Posteriorum</title> capitulo 4
+                      </ref>
+                    </cit>.
+                    <lb ed="#BNC" n="32"/>Sed demonstratur de specie: igitur de specie praedicatur qua
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>quartum praedicabile. Maior constat. Praedicatio quinto est contingens,
+                    <lb ed="#BNC" n="34"/><choice><orig>caeterorum</orig><reg>ceterorum</reg></choice> essentialis: igitur. Respondeo. Potest demonstrari qua
+                    <lb ed="#BNC" n="35"/>est proprium prioristicum (hoc est universale et praedicabile), nego;
+                    <lb ed="#BNC" n="36"/>qua est posterioristicum (hoc est quoad convertentia),
+                    <lb ed="#BNC" n="37"/>concedo. Demonstratio de proprio dicitur de quarto
+                    praedi<lb ed="#BNC" n="38" break="no"/>cato, non de quarto praedicabili.
+                  </p>
+                  
+                  
+                  <p n="1907"> <!-- Numeración de párrafo anterior tachada, p. 1014 -->
+                    <lb ed="#BNC" n="39"/>Obiectio 4. Proprium quarto modo no convenit
+                    indi<lb ed="#BNC" n="40" break="no"/>viduis necessario neque convertibiliter: igitur respecti
+                    illo<lb ed="#BNC" n="41" break="no"/>rum non est praedicabile. Secundo proprium non convenit soli
+                    indi<lb ed="#BNC" n="42" break="no"/>viduo, sed aliis: igitur non habet necessariam conexionem, neque
+                    <lb ed="#BNC" n="43"/>convertentiam; nam si valeat est Petrus: igitur risibilis, non
+                    <lb ed="#BNC" n="44"/>tamen est risibilis: igitur Petrus.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1015 -->
+                    <lb ed="#BNC" n="45"/>Respondeo distinguendo antecedens. Ratione naturae, nego; ratione
+                    in<lb ed="#BNC" n="46" break="no"/>dividuationis, concedo. Unde mediante convenit
+                    indivi<lb ed="#BNC" n="47" break="no"/>duis, non immediate. Et negatur consequentia. Aliud est
+                    <lb ed="#BNC" n="48"/>proprium convenire individuis <choice><orig>methaphysice</orig><reg>metaphysice</reg></choice>, aliud
+                    <lb ed="#BNC" n="49"/>logice. Ad secundam probationem distinguo antecedens. Sed aliis
+                    extra<lb ed="#BNC" n="50" break="no"/>neis, nego; propriis, concedo. Communitas non tollit rationem
+                    <lb ed="#BNC" n="51"/>proprii si sit ad propria individua; tollit si sit
+                    <lb ed="#BNC" n="52"/>ad extranea. Et distinguo consequens. Non habet convertentiam
+                    <lb ed="#BNC" n="53"/>ratione individuationis, concedo; ratione naturae, nego.
+                    Suffi<lb ed="#BNC" n="54" break="no"/>cit enim ad rationem proprii convertentia cum natura, non
+                    <lb ed="#BNC" n="55"/>amplius requiritur cum omni individuo.
+                  </p>
+                  
+                  
+                  <p n="1908"> <!-- Numeración de párrafo anterior tachada, p. 1016 -->
+                    <lb ed="#BNC" n="56"/>Obiectio 5. Proprium genericum respectu
+                    in<lb ed="#BNC" n="57" break="no"/>feriorum non est quarto modo, sed secundo: igitur non est quarto praedicabile
+                    res<lb ed="#BNC" n="58" break="no"/>pectu inferiorum. Antecedens probatur. Bipes est proprium animalis
+                    <lb ed="#BNC" n="59"/>qua distincti a quattorpepedibus est enim genus
+                    innomi<lb ed="#BNC" n="60" break="no"/>natur ad omnia bipedia; sed respecti hominum est
+                    propri<lb ed="#BNC" n="61" break="no"/>um secundo modo: igitur. Secundo: accidentia communia sunt
+                    propri<lb ed="#BNC" n="62" break="no"/>um quarto modo respectu alicuius subiecti ut albedo,
+                    ni<lb ed="#BNC" n="63" break="no"/>gredo et similia, sed respectu singularium sunt
+                    <lb ed="#BNC" n="64"/>accidentia communia: ergo. Tertio, haec praedicatio <mentioned>homo est
+                      <pb ed="#BNC" n="167-r"/><!--p. 329-->
+                      <!-- Numeración anterior tachada, indica página 147 -->
+                      <cb ed="#BNC" n="a"/>
+                      <lb ed="#BNC" n="1"/>risibilis</mentioned> est quarto praedicabilis, sed ibi praedicatur proprium de
+                    spe<lb ed="#BNC" n="2" break="no"/>cie: igitur respectu speciei est quartum praedicabile.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1017 -->
+                    <lb ed="#BNC" n="3"/>Respondeo negando antecedens. Sicut enim proprium
+                    speci<lb ed="#BNC" n="4" break="no"/>ficum competit individuis, sic proprium genericum
+                    com<lb ed="#BNC" n="5" break="no"/>petit speciebus mediante, non immediate: sicut tactivum.
+                    <lb ed="#BNC" n="6"/>Ad probationem. Negatur assumptum siquidem esse bipedem est
+                    <lb ed="#BNC" n="7"/>proprium secundo modo. <choice><orig>Caeterum</orig><reg>Ceterum</reg></choice> si ab aliquibus accipiatur ut
+                    es<lb ed="#BNC" n="8" break="no"/>sentialis differentia ideo est quia saepe utimur
+                    acciden<lb ed="#BNC" n="9" break="no"/>talibus differentiis nobis notioribus pro essentialibus. Ad
+                    <lb ed="#BNC" n="10"/>secundum dico talia accidentia non esse proprias passiones,
+                    <lb ed="#BNC" n="11"/>nam non oriuntur ex principiis essentialibus, sed ex materialibus
+                    <lb ed="#BNC" n="12"/>habent tamen ab extrinseco inseparabilitatem ut
+                    nigre<lb ed="#BNC" n="13" break="no"/>do in corvo, <choice><orig>aluedo</orig><corr>albedo</corr></choice> in cygno. Ad ultimum
+                    <lb ed="#BNC" n="14"/>dico, talem praedicationem esse quarto praedicati, non quarto praedicabilis.
+                    <lb ed="#BNC" n="15"/>Vide argumenta pro differentia, quae servatis
+                    servan<lb ed="#BNC" n="16" break="no"/>dis resoluuntur in nostro casu. Supponimus enim
+                    da<lb ed="#BNC" n="17" break="no"/>ri proprium subalternum nempe quod dimanat a
+                    gra<lb ed="#BNC" n="18" break="no"/>du generico; et proprium infimum, scilicet quod emanat
+                    <lb ed="#BNC" n="19"/>a gradu differentiali: hoc notato.
+                  </p>
+                  
+                  
+                  <p n="1909"> <!-- Numeración de párrafo anterior tachada, p. 1018 -->
+                    <lb ed="#BNC" n="20"/>Dico 3. Tam proprium infimum quam
+                    <lb ed="#BNC" n="21"/>subalternum pertinet ad hoc praedicabile. Probatur. Plura
+                    da<lb ed="#BNC" n="22" break="no"/>tur accidentia, quae dimanant a principiis
+                    gene<lb ed="#BNC" n="23" break="no"/>ricis et cum eis habent necessariam conexionem: igitur vere
+                    <lb ed="#BNC" n="24"/>dantur propria generica seu subalterna. Antecedens constat.
+                    <lb ed="#BNC" n="25"/>De potentiis sensitivis respectu animalis, de
+                    <choice><orig>nutri<lb ed="#BNC" n="26" break="no"/>titiva</orig><corr>nutritiva</corr></choice> respectu viventis: ergo.
+                  </p>
+                  
+                  
+                  <p n="1910"> <!-- Numeración de párrafo anterior tachada, p. 1019 -->
+                    <lb ed="#BNC" n="27"/>Dico 4. Proprium stricte est quod
+                    praedica<lb ed="#BNC" n="28" break="no"/>tur de pluribus in quale necessario accidentaliter.
+                    <lb ed="#BNC" n="29"/>Dico 5. Proprium subalternum est quod praedicatur de
+                    <lb ed="#BNC" n="30"/>pluribus specie differentibus, etc. Dico 6.
+                    Pro<lb ed="#BNC" n="31" break="no"/>prium infimum seu athomum est quod praedicatur de
+                    plu<lb ed="#BNC" n="32" break="no"/>ribus numero differentibus, etc. Unde haec divisio
+                    <cb ed="#BNC" n="b"/>
+                    <lb ed="#BNC" n="33"/>est accidentalis.
+                  </p>
+                  
+                  
+                  <p n="1911"> <!-- Numeración de párrafo anterior tachada, p. 1020 -->
+                    <lb ed="#BNC" n="34"/>Obiectio 1. <name ref="#Porphyrius">Porphyrius</name> hic et
+                    <cit>
+                      <ref>
+                        <name ref="#Aristoteles">Aristoteles</name> <unclear>1</unclear>
+                        <lb ed="#BNC" n="35"/><title>Topicorum</title> capitulo 4
+                      </ref>
+                    </cit>.
+                    solum definiunt proprium infimum,
+                    <lb ed="#BNC" n="36"/>igitur illud tantum pertinet ad hoc praedicabile. Respondeo. Hoc
+                    <lb ed="#BNC" n="37"/>factum fuisse; primum, quia proprietatibus infimis
+                    frequen<lb ed="#BNC" n="38" break="no"/>tius utimur quam subalternis vice versa de
+                    dif<lb ed="#BNC" n="39" break="no"/>ferentia; secundum, definito proprio infimo, faciliter
+                    defini<lb ed="#BNC" n="40" break="no"/>tur subalternum.
+                  </p>
+                  
+                  
+                  <p n="1912"> <!-- Numeración de párrafo anterior tachada, p. 1021 -->
+                    <lb ed="#BNC" n="41"/>Obiectio 2. Emanatio proprie passionis
+                    redu<lb ed="#BNC" n="42" break="no"/>citur ad genus causae efficientis ut diximus, et ut
+                    <lb ed="#BNC" n="43"/>docet
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> 1 parte, quaestione 77, articulo 7
+                      </ref>
+                    </cit>.
+                    Sed nullum
+                    <lb ed="#BNC" n="44"/>accidens potest sic dimanare a gradu
+                    generi<lb ed="#BNC" n="45" break="no"/>co: igitur non datur proprium genericum. Probatur minor.
+                    Ni<lb ed="#BNC" n="46" break="no"/>hil agit, quin sit in actu et determinatum, sed genus
+                    <lb ed="#BNC" n="47"/>est potentiale et indeterminatum: igitur nullum
+                    acci<lb ed="#BNC" n="48" break="no"/>dens potest dimanare a gradu generico.
+                  </p>
+                  
+                  
+                  <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 1022 -->
+                    <lb ed="#BNC" n="49"/>Respondeo negando minorem. Ad probationem distinguo
+                    <lb ed="#BNC" n="50"/>minorem. Genus est potentiale et indeterminatum qua
+                    to<lb ed="#BNC" n="51" break="no"/>tum potentiale, concedo; qua totum actuale, nego.
+                    Pro<lb ed="#BNC" n="52" break="no"/>prium genericum non dimanat a genere ut toto
+                    po<lb ed="#BNC" n="53" break="no"/>tentiali, qua comparatur ad inferiora illaque
+                    con<lb ed="#BNC" n="54" break="no"/>tinet superioritate, sed ut a toto actuali qua
+                    <lb ed="#BNC" n="55"/>est contitutum. Mane hoc sufficienter explanatum.
+                    <lb ed="#BNC" n="56"/>Cum enim proprium sit accidens essentiae tribuens ei esse
+                    <lb ed="#BNC" n="57"/>secundum quid, necessario supponit eam constitutum simpliciter.
+                  </p>
+                  
+                  
+                  <p n="1913"> <!-- Numeración de párrafo anterior tachada, p. 1023 -->
+                    <lb ed="#BNC" n="58"/>In calce notato aliquando propriam
+                    <lb ed="#BNC" n="59"/>passionem non esse accidens determinatum, sed disuinctum;
+                    <lb ed="#BNC" n="60"/>verbi gratia par et impar respectu numeris,
+                    mascu<lb ed="#BNC" n="61" break="no"/>linum et <choice><orig>faemeninum</orig><reg>femininum</reg></choice> respecti animalis. Tunc quodlibet
+                    <lb ed="#BNC" n="62"/>est accidens <unclear>determinata</unclear>, disuinctum convenit per se;
+                    <lb ed="#BNC" n="63"/>sic
+                    <cit>
+                      <ref>
+                        Divus <name ref="#Aquinas">Thomas</name> 1 <title>Posteriorum</title> lectione 10
+                      </ref>
+                    </cit>.
+                    Haec de
+                    quar<lb ed="#BNC" n="64" break="no"/>to praedicabili. Videamus quintum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
