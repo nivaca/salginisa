@@ -60,9 +60,9 @@
           <head>Textus capituli primi Porphyrii</head>
                     
           <p ana="heading"> 
-          <pb ed="#BNC" n="133-r"/><!--p. 261--> <!-- Numeración anterior tachada, indica página 79 -->
-          <cb ed="#BNC" n="a"/>
-          <lb ed="#BNC" n="1"/>Caput primum Porphirii.
+            <pb ed="#BNC" n="133-r"/><!--p. 261--> <!-- Numeración anterior tachada, indica página 79 -->
+            <cb ed="#BNC" n="a"/>
+            <lb ed="#BNC" n="1"/>Caput primum Porphirii.
             <lb ed="#BNC" n="2"/>De Genere primo Praedicabili          
             <lb ed="#BNC" n="3"/>Textus
           </p>
@@ -1202,15 +1202,15 @@
               
               
             <div type="articulus"><!-- q8a4 -->
-                
-            <head>Articulus 4. Quid sit definitum in definitione generis et definitione generis et generaliter    <lb ed="#BNC" n="50"/>quaeritur de omnibus definitionibus</head>
-                
-            <p ana="heading">
-              <lb ed="#BNC" n="48"/>Articulus 4. Quid sit definitum in definitione generis et
-              defi<lb ed="#BNC" n="49" break="no"/>nitione generis et generaliter
-              lb ed="#BNC" n="50"/>quaeritur de omnibus definitionibus
-            </p>               
-                
+              <head>Articulus 4. Quid sit definitum in definitione generis et definitione generis et generaliter quaeritur de omnibus definitionibus</head>
+            
+              
+              <p ana="heading">
+                <lb ed="#BNC" n="48"/>Articulus 4. Quid sit definitum in definitione generis et
+                defi<lb ed="#BNC" n="49" break="no"/>nitione generis et generaliter
+                <lb ed="#BNC" n="50"/>quaeritur de omnibus definitionibus
+              </p>               
+              
 
             <p n="1537"> <!-- Numeración de párrafo anterior tachada, p. 629 -->
               <lb ed="#BNC" n="51"/>In primis suppono primum non investigare quo
@@ -1786,8 +1786,9 @@
               <lb ed="#BNC" n="31"/>id quod praedicatur. Cumque naturae essentialiter non competat
               praedica<lb ed="#BNC" n="32" break="no"/>ri de pluribus, ideo non tenet argumentum.
             </p>
-            <cb ed="#BNC" n="b"/>
+            
             <p n="1569"> <!-- Numeración de párrafo anterior tachada, p. 663 -->
+              <cb ed="#BNC" n="b"/>
               <lb ed="#BNC" n="33"/>Obiectio 3.
               <cit>
                 <ref>
