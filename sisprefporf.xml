@@ -204,12 +204,16 @@
                 <lb ed="#BNC" n="33"/>est propositio cuius veritas ex veritate multorum
                 singu<lb ed="#BNC" n="34" break="no"/>larium dependet, verbi gratia <mentioned>omnis homo est animal</mentioned>. 
                 Hoc universale dicitur
-                <lb ed="#BNC" n="35"/>posterioristicum estque principium scientiae ut ait
+                <lb ed="#BNC" n="35"/>posterioristicum estque principium scientiae, ut ait
                 <cit>
                   <ref>
                     <name ref="#Aristoteles">Aristotelis</name> 1
                     <lb ed="#BNC" n="36"/><title>Posteriorum</title> cap. 7
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Analytica Posteriora</title> 1.7 ([buscar Bekker]********)
+                  </bibl>
                 </cit> 
                 et
                 <cit>
@@ -217,7 +221,8 @@
                     1 <title>Metaphysicae</title> cap. 1
                   </ref>
                   <bibl>
-                    [Bekker num. here]
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 1.1 (981b 10ss.)
                   </bibl>
                 </cit>.
                 De hoc non tractamus
@@ -7595,13 +7600,20 @@
               
               <p n="1415"> <!-- Numeración original de párrafo tachada, n. 478 -->
                 <lb ed="#BNC" n="62"/>Obiectio 3. Tot sunt partes universalis, quot
-                en<lb ed="#BNC" n="63" break="no"/>tis ex
+                en<lb ed="#BNC" n="63" break="no"/>tis, ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> 4 <title><choice><orig>Methaphysicea</orig><reg>Metaphysicae</reg></choice></title> capitulo 1. Sed partes entis
-                    <lb ed="#BNC" n="64"/>sunt decem, scilicet praedicamenta: igitur decem sunt universalis
+                    <name ref="#Aristoteles">Aristotele</name> 
+                    4 <title><choice><orig>Methaphysicea</orig><reg>Metaphysicae</reg></choice></title> capitulo 1 
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>, <title>Metaphysica</title> 4.1 (984b, 23ss).
+                    (No hallamos la cita. En ese lugar Aristóteles no habla de los universales.)
+                  </bibl>
                 </cit>.
+                Sed partes entis
+                <lb ed="#BNC" n="64"/>sunt decem, scilicet praedicamenta, 
+                igitur decem sunt universalis.
               </p>
               
               
