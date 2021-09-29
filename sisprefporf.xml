@@ -7561,11 +7561,15 @@
                 contrario<lb ed="#BNC" n="43" break="no"/>rum, quot et alterum ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> 1 <title>Topicorum</title> capitulo 12.
-                    <lb ed="#BNC" n="44"/>Sed universale et singularia sunt causa natura: igitur. Sed
-                    singu<lb ed="#BNC" n="45" break="no"/>laria sunt numero infinito: igitur et universalia
+                    <name ref="#Aristoteles">Aristotele</name> 1 <title>Topicorum</title> capitulo 12
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>, 
+                    <title>Topica</title> 1.12 (105a, 10--19).
+                  </bibl>
                 </cit>.
+                <lb ed="#BNC" n="44"/>Sed universale et singularia sunt causa natura: igitur. Sed
+                singu<lb ed="#BNC" n="45" break="no"/>laria sunt numero infinito: igitur et universalia.
               </p>
               
               
