@@ -57,10 +57,13 @@
         
         <div type="caput" n="5"><!-- textus capituli quinti Porphirii. Abarca la q.13 -->
           
+          <head type="caput"><supplied>Capitulum quintum</supplied></head>
+          
           <head>Textus capituli quinti Porphyrii</head>
           
           <p>
             <pb ed="#BNC" n="167-v"/><!--p. 330--> <!-- Numeración anterior tachada, indica página 148 -->
+            
             <cb ed="#BNC" n="a"/>
             <lb ed="#BNC" n="1"/>Caput quintum <name ref="#Porphyrius">Porphyrii</name> de Accidente quinto Praedicabili          
             <lb ed="#BNC" n="2"/>Textus              
@@ -192,8 +195,8 @@
               <lb ed="#BNC" n="8"></lb>Quaestio 13: De accidente quinto
               <lb ed="#BNC" n="9"/>praedicabili
             </p>
-              
-                            
+            
+            
             <p n="?">
               <lb ed="#BNC" n="10"/><choice><orig>Relinquaenda</orig><reg>Relinquenda</reg></choice> sunt multa pertinentia ad
               acci<lb ed="#BNC" n="11" break="no"/>dens praedicamentale quamquam ab aliquibus hic
@@ -212,8 +215,8 @@
                   divisio<lb ed="#BNC" n="16" break="no"/>nesque Accidentis ab Porphyrio
                   <lb ed="#BNC" n="17"/>traditae exactae rectaeque sint?
                 </p>
-                                               
-                
+              
+              
                 <p n="1919"> <!-- Numeración de párrafo anterior tachada, p. 1029 -->
                   <lb ed="#BNC" n="18"/>Discriminatur accidens praedicabile ab accidente
                   <lb ed="#BNC" n="19"/>praedicamentali in hoc, scilicet quod accidens
@@ -528,8 +531,8 @@
                   <lb ed="#BNC" n="1"/>Articulus 2. Quomodo accidens sit
                   <lb ed="#BNC" n="2"/>quintum praedicabile et
                   respec<lb ed="#BNC" n="3" break="no"/>tu quorum inferiorum sit tale?
-                </p>                
-                                
+                </p>
+                
                 
                 <p n="1940"> <!-- Numeración de párrafo anterior tachada, p. 1051 -->
                   <lb ed="#BNC" n="4"/>Tria quaeritur titulus. Primum. Quomodo verificetur
@@ -546,7 +549,7 @@
                   <lb ed="#BNC" n="11"/>dupliciter fieri. Primo ex parte nominis ut
                   <lb ed="#BNC" n="12"/>album ab albedine. Secundo ex parte formae
                   signi<lb ed="#BNC" n="13" break="no"/>ficatae, ut officiosus ab officio. Quando dicitur Petrus
-                  <lb ed="#BNC" n="14"/>est <choice><orig>abus</orig><corr>albus</corr></choice>, non verificatur ratione nominis, nam sensus esset
+                  <lb ed="#BNC" n="14"/>est albus, non verificatur ratione nominis, nam sensus esset
                   <lb ed="#BNC" n="15"/>Petrus est vox album, sed verificatur ratione formae
                   signi<lb ed="#BNC" n="16" break="no"/>ficatae. Omitto sententiam negativam.
                 </p>

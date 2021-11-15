@@ -56,7 +56,9 @@
         
         
         <div type="caput" n="4"><!-- textus capituli quarti Porphirii. Abarca la q.12 -->
-          
+        
+          <head type="caput"><supplied>Capitulum quartum</supplied></head>
+        
           <head>Textus capituli quarti Porphyrii</head>
           
           <p>
@@ -194,7 +196,7 @@
                 <lb ed="#BNC" n="14"></lb>Quaestio 12. De proprio quarto
                 prae<lb ed="#BNC" n="15" break="no"/>dicabili
               </p>
-                            
+            
               
               <p n="?">
                 <lb ed="#BNC" n="16"/>Multa quae circa hoc caput tractari possunt
@@ -202,18 +204,18 @@
                 <lb ed="#BNC" n="18"/>faciliter, <choice><orig>brebiterque</orig><reg>breviterque</reg></choice> videntur in praesenti
                 quest<lb ed="#BNC" n="19" break="no"/>tione. Unde Articulo 1. Explicatur definitio, etc.
               </p>
-              
-                            
+            
+            
             <div type="articulus"><!-- q12a1 -->
               
               <head>Articulus 1. Explicat naturam Proprii eiusque divisiones expendit?</head>
-                              
+              
               <p ana="heading">
                 <lb ed="#BNC" n="20"/>Articulus 1. Explicat naturam Proprii
                 <lb ed="#BNC" n="21"/>eiusque divisiones expendit?
               </p>
-                                
-                                
+              
+              
               <p n="1877"> <!-- Numeración de párrafo anterior tachada, p. 977 -->
                 <lb ed="#BNC" n="22"/>Proprium quadrupliciter dicitur (necessaria est
                 re<lb ed="#BNC" n="23" break="no"/>petitio). Primo, quod competit soli specie, at
@@ -225,8 +227,8 @@
                 <cb ed="#BNC" n="b"/>
                 <lb ed="#BNC" n="29"/>semper, ut hominem esse risibilem: hoc est maximum.
               </p>
-                  
-                  
+              
+              
               <p n="1878"> <!-- Numeración de párrafo anterior tachada, p. 978 -->
                 <lb ed="#BNC" n="30"/>Pro horum intelligentia est notandum
                 pro<lb ed="#BNC" n="31" break="no"/>prium a <name ref="#Porphyrius">Porphyrio</name> per ordinem ad speciem explicari.
@@ -506,8 +508,7 @@
               <p ana="heading">
                 <lb ed="#BNC" n="14"/>Articulus 2. Quid sit proprium quartum praedicabile?
               </p>
-                                                
-                
+              
               <p n="1893"> <!-- Numeración de párrafo anterior tachada, p. 996 -->
                 <lb ed="#BNC" n="15"/>Quaerimus an definitio quarto praedicabilis coveniar omnibus propriis,
                 <lb ed="#BNC" n="16"/>an solum proprio quarto modo? Prima sententia
@@ -683,8 +684,8 @@
                 <lb ed="#BNC" n="43"/>Articulus 3. In ordine ad quae
                 pro<lb ed="#BNC" n="44" break="no"/>prium constituatur praedicabile?
               </p>
-                                              
-                
+              
+              
               <p n="1901"> <!-- Numeración de párrafo anterior tachada, p. 1008 -->
                 <lb ed="#BNC" n="45"/>Dico 1. Inferiora propria quarto praedicabilis qua talis non
                 <lb ed="#BNC" n="46"/>sunt propria, sed individua speciei, a qua
@@ -834,7 +835,7 @@
                 <lb ed="#BNC" n="10"/>secundum dico talia accidentia non esse proprias passiones,
                 <lb ed="#BNC" n="11"/>nam non oriuntur ex principiis essentialibus, sed ex materialibus
                 <lb ed="#BNC" n="12"/>habent tamen ab extrinseco inseparabilitatem ut
-                nigre<lb ed="#BNC" n="13" break="no"/>do in corvo, <choice><orig>aluedo</orig><corr>albedo</corr></choice> in cygno. Ad ultimum
+                nigre<lb ed="#BNC" n="13" break="no"/>do in corvo, <choice><orig>alvedo</orig><corr>albedo</corr></choice> in cygno. Ad ultimum
                 <lb ed="#BNC" n="14"/>dico, talem praedicationem esse quarto praedicati, non quarto praedicabilis.
                 <lb ed="#BNC" n="15"/>Vide argumenta pro differentia, quae servatis
                 servan<lb ed="#BNC" n="16" break="no"/>dis resoluuntur in nostro casu. Supponimus enim

@@ -11,8 +11,8 @@
 *.out
 *.run.xml
 *.toc
-*.pdf
 *.docx
 .DS_Store
 /temp/**/*
 /otros/**/*
+/bak/**/*

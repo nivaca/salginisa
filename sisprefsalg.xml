@@ -58,7 +58,9 @@
         
         <div><!-- Prefacio de Salgado-->
           
-          <head>Praefatio</head><!--por ahora vacío-->
+          <head type="caput"><supplied>Praefatio Salgadi</supplied></head>
+          
+          <head>Praefatio</head>
           <p ana="heading">
             <cb ed="#BNC" n="a"/>
             <lb ed="#BNC" n="13"/>In <title>Isagogem</title> <name ref="#Porphyrius">Porphyrii</name>
@@ -67,20 +69,22 @@
           </p>
           
           <p>
-            <lb ed="#BNC" n="16"/>Huius operis Author fuit <name ref="#Porphyrius">Malchus</name> cognomento <name ref="#Porphyrius">Porphyrius</name> natione <placeName>Phoenico</placeName>, <placeName>Tyrius</placeName> Patria, seu
-            natio<lb ed="#BNC" n="17" break="no"/>ne Iudaeus, volente <name ref="#Baronius">Baronio</name> tomo 2 <title>Annalium</title> <quote>Doctrina non tam Aristotelicus quam Platonicus</quote>.
-            Praecepto<lb ed="#BNC" n="18" break="no"/>res habuit <name ref="#Plotinus">Plotinum</name> et <name ref="#Longinus">Longinum Criticum</name>, condiscipulum <name ref="#Origenes">Originem</name>; Auditorem inter alios <name ref="#Chrysaorius">Chrysaorium</name>
-            <lb ed="#BNC" n="19"/>Romanum Patritium, cuius rogatu hoc opus fecit. Fuit Magicarum artium superstitionibus deditus, ac Christiani
-            <lb ed="#BNC" n="20"/>Religionis desertor, et oppugnator ut Magnus Pater
             <cit>
               <ref>
-                <name ref="#Augustinus">Augustinus</name> refert
-                19 <title>De civitate Dei</title> capitulo 23
+            <lb ed="#BNC" n="16"/>Huius operis <choice><orig>Author</orig><reg>Auctor</reg></choice> fuit <name ref="#Porphyrius">Malchus</name> cognomento <name ref="#Porphyrius">Porphyrius</name> natione <placeName>Phoenico</placeName>, <placeName>Tyrius</placeName> Patria, seu
+            natio<lb ed="#BNC" n="17" break="no"/>ne Iudaeus, volente <name ref="#Baronius">Baronio</name> tomo 2 <title>Annalium</title>. Doctrina, non tam Aristotelicus, quam Platonicus.
+            Praecepto<lb ed="#BNC" n="18" break="no"/>res habuit <name ref="#Plotinus">Plotinum</name> et <name ref="#Longinus">Longinum Criticum</name>, condiscipulum <name ref="#Origenes">Originem</name>; Auditorem inter alios <name ref="#Chrysaorius">Chrysaorium</name>
+            <lb ed="#BNC" n="19"/>Romanum Patritium, cuius rogatu hoc opus fecit. Fuit Magicarum artium superstitionibus deditus, ac Christiani
+            <lb ed="#BNC" n="20"/>Religionis desertor, et oppugnator ut Magnus Pater <name ref="#Augustinus">Augustinus</name> refert 19 <title>De Civitate Dei</title> capitulo 23. Inscriptio operis est
+            <lb ed="#BNC" n="21"/><foreign xml:lang="gra">Εισαγωγή</foreign>, id est <mentioned>introductio</mentioned>. Institutum est agere de quinque vocibus quae communi voce <mentioned>praedicabilia</mentioned> 
+            <lb ed="#BNC" n="22"/>vocantur scilicet de Genere, Differentia, Specie, Proprio, et Accidente.
               </ref>
-            </cit>.
-            Inscriptio operis est
-            <lb ed="#BNC" n="21"/><foreign xml:lang="gra">Εισαγωγή</foreign> id est <mentioned>introductio</mentioned>. Institutum est agere de quinque vocibus quae communi voce <mentioned>praedicabilia</mentioned>
-            <lb ed="#BNC" n="22"/>vocantur scilicet de Genere, Differentia, Specie, Proprio, et Accidente, Duabus partibus absolvitur quarum
+              <bibl>
+                <name ref="Conimbricenses">Commentarii Collegii Conimbricensis e Societate Iesu</name>,
+                <title>In universam dialecticam Aristotelis Stagirita</title> ff. 55-56.
+              </bibl>
+            </cit>            
+            Duabus partibus absolvitur quarum
             <lb ed="#BNC" n="23"/>una praefationem, et altera quinque vocum enarrationem continet. Haec secunda bipartita: in prima parte
             <lb ed="#BNC" n="24"/>singula universalia seorsum declarantur. In posteriori inter se conferuntur. Nunc ad singula ascendamus.
           </p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
     xmlns:tei="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xmlns:my="local functions"
     xmlns:_="localisation">
 
@@ -9,7 +9,9 @@
   <xsl:param name="apploc"><xsl:value-of select="/TEI/teiHeader/encodingDesc/variantEncoding/@location"/></xsl:param>
   <xsl:param name="notesloc"><xsl:value-of select="/TEI/teiHeader/encodingDesc/variantEncoding/@location"/></xsl:param>
   <xsl:variable name="title"><xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/title"/></xsl:variable>
+  <xsl:variable name="shorttitle"><xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/title/@rend"/></xsl:variable>
   <xsl:variable name="author"><xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/author"/></xsl:variable>
+  <xsl:variable name="shortauthor"><xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/author/@rend"/></xsl:variable>
   <xsl:variable name="editor"><xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/editor"/></xsl:variable>
 
   <!-- get versioning numbers -->
@@ -27,9 +29,9 @@
   <xsl:variable name="starts_on" select="/TEI/text/front/div/pb"/>
 
   <!-- Command line parameters -->
-  <xsl:param name="name-list-file">prosopography.xml</xsl:param>
-  <xsl:param name="work-list-file">workscited.xml</xsl:param>
-  <xsl:param name="localisation-file">localisation.xml</xsl:param>
+  <xsl:param name="name-list-file">../prosopography.xml</xsl:param>
+  <xsl:param name="work-list-file">../bibliography.xml</xsl:param>
+  <xsl:param name="localisation-file">../localisation.xml</xsl:param>
   <xsl:param name="app-entry-separator">;</xsl:param>
   <xsl:param name="font-size">12</xsl:param>
   <xsl:param name="ignore-spelling-variants">no</xsl:param>
@@ -186,131 +188,227 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- PREAMBLE -->
-  <xsl:template match="/">
-    <xsl:if test="my:istrue($standalone-document)">
-      %this tex file was auto produced from TEI by lbp_print on <xsl:value-of select="current-dateTime()"/>
-      \documentclass[a4paper, <xsl:value-of select="$font-size"/>pt]{book}
 
-      % imakeidx must be loaded beore eledmac
-      \usepackage{imakeidx}
-      \usepackage{libertine}
-      \usepackage{csquotes}
+<!--=================== begin main template ==================-->
+<xsl:template match="/">
+% this tex file was auto produced from TEI by lbp_print on <xsl:value-of select="current-dateTime()"/>
+\documentclass[letterpaper, <xsl:value-of select="$font-size"/>pt]{book}
 
-      \usepackage{geometry}
-      \geometry{left=4cm, right=4cm, top=3cm, bottom=3cm}
+\usepackage{libertine}
+\usepackage{csquotes}
 
-      \usepackage{fancyhdr}
-      % fancyheading settings
-      \pagestyle{fancy}
+\usepackage{geometry}
+\geometry{left=4cm, right=4cm, top=3cm, bottom=3cm}
 
-      % latin language
-      \usepackage{polyglossia}
-      \setmainlanguage{english}
-      \setotherlanguage{latin}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{15pt}
 
-      % a critical mark
-      \usepackage{amssymb}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{latin}
 
-      % git package
-      \usepackage{gitinfo2}
+% a critical mark
+\usepackage{amssymb}
 
+% git package
+\usepackage{gitinfo2}
 
-      % reledmac settings
-      \usepackage[final]{reledmac}
-
-      \Xinplaceoflemmaseparator{0pt} % Don't add space after nolemma notes.
-      \Xlemmadisablefontselection[A] % In fontium lemmata, don't copy font formatting.
-      \Xarrangement{paragraph}
-      \linenummargin{outer}
-      \sidenotemargin{inner}
-      \lineation{page}
-
-      \Xendbeforepagenumber{}
-      \Xendafterpagenumber{.}
-      \Xendlineprefixsingle{}
-      \Xendlineprefixmore{}
-
-      \Xnumberonlyfirstinline[]
-      \Xnumberonlyfirstintwolines[]
-      \Xbeforenotes{\baselineskip}
-
-      % This should prevent overfull vboxes
-      \AtBeginDocument{\Xmaxhnotes{0.5\textheight}}
-      \AtBeginDocument{\maxhnotesX{0.5\textheight}}
-
-      \Xprenotes{\baselineskip}
-
-      \let\Afootnoterule=\relax
-      \let\Bfootnoterule=\relax
-
-      % other settings
-      \linespread{1.1}
-
-      <xsl:if test="my:istrue($parallel-translation)">
-        <xsl:text>
-          % reledpar setup
-          \usepackage{reledpar}
-        </xsl:text>
-      </xsl:if>
-
-      % custom macros
-      \newcommand{\name}[1]{#1}
-      \newcommand{\lemmaQuote}[1]{\emph{#1}}
-      \newcommand{\worktitle}[1]{\textit{#1}}
-      \newcommand{\supplied}[1]{⟨#1⟩} <!-- Previously I used ⟨#1⟩ -->
-      \newcommand{\suppliedInVacuo}[1]{$\ulcorner$#1$\urcorner$} <!-- Text added where witnes(es) preserve a space -->
-      \newcommand{\secluded}[1]{{[}#1{]}}
-      \newcommand{\metatext}[1]{\{#1\}}
-      \newcommand{\hand}[1]{\textsuperscript{#1}}
-      \newcommand{\del}[1]{\textlbrackdbl{}#1\textrbrackdbl{}}
-      \newcommand{\no}[1]{\emph{#1}\quad}
-      \newcommand{\added}[1]{$\backslash{}$#1$/$}
-      \newcommand{\corruption}[1]{\textdagger#1\textdagger}
-      \newcommand{\fenestra}[1]{$\ulcorner$#1$\urcorner$}
-      \newcommand{\lacuna}{\supplied{\textasteriskcentered\textasteriskcentered\textasteriskcentered}}
-      \newcommand{\missingContent}[1]{$\stackrel{\mbox{\normalfont\small\kern-2pt #1}}{\dots{}}$}
-      
-
-      <xsl:if test="/TEI/teiHeader/revisionDesc/@status = 'draft'">
-        \usepackage{draftwatermark}
-        \SetWatermarkText{DRAFT}
-        \SetWatermarkFontSize{3.5cm}
-        \SetWatermarkColor[gray]{0.9}
-      </xsl:if>
+% indices 
+\usepackage{imakeidx}  % before reledmac
 
 
-      \begin{document}
-      \fancyhead{}
-      \fancyfoot[C]{\thepage}
-      \fancyhead[L]{<xsl:value-of select="$author"/>: <xsl:value-of select="$title"/>}
-      \setlength{\headheight}{15pt}
+% reledmac settings -------------------------------------------
+\usepackage[final]{reledmac}
 
-    </xsl:if>
+\Xinplaceoflemmaseparator{0pt} % Don't add space after nolemma notes.
+\Xlemmadisablefontselection[A] % In fontium lemmata, don't copy font formatting.
+\Xarrangement{paragraph}
+\linenummargin{outer}
+\sidenotemargin{inner}
+\lineation{page}
 
-    <!-- \<xsl:value-of select="$title-heading-level"/>{<xsl:value-of select="$title"/>} -->
+\Xendbeforepagenumber{}
+\Xendafterpagenumber{.}
+\Xendlineprefixsingle{}
+\Xendlineprefixmore{}
 
-    <xsl:apply-templates select="//body"/>
+\Xnumberonlyfirstinline[]
+\Xnumberonlyfirstintwolines[]
+\Xbeforenotes{\baselineskip}
 
-    <xsl:if test="my:istrue($standalone-document)">
-      \end{document}
-    </xsl:if>
-  </xsl:template>
+% This should prevent overfull vboxes
+\AtBeginDocument{\Xmaxhnotes{0.5\textheight}}
+\AtBeginDocument{\maxhnotesX{0.5\textheight}}
+
+\Xprenotes{\baselineskip}
+
+\let\Afootnoterule=\relax
+\let\Bfootnoterule=\relax
+% ---------------------------------------------------------
+
+
+\makeindex[name=persons, title={Index nominum}, columns=2]
+\makeindex[name=works, title={Index operum}, columns=2]
+
+
+% other settings
+<!--\linespread{1.1}-->
 
 
 
-  <!-- BLOCK ELEMENTS -->
+% custom macros
+\newcommand{\name}[1]{#1}
+\newcommand{\lemmaQuote}[1]{\emph{#1}}
+\newcommand{\worktitle}[1]{\textit{#1}}
+\newcommand{\supplied}[1]{⟨#1⟩}
+\newcommand{\suppliedInVacuo}[1]{$\ulcorner$#1$\urcorner$} <!-- Text added where witnes(es) preserve a space -->
+\newcommand{\secluded}[1]{{[}#1{]}}
+\newcommand{\metatext}[1]{\{#1\}}
+\newcommand{\hand}[1]{\textsuperscript{#1}}
+\newcommand{\del}[1]{\textlbrackdbl{}#1\textrbrackdbl{}}
+\newcommand{\no}[1]{\emph{#1}\quad}
+\newcommand{\added}[1]{$\backslash{}$#1$/$}
+\newcommand{\corruption}[1]{\textdagger#1\textdagger}
+\newcommand{\fenestra}[1]{$\ulcorner$#1$\urcorner$}
+\newcommand{\lacuna}{\supplied{\textasteriskcentered\textasteriskcentered\textasteriskcentered}}
+\newcommand{\missingContent}[1]{$\stackrel{\mbox{\normalfont\small\kern-2pt #1}}{\dots{}}$}
+
+
+<xsl:if test="/TEI/teiHeader/revisionDesc/@status = 'draft'">
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkFontSize{3.5cm}
+\SetWatermarkColor[gray]{0.9}
+</xsl:if>
+
+
+% --------------------------------------------
+\begin{document}
+
+
+\thispagestyle{empty}
+
+\begin{center}
+\LARGE
+\MakeUppercase{<xsl:value-of select="$author"/>}
+
+\vfill
+
+\Large
+\MakeUppercase{<xsl:value-of select="$title"/>}
+
+\bigskip
+
+\normalsize
+<xsl:value-of select="//tei:sourceDesc/tei:listWit/tei:witness"/>
+
+\vfill
+
+\small
+\textsc{editado por}
+
+\bigskip
+
+\Large
+
+\MakeUppercase{<xsl:value-of select="$editor"/>}
+  
+\vfill
+
+\normalsize
+<xsl:value-of select="//tei:publicationStmt/tei:authority"/> \\
+
+<xsl:value-of select="//tei:editionStmt/tei:edition/tei:placeName"/> \\
+  
+<xsl:value-of select="//tei:editionStmt/tei:edition/tei:date"/> \\
+ 
+\scriptsize
+
+(v. <xsl:value-of select="//tei:editionStmt/tei:edition/@n"/>)
+  
+\end{center}
+
+
+\newpage
+
+\fancyhead{}
+\fancyfoot[C]{\thepage}
+\fancyhead[L]{Index generalis}  
+\renewcommand*{\contentsname}{Index generalis}
+\tableofcontents
+
+
+\newpage
+
+\fancyhead{}
+\fancyfoot[C]{\thepage}
+<xsl:text>\fancyhead[L]{</xsl:text>
+<xsl:value-of select="$shortauthor"/>
+<xsl:text>: </xsl:text>
+<xsl:value-of select="$shorttitle"/>
+<xsl:text>}</xsl:text>  
+
+
+<xsl:apply-templates select="//body"/>
+
+
+% Indices -------------------------------------------
+\printindex[persons]
+\printindex[works]
+  
+\end{document}
+</xsl:template>
+<!--=================== end main template ==================-->
+  
+
+
+
   <xsl:template match="head">
+    <xsl:choose>
+      <xsl:when test="@type='caput'">
+        \addcontentsline{toc}{chapter}{<xsl:value-of select="."/>}
+        \pstart
+        \eledchapter*{<xsl:apply-templates/>}
+        \pend
+      </xsl:when>
+      <xsl:otherwise>
+        \addcontentsline{toc}{section}{<xsl:value-of select="."/>}
+        \pstart
+        \eledsection*{<xsl:apply-templates/>}
+        \pend
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
+  
+<!--  
+    <xsl:template match="head[parent::div[type='caput']]" priority="1">
+    \addcontentsline{toc}{chapter}{XXXX <xsl:value-of select="."/>}
     \pstart
-    \eledsubsection*{<xsl:apply-templates/>}
+    \eledchapter*{<xsl:apply-templates/>}
     \pend
   </xsl:template>
+
+  <xsl:template match="head">
+    \addcontentsline{toc}{section}{<xsl:value-of select="."/>}
+    \pstart
+    \eledsection*{<xsl:apply-templates/>}
+    \pend
+  </xsl:template>
+  -->
+
+
 
   <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/title">
+    \addcontentsline{toc}{part}{<xsl:value-of select="."/>}
     \pstart
-    \eledsubsection*{<xsl:apply-templates/>}
+    \eledchapter*{<xsl:apply-templates/>}
     \pend
   </xsl:template>
+
+
+
 
   <xsl:template match="body/div">
     <!--
@@ -336,6 +434,10 @@
     <xsl:value-of select="$text_language"/>
     <xsl:text>}</xsl:text>
   </xsl:template>
+
+
+
+
 
   <xsl:template name="paragraphs" match="p">
     <xsl:param name="inParallelText"/>
@@ -406,6 +508,7 @@
     <xsl:text>&#xa;\pend&#xa;</xsl:text>
   </xsl:template>
 
+
   <xsl:template name="createLabelFromId">
     <xsl:param name="labelType" />
     <xsl:param name="labelId">
@@ -434,8 +537,9 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="div[translate(@ana, '#', '') = $structure-types/*
-                       and not(@n)]">
+
+
+  <xsl:template match="div[translate(@ana, '#', '') = $structure-types/* and not(@n)]">
     <xsl:if test="my:isfalse($parallel-translation)">
       <!-- The parallel typesetting does not work well with manually added space
            because of syncronization -->
@@ -443,6 +547,8 @@
     </xsl:if>
     <xsl:apply-templates />
   </xsl:template>
+
+
 
   <xsl:param name="structure-types">
     <n>rationes-principales</n>
@@ -1487,11 +1593,19 @@
     <xsl:text>}</xsl:text>
   </xsl:template>
 
+
+
   <xsl:template name="name" match="name">
     <xsl:variable name="nameid" select="substring-after(./@ref, '#')"/>
+    <xsl:text>\textsc{</xsl:text>
     <xsl:apply-templates/>
-    <xsl:text>\index[persons]{</xsl:text><xsl:value-of select="document($name-list-file)//tei:person[@xml:id=$nameid]/tei:persName[1]"/><xsl:text>} </xsl:text>
+    <xsl:text>}</xsl:text>
+    <xsl:text>\index[persons]{</xsl:text>
+    <xsl:value-of select="document($name-list-file)//tei:person[@xml:id=$nameid]/tei:persName[@ xml:lang='lat']"/>
+    <xsl:text>}</xsl:text>
   </xsl:template>
+
+
 
   <xsl:template match="title">
     <xsl:text>\worktitle{</xsl:text>
@@ -1517,6 +1631,20 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+
+<xsl:template match="choice">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="orig[parent::choice]">
+  <!-- do nothing! --> 
+</xsl:template>
+
+<xsl:template match="reg[parent::choice]">
+  <xsl:apply-templates/>
+</xsl:template>
+
 
 
 </xsl:stylesheet>

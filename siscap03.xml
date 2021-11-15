@@ -57,6 +57,8 @@
         
         <div type="caput" n="3"><!-- textus capituli tertii Porphirii. Abarca la q.11 -->
           
+          <head type="caput"><supplied>Capitulum tertium</supplied></head>
+          
           <head>Textus capituli tertii Porphyrii</head>
           
           <p ana="heading">
@@ -238,9 +240,9 @@
                 <p ana="heading">
                   <lb ed="#BNC" n="54"/>Articulus 1. An bene dividatur
                     dif<lb ed="#BNC" n="55" break="no"/>ferentia in communem, propriam et proprissimam?
-                </p>                
+                </p>
                 
-                                
+                
                 <p n="1787">
                   <lb ed="#BNC" n="56"/>Notato 1. Hanc divisionem esse adaequatam, cuius ratio
                   <lb ed="#BNC" n="57"/>est: ista divisio fit per membra <choice><orig>exaurientia</orig><reg>exhaurientia</reg></choice>
@@ -358,7 +360,7 @@
                   <lb ed="#BNC" n="6"/>tunc illa formalitas differentiae dividitur in diversa
                   <lb ed="#BNC" n="7"/>substantia. Quare secunda divisio similis est illi, qua
                   <lb ed="#BNC" n="8"/><del><unclear>ruborum</unclear></del> homo dividitur in album et nigrum. Tertio illi qua
-                  <lb ed="#BNC" n="9"/>album in lac et <choice><orig>sacharum</orig><reg>saccharum.</reg></choice>
+                  <lb ed="#BNC" n="9"/>album in lac et <choice><orig>sacharum</orig><reg>saccharum</reg></choice>.
                 </p>
                 
                 
@@ -890,7 +892,7 @@
                   idem cum <name ref="#Aristoteles">Aristotele</name>
                   <lb ed="#BNC" n="12"/>citato: igitur. Respondeo ut supra. <choice><orig>Authoritas</orig><reg>Auctoritas</reg></choice>
                   <name ref="#Porphyrius">Porphy<lb ed="#BNC" n="13" break="no"/>rii</name> et explanatio est resolutio praesentis
-                  <choice><orig>dificul<lb ed="#BNC" n="14" break="no"/>tatis<reg>difficultatis</reg></orig></choice>, unde infra.                    
+                  <choice><orig>dificul<lb ed="#BNC" n="14" break="no"/>tatis<reg>difficultatis</reg></orig></choice>, unde infra.
                 </p>
                   
                   
@@ -1100,7 +1102,7 @@
                    <lb ed="#BNC" n="8"/>Articulus 4. An differentia athoma
                    inclu<lb ed="#BNC" n="9" break="no"/>dat subalternas?
                 </p>
-                                                
+                
                 
                 <p n="1845">
                   <lb ed="#BNC" n="10"/>Tria sub unico quaeruntur. Primo, an differentiae subalternae

@@ -56,6 +56,8 @@
         
         <div type="caput" n="0"><!-- textus praefationis Porphyrii. Abarca las qq.3-7 -->  
           
+          <head type="caput"><supplied>Praefatio Porphyrii</supplied></head>
+          
           <head>Textus praefationis Porphyrii</head>
           
           <p ana="heading">            
@@ -77,7 +79,7 @@
                   <lb ed="#BNC" n="31"/>τί διαφορα τί τε εἶδος καὶ τί ἴδιο, etc.
                 </quote>
                 <bibl>
-                  <name ref="#Porphyrius">Porphyrius</name>, <title>Isagoge</title>, 1.1 (p.1, ll.1-2, ed. Busse)
+                  <name ref="#Porphyrius">Porphyrius</name>, <title>Isagoge</title>, Ι, 3-5
                 </bibl>
               </cit>
             </p>
@@ -97,14 +99,11 @@
                   <lb ed="#BNC" n="35"/>cognoscere, etc.
                 </quote>
                 <bibl>
-                  <name ref="#Porphyrius">Porphyrius</name>, <title>Isagoge</title>, 1.1 
-                  (trad. no identificada; es probable que sea propia de Salgado; 
-                  compárese con la trad. de Boecio (p. 25, ll.1-4, ed. Busse)).
+                  <name ref="#Porphyrius">Porphyrius</name>, <title>Isagoge</title>, Ι, 1
                 </bibl>
               </cit>
             </p>
           </div><!-- textus latinus -->
-          
           
           
           
@@ -115,7 +114,6 @@
               puede ser un error-->
             <p n="985">
               <cb ed="#BNC" n="a"/>
-              <lb ed="#BNC" n="36"/>
               <lb ed="#BNC" n="37"/>Primo ponit necessitatem huius tractatus ad notitiam Praedicamentorum acquirendam. Deinde
               
               <pb ed="#BNC" n="94-r"/><!--p. 183-->
@@ -158,7 +156,7 @@
               colli<lb ed="#BNC" n="17" break="no"/>gere, ut fecit Porphyrius. Cetera quae solent
               ad<lb ed="#BNC" n="18" break="no"/>duci ad annotandum textum, in tota
               quaestio<lb ed="#BNC" n="19" break="no"/>ne explanantur. Unde Quaestio 3 de Universalibus.
-            </p>            
+            </p>
           </div><!--annotationes al prefacio-->
           
           
@@ -207,18 +205,18 @@
                 <lb ed="#BNC" n="35"/>posterioristicum estque principium scientiae, ut ait
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotelis</name> 1
-                    <lb ed="#BNC" n="36"/><title>Posteriorum</title> cap. 7
+                    <name ref="#Aristoteles">Aristotelis</name> I
+                    <lb ed="#BNC" n="36"/><title>Posteriorum</title>, capitulo 7
                   </ref>
                   <bibl>
                     <name ref="#Aristoteles">Aristoteles</name>,
-                    <title>Analytica Posteriora</title> 1.7 ([buscar Bekker]********)
+                    <title>Analytica Posteriora</title> 1.24; 1.30 (85b 24ss; 87b 37-39)
                   </bibl>
                 </cit> 
                 et
                 <cit>
                   <ref>
-                    1 <title>Metaphysicae</title> cap. 1
+                    I <title>Metaphysicae</title> capitulo 1
                   </ref>
                   <bibl>
                     <name ref="#Aristoteles">Aristoteles</name>,
@@ -248,18 +246,24 @@
               
               
               <p n="991">
-                <lb ed="#BNC" n="51"/>Universale in essendo sic definitur a <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name> 7
-                <lb ed="#BNC" n="52"/><title>Metaphysicaε</title> texto 14 <quote>est unum in multis, et de multis.</quote>
+                <lb ed="#BNC" n="51"/>Universale in essendo sic definitur a 
+                <cit>
+                  <ref>  
+                   <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name> VII
+                   <lb ed="#BNC" n="52"/><title>Metaphysicae</title>, texto 14</ref> <quote>est unum in multis, et de multis.</quote>
                 <pb ed="#BNC" n="94-v"/><!--p. 184-->
                 <cb ed="#BNC" n="a"/>
-                <lb ed="#BNC" n="1"/>et
-                <cit>
+                <lb ed="#BNC" n="1"/>
                   <ref>
-                    libro 1 <title>Peri-hermeneias</title> capitulo 5</ref>
+                    et libro I <title>Peri-hermeneias</title>, capitulo 5</ref>
                   <quote>
                     universale est id quod de
                     pluri<lb ed="#BNC" n="2" break="no"/>bus praedicari aptum est.
                   </quote>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Analytica Posteriora</title> 1.11 (77a 5-9)
+                  </bibl>
                 </cit>
                 Explico definitiones. Particula <mentioned>unum</mentioned>
                 <lb ed="#BNC" n="3"/>explicat subiectum et fundamentum, scilicet, rem unam et unitatem;
@@ -302,13 +306,17 @@
                 princi<lb ed="#BNC" n="32" break="no"/>paliter respicit ipsam intentionem universalitatis, naturam vero in
                 <cb ed="#BNC" n="a"/>
                 <lb ed="#BNC" n="33"/>qua fundatur secunda intentio praesuppositive: agit enim de
-                se<lb ed="#BNC" n="34" break="no"/>cundis intensionibus ut fundatis in primis. Idcirco
+                se<lb ed="#BNC" n="34" break="no"/>cundis intentionibus ut fundatis in primis. Idcirco
                 <lb ed="#BNC" n="35"/>Metaphysicus et Logicus agunt de eodem, sed diverso
                 <lb ed="#BNC" n="36"/>modo ut ait
                 <cit>
                   <ref>
-                    Divum <name ref="#Aquinas">Thomas</name> 4 <title>Metaphysicae</title> lectine 4.
+                    Divum <name ref="#Aquinas">Thomas</name> IV <title>Metaphysicae</title>, lectione 4.
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>In Metaphysicae Aristotelis</title>, 4.4, nn. 572-577 (Taurini-Roma: Marietti, pp. 160-161)
+                  </bibl>
                 </cit>
               </p>
               
@@ -320,8 +328,12 @@
                 <cit>
                   <ref>
                     Divo <name ref="#Aquinas">Thoma</name>
-                    <lb ed="#BNC" n="40"/><title>De ente et essentia</title> capitulo 4.
+                    <lb ed="#BNC" n="40"/><title>De ente et essentia</title>, capitulo 4.
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>De ente et essentia</title>, 5.1-5 (Roma: Editori di San Tomasso, 1976, p. 378)
+                  </bibl>
                 </cit>
                 Primus est naturae secundum se, in
                 <lb ed="#BNC" n="41"/>quo non considerantur nisi ea, quae constituunt ipsam
@@ -356,15 +368,20 @@
               </p>
               
               <p n="996">
-                <lb ed="#BNC" n="58"/><name ref="#Heraclitus"><choice><orig>Heraclytus</orig><reg>Heraclitus</reg></choice></name> et <name ref="#Cratylus">Cratylus</name> negaverunt esse in rerum
+                <lb ed="#BNC" n="58"/><name ref="#Heraclitus"><choice><orig>Heraclytus</orig><reg>Heraclitus</reg></choice></name> et <name ref="#Cratylus">Cratylus</name>
+                negaverunt esse in rerum
                 <lb ed="#BNC" n="59"/>natura universalia, sic refert
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristoteles</name> 1 <title>Metaphysicae</title> capitulis 6 et 4,
+                    <name ref="#Aristoteles">Aristoteles</name> I <title>Metaphysicae</title>, capitulis 6; et IV,
                     <lb ed="#BNC" n="60"/>capitulo 5
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 1.6; 1.5 (987a 31-34; 1010a 10-15)
+                  </bibl>
                 </cit>.
-                <unclear cert="high">Auctores</unclear> vero longe non distant ab hoc delirio <!-- Complutenses, disp. 3, q. 1 -->
+                <unclear cert="high">Auctores</unclear> vero longe non distant ab hoc delirio, <!-- Complutenses, disp. 3, q. 1 -->
                 <lb ed="#BNC" n="61"/>admittunt voces universalis correspondentes
                 universa<lb ed="#BNC" n="62" break="no"/>libus conceptibus negant tamen naturas universales. Ita
                 <pb ed="#BNC" n="95-r"/><!--p. 185-->
@@ -372,8 +389,22 @@
                 <lb ed="#BNC" n="1"/>
                 <cit>
                   <ref>
-                    <name ref="#Ockham">Ochamus</name> capitulo 14 <title>Logicae</title> et in 1 distinctione 2, quaestio 7,
+                    <name ref="#Ockham"><choice><orig>Ochamus</orig><reg>Ockhamus</reg></choice></name> capitulo 14 <title>Logicae</title> 
                   </ref>
+                  <bibl>
+                    <name ref="#Ockham">Guillelmus de Ockham</name>,
+                    <title>Summa Logicae</title>, 1, 14-15 (St. Bonaventure, NY., 1974, pp. 47-54)
+                  </bibl>
+                </cit>
+                et
+                <cit>
+                  <ref>
+                     in 1 distinctione 2, quaestio 7;
+                  </ref>
+                  <bibl>
+                    <name ref="#Ockham">Guillelmus de Ockham</name>,
+                    <title>Scriptum I Sententiarum</title>, 5.1-5 (ed. Brown, II, p. 248-248, 252)
+                  </bibl>
                 </cit>
                 <name ref="#Biel">Grabriel</name> <!-- Gabriel Biel -->
                 <lb ed="#BNC" n="2"/>et alii. Divinus <name ref="#Plato">Plato</name> econtra concedit naturas universales
@@ -381,9 +412,13 @@
                 indi<lb ed="#BNC" n="5" break="no"/>viduorum esse principia, sic testatur
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristoteles</name> 1 <title>Metaphysicae</title>, capitulo 6 et
-                    <lb ed="#BNC" n="5"/>7 capitulo 8.
+                    <name ref="#Aristoteles">Aristoteles</name> I <title>Metaphysicae</title>, capitulo 6; et
+                    <lb ed="#BNC" n="5"/>VI, capitulo 8.
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 1.6; 7.2 (987a 29-30; 1028b 18-22)
+                  </bibl>
                 </cit>
                 Haec opinio si in bonum sensum explicetur
                 <lb ed="#BNC" n="6"/>sit quia intelligitur de Ideis in mente divina
@@ -391,48 +426,98 @@
                 conten<lb ed="#BNC" n="8" break="no"/>dunt gravissimi Reverendo Praeceptore Magno Patre
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Augustino</name> libro <title>83
+                    <name ref="#Augustinus">Augustino</name> libro <title>83
                       <lb ed="#BNC" n="9"/>quaestionibus</title>, <!-- De diversis quaestionibus octoginta tribus --> quaestione 46
                   </ref>
+                  <bibl>
+                    <name ref="#Augustinus">Augustinus Hipponensis</name>,
+                    <title>De diversis quaestionibus octoginta tribus</title> q. 46, 1-2 (PL 40, 29-31)
+                  </bibl>
                 </cit>,
                 <name ref="#Dionysius"><choice><orig>Dionisius</orig><reg>Dionysius</reg></choice> Areopagita</name>, <name ref="#GNazianzenus">Nazianzenus</name>,
-                <lb ed="#BNC" n="10"/><name ref="#Seneca">Seneca</name>, <name ref="#Plutarchus">Plutarchus</name>, <name ref="#Eugubinus">Eugubinus</name>, <name ref="#Picus">Picus Mirandula</name> et
-                <lb ed="#BNC" n="11"/>alii, quos referunt <name ref="#Conimbricenses"><unclear cert="high">Conimbricensis</unclear></name> et <name ref="#Complutenses">Complutensis</name>. Multa
+                <lb ed="#BNC" n="10"/><name ref="#Seneca">Seneca</name>, <name ref="#Plutarchus">Plutarchus</name>, <name ref="#Eugubinus">Eugubinus</name>, 
+                <name ref="#Picus">Picus Mirandula</name> et
+                <lb ed="#BNC" n="11"/>alii, quos referunt <name ref="#Conimbricenses">Conimbricensis</name> et 
+                <name ref="#Complutenses">Complutensis</name>. Multa
                 <lb ed="#BNC" n="12"/>refert circa hoc punctum <name ref="#Caramuel">Ioannes Caramuel</name>.
               </p>
               
               
               <p n="997">
-                <lb ed="#BNC" n="13"/>Dico 1. Contra nostrum non solum dantur in rerum
+                <lb ed="#BNC" n="13"/>Dico 1. Contra auctores non solum dantur in rerum
                 <lb ed="#BNC" n="14"/>natura voces aut conceptus formalis communis, sed etiam
                 <lb ed="#BNC" n="15"/>conceptus obiectivi seu naturae universales. Ita
                 <cit>
                   <ref>
                     Noster <name ref="#Aegidius">Fundatissimus
-                      <lb ed="#BNC" n="16"/>Doctor</name> <!-- Aegidius Romanus --> in 1, distinctione 36, parte 2, quaestione 2 et distinctione 19, parte 1 et
+                      <lb ed="#BNC" n="16"/>Doctor</name> <!-- Aegidius Romanus --> in I distinctione 36, parte 2, quaestione 2; et distinctione 19, parte 1; et
                     <lb ed="#BNC" n="17"/>quodlibet 2, quaestio 6
                   </ref>
+                  <bibl>
+                    <name ref="#Aegidius">Aegidius Romanus</name>,
+                    <title>In primum librum Sententiarum</title> d. 36, q. 2, a. 2 (Córdoba: apud Lazarum de Risquez et Antorium Rosellon, 1699, f. 672-675) 
+                  </bibl>
+                  <bibl>
+                    <name ref="#Aegidius">Aegidius Romanus</name>,
+                    <title>In primum librum Sententiarum</title> d. 19, p. 1 (Córdoba: apud Lazarum de Risquez et Antorium Rosellon, 1699, f. 366-387) 
+                  </bibl>
+                  <bibl>
+                    <name ref="#Aegidius">Aegidius Romanus</name>,
+                    <title>Quodlibeta</title> 2, q.6 (Lovaina: typis Hieronymi Nempaei, 1646, f. 61-64) 
+                  </bibl>
                 </cit>,
                 quae sequitur <name ref="#Gavardus">Gavardus</name> <!-- Fridericus Nicolaus Gavardus --> hic. Ita
                 <cit>
                   <ref>
                     <name ref="#Aquinas">Angelicus Praeceptor</name>
-                    <lb ed="#BNC" n="18"/><title>De ente et essentia</title> capitulo 4 et <title>Opusculo</title> 55 et 56
+                    <lb ed="#BNC" n="18"/><title>De ente et essentia</title> capitulo 4
                   </ref>
+                    <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>De ente et essentia</title>, 5 (Roma: Editori di San Tomasso, 1976, p. 378-379)
+                  </bibl>
                 </cit>.
+                    et 
+                <cit>
+                  <ref>
+                    <title>Opusculo</title> 55 et 56
+                  </ref>
+                  <bibl>
+                    <name>Pseudo Thomas Aquinas</name>
+                    <title>Opuscula omnia</title>, 54, 55 (Lyon: apud Haeredes Iacobi Iuntae, 1562, p. 372-376)
+                  </bibl>
+                </cit>,                  
                 <cit>
                   <ref>
                     Beatus
                     <name ref="#AlbertusMagnus">Al<lb ed="#BNC" n="19" break="no"/>bertus</name> Tractatus 2 <title>Logicae</title>
                   </ref>
+                  <bibl>
+                    <name ref="#AlbertusMagnus">Albertus Magnus</name>,
+                    <title>Super Porphyrium de V universalibus</title>, 1.(ed. Santos Noya, 2004, p. 17-40)
+                  </bibl>
                 </cit>.
                 Omnes Thomistae. Item
                 <cit>
                   <ref>
                     <name ref="#Scotus">Scotus</name> passim
-                    <lb ed="#BNC" n="20"/>in <title>Logica</title> et in 2 distinctione 3 quaestione 1,
+                    <lb ed="#BNC" n="20"/>in <title>Logica</title> 
                   </ref>
+                  <bibl>
+                    <name ref="#Scotus">Ioannes Duns Scotus</name>,
+                    <title>Quaestiones in Librum Porphyrii Isagoge</title>, q. 9 (ed. Andrews, Etzkorn, Gál et al, 1999, p. 43-44)
+                  </bibl>
                 </cit>
+                et
+                <cit>
+                  <ref>
+                  in II distinctione 3, quaestione 1
+                  </ref>
+                  <bibl>
+                    <name ref="#Scotus">Ioannes Duns Scotus</name>,
+                    <title>Ordinatio</title>, 1, q. 1 (ed. Balić, Opera omnia II, 1950, pp. 125-128)
+                  </bibl>
+                </cit>,
                 quae sequitur <name ref="#Μerinero">Merinero</name>.
               </p>
               
@@ -441,46 +526,59 @@
                 <lb ed="#BNC" n="21"/>Probatur 1. Ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name> 1 <title>Peri-hermeneias</title> capitulo 5
+                    <name ref="#Aristoteles"><choice><orig>Phylosopho</orig><reg>Philosopho</reg></choice></name> I <title>Peri-hermeneias</title>, capitulo 5
                   </ref>
                   <quote>
                     rerum
                     <lb ed="#BNC" n="22"/>aliae sunt universales, aliae particulares</quote>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>De interpretatione</title> 7 (17a 38-39)
+                  </bibl>
                 </cit>
                 et
                 <cit>
                   <ref>
-                    libro 1 <title>Posterioribus</title> capitulo
+                    libro 1 <title>Posterioribus</title>, capitulo
                     <lb ed="#BNC" n="23"/>2</ref>
-                  <quote>universalia notiora esse singularibus, illa intellectu, haec
-                    <lb ed="#BNC" n="24"/>vero sensu cognosci</quote>
-                </cit>.
+                  <quote>universalia notiora esse singularibus</quote>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Analytica Posteriora</title> 1.2 (72a 1-5)
+                  </bibl>
+                </cit>,
+                illa intellectu, haec
+                <lb ed="#BNC" n="24"/>vero sensu cognosci.
                 Idem asserit
                 <cit>
-                  <ref>2 <title>De anima</title> capitulo 5</ref>
+                  <ref>II <title>De anima</title>, capitulo 5</ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>De anima</title> 2.5 (417b 21-25)
+                  </bibl>
                 </cit>
                 quibus
                 <lb ed="#BNC" n="25"/>locis non loquitur de vocibus, nam voces communis etiam
-                <lb ed="#BNC" n="26"/>sensu percipiuntur: igitur loquitur de rebus.
+                <lb ed="#BNC" n="26"/>sensu percipiuntur, igitur loquitur de rebus.
               </p>
               
               
               <p n="999">
                 <lb ed="#BNC" n="27"/>Probatur ratione: hae praedicationes verae sunt et necessariae.
-                <lb ed="#BNC" n="28"/>Petrus est homo, homo est animal: igitur id quod in illis <choice><orig>ennuntiatur</orig><reg>enuntiatur</reg></choice>
+                <lb ed="#BNC" n="28"/>Petrus est homo, homo est animal, igitur id quod in illis <choice><orig>ennuntiatur</orig><reg>enuntiatur</reg></choice>
                 <lb ed="#BNC" n="29"/>est res aliqua et non voces aut conceptus formales. Consequentia
                 <lb ed="#BNC" n="30"/>probatur: si voces aut conceptus formalis praedicarentur
                 utra<lb ed="#BNC" n="31" break="no"/>que esset falsa et impossibilis, nam esset sensus Petrus
                 <lb ed="#BNC" n="32"/>est vox homo, conceptus homo est conceptus animal; sed hoc non est
                 <cb ed="#BNC" n="a"/>
-                dis<lb ed="#BNC" n="33" break="no"/>cendum: igitur neque illud.
+                dis<lb ed="#BNC" n="33" break="no"/>cendum, igitur neque illud.
               </p>
               
               
               <p n="1000">
-                <lb ed="#BNC" n="34"/>Debent nostri conceptus universales significantem, verbi gratia
+                <lb ed="#BNC" n="34"/>Dent auctores conceptus universales significantem, verbi gratia
                 <lb ed="#BNC" n="35"/><mentioned>hominem</mentioned> aut <mentioned>animal</mentioned>, esse nomen collectivum non significans
-                <lb ed="#BNC" n="36"/>aliquod unum, sed adunatum, scilicet omnes homines. Contra 1: quando
+                <lb ed="#BNC" n="36"/>aliquid unum, sed adunatum, scilicet omnes homines. Contra 1: quando
                 <lb ed="#BNC" n="37"/>universale ponitur ex parte praedicati verbi gratia Petrus est homo, erit
                 sen<lb ed="#BNC" n="38" break="no"/>sus Petrus est omnes homines, sed hoc est falsum: igitur et solutio.
                 <lb ed="#BNC" n="39"/><supplied>Contra</supplied> 2: quando terminus communis est subiectus sine distributione,
@@ -506,24 +604,31 @@
               <p n="1002">
                 <lb ed="#BNC" n="52"/>Dico 2: hae naturae universales non sunt a parte rei
                 <lb ed="#BNC" n="53"/>a singularibus separatae. Est communis inter
-                <cit>
-                  <ref>
-                    <name ref="#Aristoteles"><choice><orig>Phylo<lb ed="#BNC" n="54" break="no"/>sophos</orig><reg>Philosophos</reg></choice></name>
-                  </ref>
-                </cit>,
+                <choice><orig>Phylo<lb ed="#BNC" n="54" break="no"/>sophos</orig><reg>Philosophos</reg></choice>,
                 quondam probat contra <name ref="#Plato">Platonem</name> noster Princeps
                 <cit>
-                  <ref>7 <title>Metaphysicae</title>
-                    <lb ed="#BNC" n="55"/>texto 51</ref>
+                  <ref>VII <title>Metaphysicae</title>
+                    <lb ed="#BNC" n="55"/>texto 51
+                  </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 7.2 (1028b 18-23)
+                  </bibl>
                 </cit>.
                 Ita
                 <cit>
                   <ref>
-                    <name ref="#Augustinus">Magnus Pater</name> <!-- Agustín de Hipona --> libro <title>83 quaestionibus,</title> <!-- De diversis quaestionibus octoginta tribus --> questione 46
+                    <name ref="#Augustinus">Magnus Pater</name> <!-- Agustín de Hipona --> libro <title>83 quaestionibus</title>, 
+                    <!-- De diversis quaestionibus octoginta tribus --> questione 46
                   </ref>
+                  <bibl>
+                    <name ref="#Augustinus">Augustinus Hipponensis</name>,
+                    <title>De diversis quaestionibus octoginta tribus</title> q. 46, 1-2 (PL 40, 29-31)
+                  </bibl>
                 </cit>,
                 quae sequitur
-                <lb ed="#BNC" n="56"/><name ref="#Aegidius">Fundatissimo Doctore</name> <!-- Aegidius Romanus --> loco citato et Angelico Doctore loco citato
+                <lb ed="#BNC" n="56"/><name ref="#Aegidius">Fundatissimo Doctore</name> <!-- Aegidius Romanus --> loco citato et 
+                <name ref="Aquinas">Angelico Doctore</name> loco citato
                 <lb ed="#BNC" n="57"/><title>Metaphysicae</title> lectio 4 et <title>Opusculo</title> 55 et 56.
               </p>
               
@@ -531,8 +636,9 @@
               <p n="1003">
                 <lb ed="#BNC" n="58"/>Probatur ratione: quidquid praedicatur de aliquo secundum
                 es<lb ed="#BNC" n="59" break="no"/>sentiam necessario debet existere in ipso, sed naturae
-                u<lb ed="#BNC" n="60" break="no"/>niversales, verbi gratia natura hominis; natura animalis, essentialiter <choice><orig>praedicatur</orig><corr>praedicantur</corr></choice>
-                <lb ed="#BNC" n="61"/>de singularibus verbi gratia de Petro, Ioanne, etc: igitur naturae
+                u<lb ed="#BNC" n="60" break="no"/>niversales, verbi gratia natura hominis; natura animalis, essentialiter
+                <choice><orig>praedicatur</orig><corr>praedicantur</corr></choice>
+                <lb ed="#BNC" n="61"/>de singularibus verbi gratia de Petro, Ioanne, etc; igitur naturae
                 <lb ed="#BNC" n="62"/>quae denominantur universales debent existere in
                 <lb ed="#BNC" n="63"/>singularibus.
               </p>
@@ -543,28 +649,36 @@
                 <pb ed="#BNC" n="95-v"/><!--p. 186-->
                 <cb ed="#BNC" n="a"/>
                 <lb ed="#BNC" n="1"/>separatae, eadem natura esset simul universalis et singularis; sed hoc
-                im<lb ed="#BNC" n="2" break="no"/>plicat: igitur et illud. Probatur sequela: esset universalis ut suppositur,
-                <lb ed="#BNC" n="3"/>sed etiam esset singularis: igitur. Probatur minor: talis natura vere
-                e<lb ed="#BNC" n="4" break="no"/>xisteret a parte rei: igitur vel quod creatum vel increatum. Si hoc
-                <lb ed="#BNC" n="5"/>esset Deus: igitur no esset eidem rationis cum individuis. Si
-                pri<lb ed="#BNC" n="6" break="no"/>mum: igitur existeret ubi alicuius actionis realis, sed
-                quaeli<lb ed="#BNC" n="6" break="no"/>bet actio realis terminatur ad rem singularem: igitur talis
+                im<lb ed="#BNC" n="2" break="no"/>plicat; igitur et illud. Probatur sequela: esset universalis ut supponitur,
+                <lb ed="#BNC" n="3"/>sed etiam esset singularis; igitur. Probatur minor: talis natura vere
+                e<lb ed="#BNC" n="4" break="no"/>xisteret a parte rei; igitur vel quod creatum vel increatum. Si hoc
+                <lb ed="#BNC" n="5"/>esset Deus; igitur no esset eidem rationis cum individuis. Si
+                pri<lb ed="#BNC" n="6" break="no"/>mum; igitur existeret ubi alicuius actionis realis, sed
+                quaeli<lb ed="#BNC" n="6" break="no"/>bet actio realis terminatur ad rem singularem; igitur talis
                 <lb ed="#BNC" n="8"/>natura vere esset singularis. Probatur minor: illius proprium est
                 <lb ed="#BNC" n="9"/>fieri, cuius proprium est esse seu subsistere, ut docet
                 <cit>
                   <ref>
                     Divum
-                    <lb ed="#BNC" n="10"/><name ref="#Aquinas">Thomam</name> 1 parte quaestione 65, articulo 4
+                    <lb ed="#BNC" n="10"/><name ref="#Aquinas">Thomam</name> I parte, quaestione 65, articulo 4
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Summa Theologiae</title>, I.65.4 (Roma: Commissio Leonina, 1889, pP. 152-153)
+                  </bibl>
                 </cit>.
                 Sed in rebus creatis esse seu
                 sub<lb ed="#BNC" n="11" break="no"/>sistere est proprium suppositi singularis, non vero naturae
                 com<lb ed="#BNC" n="12" break="no"/>munis, ut docet idem
                 <cit>
                   <ref>
-                    <name ref="#Aquinas">Angelicum Doctorem</name> quaestione 9, <title>De potentia</title> articulo 5, ad
+                    <name ref="#Aquinas">Angelicum Doctorem</name> quaestione 9 <title>De potentia</title>, articulo 5, ad
                     <lb ed="#BNC" n="13"/>13
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Quaestiones disputatae de potentia Dei</title>, 9.5.13 (Taurini: Typographia Pontificia Petri Marietti, 1895, p. 276)
+                  </bibl>
                 </cit>,
                 igitur id quod fit est singulare.
               </p>
@@ -573,7 +687,7 @@
               <p n="1005">
                 <lb ed="#BNC" n="14"/>Obiectio 1. Per prima Sententia: Conceptus obiectivus universalis vel
                 <lb ed="#BNC" n="15"/>est aliquid unum vel plura. Si plura: igitur universale solum erit
-                <lb ed="#BNC" n="16"/>nomen collectivum. Si unum: inquantum unum non est aliquod
+                <lb ed="#BNC" n="16"/>nomen collectivum. Si unum: in quantum unum non est aliquod
                 <lb ed="#BNC" n="17"/>reale, sed in quantum unum est obiectum illius conceptus universalis: igitur
                 in<lb ed="#BNC" n="18" break="no"/>quantum obiectum non est aliquid reale. Maior probatur: illud est ens
                 rea<lb ed="#BNC" n="19" break="no"/>le quod est capax existentiae; sed inquantum unum non existit
@@ -612,7 +726,7 @@
               <p n="1008">
                 <lb ed="#BNC" n="40"/>Respondet distinctionem. Ille conceptus obiectivus est unus unitate
                 <lb ed="#BNC" n="41"/>reali, nego; unitate rationis et praecissionis, concedo. Ad
-                <lb ed="#BNC" n="42"/>probationem distinctionem maiorem: inquantum unum non est aliquid reale formaliter,
+                <lb ed="#BNC" n="42"/>probationem distinctionem maiorem: in quantum unum non est aliquid reale formaliter,
                 <lb ed="#BNC" n="43"/>concedo; materialiter, nego. Sicut enim non existat natura
                 univer<lb ed="#BNC" n="44" break="no"/>salis a parte rei sub conceptu unitatis, existit tamen
                 <lb ed="#BNC" n="45"/>sub alio statu et hoc sufficit ut dicatur ens reale
@@ -660,32 +774,42 @@
                     <lb ed="#BNC" n="6"/>secundas Substantias, scilicet universales: <quote>illas significare
                       <lb ed="#BNC" n="7"/>qualequid</quote>
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Categoriae</title> 5 (2a 14-26)
+                  </bibl>
                 </cit>
                 sed significare vocibus convenit: igitur. Item
                 <lb ed="#BNC" n="8"/>
                 <cit>
                   <ref>
-                    1 <title>De anima</title> texto 8: <quote>animal autem universale aut nihil est, aut
-                      poste<lb ed="#BNC" n="9" break="no"/>rius; similiter autem, et si quod communi aliud praedicatur.</quote>
+                    I <title>De anima</title> texto 8: <quote>animal autem universale aut nihil est, aut
+                      poste<lb ed="#BNC" n="9" break="no"/>rius</quote>
                   </ref>
-                </cit>
-                Igitur
-                universa<lb ed="#BNC" n="10" break="no"/>litas solus vocibus competit. Respondeo <name ref="#Aristoteles"><choice><orig>Phylosophum</orig><reg>Philosophum</reg></choice></name> in
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>De anima</title> 1.1 (402b 7-9)
+                  </bibl>
+                </cit>;
+                similiter autem, et si quod communi aliud praedicatur. Igitur
+                universa<lb ed="#BNC" n="10" break="no"/>litas solus vocibus competit. Respondeo 
+                <name ref="#Aristoteles"><choice><orig>Phylosophum</orig><reg>Philosophum</reg></choice></name> in
                 pri<lb ed="#BNC" n="11" break="no"/>mo loco loqui de nominibus significantibus
                 se<lb ed="#BNC" n="12" break="no"/>cundas substantias, non vero de ipsis ut patet.
-                Secun<lb ed="#BNC" n="13" break="no"/>dum locum sic <choice><orig>glozat</orig><reg>glossat</reg></choice>
+                Secun<lb ed="#BNC" n="13" break="no"/>dum locum sic glozat
                 <cit>
                   <ref>
                     <name ref="#Aquinas">Angelicum Doctorem</name> ibidem lectio 1 et libro 3
-                    <lb ed="#BNC" n="14"/>lectio 12:                 
+                    <lb ed="#BNC" n="14"/>lectio 12:
                     <quote>Animal universale nihil est, ab speciebus separatum
                       <lb ed="#BNC" n="15"/>ut fingebat Plato: est tamen in eiusdem ut quid posterius
                       <lb ed="#BNC" n="16"/>sit, ab intellectu fundatum, et ex earum convenientia sumptum.</quote>
-                    <bibl>
-                      Collegium Complutense S. Cyrilli Discalceatorum Fratrum Ordinis Beatae Mariae de Monte Carmeli,
-                      <title>Artium cursus sive Disputationes in Aristotelis Dialecticam et Philosophiam naturalem iuxta angelici doctoris D. Thomae doctrinam et scholam</title>, d. 3, q. 1, ad 9 (Madrid: Apud Ioannem de Orduña, 1624), p. 193
-                    </bibl>                 
                   </ref>
+                    <bibl>
+                      <name>Collegium Complutense S. Cyrilli Discalceatorum Fratrum Ordinis Beatae Mariae de Monte Carmeli</name>,
+                      <title>Artium cursus sive Disputationes in Aristotelis Dialecticam et Philosophiam naturalem iuxta angelici doctoris D. Thomae doctrinam et
+                        scholam</title>, d. 3, q. 1, ad 9 (Madrid: apud Ioannem de Orduña, 1624, p. 193)
+                    </bibl>
                 </cit>
               </p>
               
@@ -703,7 +827,7 @@
               
               
               <p n="1013">
-                <lb ed="#BNC" n="25"/>Obiectio 4. Pro secunda sententia: dantur sciae: igitur naturae
+                <lb ed="#BNC" n="25"/>Obiectio 4. Pro secunda sententia: dantur sciae; igitur naturae
                 u<lb ed="#BNC" n="26" break="no"/>niversales separatae. Probatur consequentia: veritates sciarum
                 <lb ed="#BNC" n="27"/>sunt aeternae et perpetuae, sed hae non possunt esse in
                 singula<lb ed="#BNC" n="28" break="no"/>ribus: igitur. Probatur minor: singularia sunt corruptibilia et
@@ -765,32 +889,55 @@
               </p>
               
               
-              <p n="1017">                 .
+              <p n="1017">
                 <lb ed="#BNC" n="61"/>Secundo sciendum est ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> 5 <title>Metaphysicae</title> capitulo
+                    <name ref="#Aristoteles">Aristotele</name> V <title>Metaphysicae</title>, capitulo
                     <lb ed="#BNC" n="62"/>6 et libro 10, capitulo 1.
-                    
                     <quote>Unum esse ens indivisum in se,
                       <pb ed="#BNC" n="96-v"/><!--p. 188-->
                       <cb ed="#BNC" n="b"/>
                       <lb ed="#BNC" n="1"/>et divisum a quolibet alio</quote>
-                    <bibl>
-                      Franciscus Suarez, <title>Disputationes Metaphysicae IV</title>, s. 1, 14 (París: Apud Ludovicum Vives, 1861), p. 119
-                    </bibl>
-                    <!-- Cita de Francisco Suarez, Diputatio IV, s. 1, 14 -->
                   </ref>
+                    <bibl>
+                      <name ref="Suarez">Franciscus Suarez</name>, <title>Disputationes Metaphysicae</title>,
+                      4.1.14 (París: apud Ludovicum Vives, 1861, p. 119)
+                    </bibl> <!-- Cita de Francisco Suarez, Diputatio IV, s. 1, 14 -->
                 </cit>,
                 igitur unitas nihil est aliud quem in
                 <lb ed="#BNC" n="2"/>divisio dicens per formali carentiam divisionis et ex parte
                 <lb ed="#BNC" n="3"/>entis aliquod <choice><orig>possitivum</orig><reg>positivum</reg></choice> sic colligitur ex
                 <cit>
                   <ref>
-                    Doctore <name ref="#Aquinas">Thoma</name> 1 parte, quaestione 11,
-                    <lb ed="#BNC" n="4"/>articulo 2 et in 1, distinctione 9, quaestione 4, articulo 1, ad et distinctione 24, quaestione 1, articulo 3
+                    Doctore <name ref="#Aquinas">Thoma</name> I parte, quaestione 11,
+                    <lb ed="#BNC" n="4"/>articulo 2 
                   </ref>
-                </cit>.
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Summa Theologiae</title>, I.11.2 (Roma: Commissio Leonina, 1888, p. 109-110)
+                  </bibl>
+                </cit>;
+                et in
+                <cit>
+                  <ref>
+                    I, distinctione 9, quaestione 4, articulo 1, ad 
+                  </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Scriptum super libros Sententiarum I</title>, I.8.4.1 (ed. Mandonnet, 1929, pp. 219-220)
+                  </bibl>
+                </cit>;
+                et
+                <cit>
+                  <ref>
+                    distinctione 24, quaestione 1, articulo 3
+                  </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Scriptum super libros Sententiarum I</title>, I.24.1.3 (ed. Mandonnet, 1929, pp. 581-583)
+                  </bibl>
+                </cit>
                 Un<lb ed="#BNC" n="5" break="no"/>de tot erunt unitates quot divisiones.
               </p>
               
@@ -802,6 +949,10 @@
                     <name ref="#Caietanus">Caietanum</name> <title>De ente et essentia</title>
                     <lb ed="#BNC" n="7"/>capitulo 4, quaestione 6
                   </ref>
+                  <bibl>
+                    <name ref="#Caietanus">Thomas de Vio Caietanu</name>,
+                    <title>De ente et essentia</title>, 4.6 27-30 (Lyon: apud Gulielmum Rovillium, 1588, p. 245)
+                  </bibl>
                 </cit>
                 alia materialis et alia formalis. Materialis causatur per
                 <lb ed="#BNC" n="8"/>principia materialia seu differentias individuales. Hac divisione
@@ -859,20 +1010,29 @@
               <p n="1021">
                 <lb ed="#BNC" n="48"/>Prima sententia tenet a parte rei non dari
                 u<lb ed="#BNC" n="49" break="no"/>nitatem formalem. Ita aliqui moderni inter quos est
-                <lb ed="#BNC" n="50"/><name ref="#Torrejon">Torrejon</name> et <name ref="#Martinez">Martinius</name> <!-- Juan Martínez de Prado o Juan Martínez de Ripalda-->. Secunda econtra docet
+                <lb ed="#BNC" n="50"/><name ref="#Torrejon">Torrejon</name> et <name ref="#Martinez">Martinius</name> 
+                <!-- Juan Martínez de Prado o Juan Martínez de Ripalda-->. Secunda econtra docet
                 <lb ed="#BNC" n="51"/>a parte rei dari unitatem formale est communis in Schola
                 <lb ed="#BNC" n="52"/>Divi <name ref="#Aquinas">Thomae</name> et <name ref="#Scotus">Scoti</name>, ut refert
                 <cit>
                   <ref>
-                    Doctor <name ref="#Suarez">Suarez</name> 7
+                    Doctor <name ref="#Suarez">Suarez</name> VII
                     <lb ed="#BNC" n="53"/><title>Metaphysicae</title> sectione 1, numero 2
                   </ref>
+                  <bibl>
+                    <name ref="Suarez">Franciscus Suarez</name>, <title>Disputationes Metaphysicae</title>,
+                    7.1.13-14 (París: apud Ludovicum Vives, 1861, pp. 254-255)
+                  </bibl>
                 </cit>.
                 Colligitur ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> 5 <title>Metaphysicae</title> texto 11
+                    <name ref="#Aristoteles">Aristotele</name> V <title>Metaphysicae</title>, texto 11
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 5.11 (1018b 32-35)
+                  </bibl>
                 </cit>.
               </p>
               
@@ -910,9 +1070,13 @@
                 simili<lb ed="#BNC" n="9" break="no"/>tudinis fundatur in unitate ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> 5 <title>Metaphysicae</title>
+                    <name ref="#Aristoteles">Aristotele</name> V <title>Metaphysicae</title>,
                     <lb ed="#BNC" n="10"/>texto 20
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 5.18 (1022a 25-35)
+                  </bibl>
                 </cit>.
                 Igitur a parte rei datur talis unitas formalis. Nec
                 <lb ed="#BNC" n="11"/>dicas relationem fundari in unitate numerica,
@@ -930,7 +1094,7 @@
                 <lb ed="#BNC" n="19"/>Obiectio 1.
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristoteles</name> 4 <title>Metaphysicae</title> texto 7
+                    <name ref="#Aristoteles">Aristoteles</name> IV <title>Metaphysicae</title>, texto 7
                   </ref>
                 </cit>
                 agens de
@@ -938,7 +1102,7 @@
                 speci<lb ed="#BNC" n="21" break="no"/>ficam et genericam, sed istae duae sunt per intellectum. Igitur a parte
                 <lb ed="#BNC" n="22"/>rei solum datur unitas numerica. Respondeo <name ref="#Aristoteles"><choice><orig>Phylosophum</orig><reg>Philosophum</reg></choice></name>
                 <lb ed="#BNC" n="23"/>sub unitate generica et specifica comprehendisse
-                <lb ed="#BNC" n="24"/>unitatem formalem, nec <unclear>imagine</unclear> siquidem unitas formalis
+                <lb ed="#BNC" n="24"/>unitatem formalem, nec <unclear>imagine</unclear>; siquidem unitas formalis
                 <lb ed="#BNC" n="25"/>est fundamentum ex parte naturae respectu unitates
                 <lb ed="#BNC" n="26"/>specificae et genericae. Quapropter dicitur
                 fundamenta<lb ed="#BNC" n="27" break="no"/>liter unitas generica vel specifica.
@@ -1037,21 +1201,26 @@
                 <lb ed="#BNC" n="15"/>Prima sententia asserit naturam a parte rei habere
                 <lb ed="#BNC" n="16"/>unitatem positive communem. Imponitur haec opinio
                 <lb ed="#BNC" n="17"/><name ref="#Scotus">Scoto</name>, ut probat Illustrissimus <name ref="#Merinero">Merinero</name> hic. Hanc
-                se<lb ed="#BNC" n="18" break="no"/>quuntur <name ref="#AAndreas">Antonius Andreas</name>, <name ref="#Monlorius">Monlorius</name> <!-- Ioannes Baptista Monllor --> et alii. Secunda
+                se<lb ed="#BNC" n="18" break="no"/>quuntur <name ref="#AAndreas">Antonius Andreas</name>, <name ref="#Monlorius">Monlorius</name> 
+                <!-- Ioannes Baptista Monllor --> et alii. Secunda
                 <lb ed="#BNC" n="19"/>sententia negat naturae talem unitatem. Ita
                 <cit>
                   <ref>
                     <name ref="#Aquinas">Angelicus Doctor</name> <title>Opusculo</title>
-                    <lb ed="#BNC" n="20"/>55 et 1 parte, quaestione 85, articulo 1, ad 2
+                    <lb ed="#BNC" n="20"/>55 et I parte, quaestione 85, articulo 1, ad 2
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>Summa Theologiae</title>, I.85.1.2 (Roma: Commissio Leonina, 1889, p. 331)
+                  </bibl>
                 </cit>.
                 Quae sequuntur
                 <name ref="#Caietanus">Ca<lb ed="#BNC" n="21" break="no"/>ietanus</name>, <name ref="#Capreolus">Capreolus</name>, <name ref="#Soncinas">Soncinas</name>,
                 <name ref="#Soto">Soto</name>, <name ref="#Iavellus">Iabellus</name>, <name ref="#Toletus">Toletus</name> <!-- Francisco de Toledo -->,
                 <lb ed="#BNC" n="22"/><name ref="#Rubius">Rubius</name> et communiter auctores. Cum enim unitas formalis dicat
                 <lb ed="#BNC" n="23"/>aliquid positivum, scilicet ipsam entitatem rei et aliquid
-                <lb ed="#BNC" n="24"/>tivum, sit, carentiam divisionis, ut dictum est, oportet
-                nega<lb ed="#BNC" n="25" break="no"/>tivum secundum hanc considerationem resolvere difficultatem.
+                nega<lb ed="#BNC" n="24" break="no"/>tivum, sit, carentiam divisionis, ut dictum est, oportet
+                <lb ed="#BNC" n="25"/>secundum hanc considerationem resolvere difficultatem.
               </p>
               
               
@@ -1062,9 +1231,13 @@
                 forma<lb ed="#BNC" n="29" break="no"/>les quot individua. Ita
                 <cit>
                   <ref>
-                    <name ref="#Aegidius">Fundatissimus Doctor</name> in 1, distinctione
+                    <name ref="#Aegidius">Fundatissimus Doctor</name> in I, distinctione
                     <lb ed="#BNC" n="30"/>36, parte 2, quaestione 2 et distinctione 19
                   </ref>
+                  <bibl>
+                    <name ref="#Aegidius">Aegidius Romanus</name>,
+                    <title>In primum librum Sententiarum</title> d. 36, q. 2, a. 2; d. 19 (Córdoba: apud Lazarum de Risquez et Antorium Rosellon, 1699, f. 672-675; 366-387) 
+                  </bibl>
                 </cit>
                 et aliis locis citatis
                 <lb ed="#BNC" n="31"/>ab <name ref="#Gavardus">Gavardo</name>. Ita <choice><orig>Authores</orig><reg>Auctores</reg></choice> secundae sententiae locis
@@ -1170,6 +1343,9 @@
                     Divo <name ref="#Aquinas">Thoma</name> <title>Opusculo</title>
                     <lb ed="#BNC" n="35"/>48, tractatus 1, capitulo 4
                   </ref>
+                  <bibl>                    
+                    <title>Summa totius Logicae Aristotelis</title> 1.4 (Parma: Fiaccadori, 1864, pp. 56-57)
+                  </bibl>
                 </cit>.
                 Appellant Thomistae
                 unita<lb ed="#BNC" n="36" break="no"/>tem conformitatis seu similitudinis illam, quam habent
@@ -1223,28 +1399,46 @@
                   <ref>
                     <name ref="#Aristoteles">Aristotele</name> capitulo <title>de Relatione</title>
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Categoriae</title> 7 (8a 27-35)
+                  </bibl>
                 </cit>:
                 relatio fundatur in unitate, igitur
                 <lb ed="#BNC" n="5"/>a parte rei datur unitas formalis communis pluribus.
                 <lb ed="#BNC" n="6"/>Respondeo distinguendo maiorem: a parte rei datur convenientia et
-                simi<lb ed="#BNC" n="7" break="no"/>litudo qua fundamentum relationis, concedo: qua relatio
-                <lb ed="#BNC" n="8"/>similitudinis nego. Contra: igitur convenientia fundatur
+                simi<lb ed="#BNC" n="7" break="no"/>litudo qua fundamentum relationis, concedo; qua relatio
+                <lb ed="#BNC" n="8"/>similitudinis, nego. Consequentia: igitur convenientia fundatur
                 <lb ed="#BNC" n="9"/>in convenientia. Distinguo consequens: convenientia qua
                 re<lb ed="#BNC" n="10" break="no"/>latio fundatur in convenientia qua fundamento,
-                <lb ed="#BNC" n="11"/>concedo. In convenientia qua relatione nego. Et distinguo minorem
+                <lb ed="#BNC" n="11"/>concedo. In convenientia qua relatione, nego. Et distinguo minorem
                 <lb ed="#BNC" n="12"/>argumenti. Relatio fundatur in unitate communi
-                forma<lb ed="#BNC" n="13" break="no"/>liter, concedo: in unitate contracta nego.
+                forma<lb ed="#BNC" n="13" break="no"/>liter, concedo; in unitate contracta, nego.
               </p>
               
               
               <p n="1043">
-                <lb ed="#BNC" n="14"/>Obiectio 3. Natura quae es in Petro et
+                <lb ed="#BNC" n="14"/>Obiectio 3. Natura quae est in Petro et
                 Pau<lb ed="#BNC" n="15" break="no"/>lo definitur unica definitione, sed quod definitur
                 <lb ed="#BNC" n="16"/>est unum ex
                 <cit>
                   <ref>
-                    <name ref="#Aristoteles">Aristotele</name> <title>Metaphysicae</title> texto 13 et 4, texto 10
+                    <name ref="#Aristoteles">Aristotele</name> VII <title>Metaphysicae</title>, texto 13; et IV, texto 10
                   </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 4.13 (1018b 8-16)
+                  </bibl>
+                </cit>
+                et
+                <cit>
+                  <ref>
+                    IV, texto 10
+                  </ref>
+                  <bibl>
+                    <name ref="#Aristoteles">Aristoteles</name>,
+                    <title>Metaphysica</title> 5.4 (1014b 25-37)
+                  </bibl>
                 </cit>,
                 igitur
                 <lb ed="#BNC" n="17"/>habet unitatem illis communem. Respondeo distinguendo consequens. Habet
@@ -1318,12 +1512,16 @@
                 <lb ed="#BNC" n="64"/>Instabis:
                 <cit>
                   <ref>
-                    Divus <name ref="#Aquinas">Thomas</name> 4 <title>De ente et essentia</title>
+                    Divus <name ref="#Aquinas">Thomas</name> IV <title>De ente et essentia</title>
                     <pb ed="#BNC" n="99-r"/><!--p. 193-->
                     <cb ed="#BNC" n="a"/>
-                    <lb ed="#BNC" n="1"/>dicit quod <quote>natura secundum se est id quod praedicatur de individuis,
-                      <lb ed="#BNC" n="2"/>sed quod praedicatur de individuis est universale.</quote>
+                    <lb ed="#BNC" n="1"/>dicit quod natura secundum se est id quod praedicatur de individuis,
+                      <lb ed="#BNC" n="2"/>sed quod praedicatur de individuis est universale.
                   </ref>
+                  <bibl>
+                    <name ref="#Aquinas">Thomas Aquinas</name>,
+                    <title>De ente et essentia</title>, 3 (Roma:  Commissio Leonina, 1976, pp.374-375)
+                  </bibl>
                 </cit>
                 Igitur natura secundum
                 <lb ed="#BNC" n="3"/>se est universalis. Respondeo explicando <name ref="#Aquinas">Angelicum Praeceptorem</name> cum
@@ -1400,11 +1598,9 @@
                 im<lb ed="#BNC" n="53" break="no"/>mediato significato et non pro remotis, nec potest
                 <lb ed="#BNC" n="54"/>sub illo termino ascendere vel descendere
                 <lb ed="#BNC" n="55"/>ut dictum fuit in
-                <cit>
                   <ref>
                     <title>Logica parva</title>
-                  </ref>
-                </cit>.
+                  </ref>                .
                 Communi<lb ed="#BNC" n="56" break="no"/>tas negativa afficit naturam, ita ut supponat
                 sim<lb ed="#BNC" n="57" break="no"/>pliciter et non personaliter.
               </p>
@@ -1429,20 +1625,21 @@
                 <lb ed="#BNC" n="2"/>unum formaliter seu unum in specie; sed unum
                 indivi<lb ed="#BNC" n="3" break="no"/>duum sine consortio alterius non dicitur unum in specie; nec
                 <lb ed="#BNC" n="4"/>Petrus est unus in specie, nisi addatur Petrus cum Paulo vel
-                <lb ed="#BNC" n="5"/>cum Francisco: igitur unitas formalis non multiplicatur in
+                <lb ed="#BNC" n="5"/>cum Francisco; igitur unitas formalis non multiplicatur in
                 <lb ed="#BNC" n="6"/>quolibet individuo. Sed facit plura individua
-                <lb ed="#BNC" n="7"/>esse unum inter se. Confirmatur: ex
+                <lb ed="#BNC" n="7"/>esse unum inter se. Confirmatur ex
                 <cit>
                   <ref>
-                    Divo <name ref="#Aquinas">Thoma</name> 3 parte, quaestione 2, articulo
-                    <lb ed="#BNC" n="8"/>5, ad 2:                
-                    <quote>quod natura humana non habet rationem speciei
+                    Divo <name ref="#Aquinas">Thoma</name> III parte, quaestione 2, articulo
+                    <lb ed="#BNC" n="8"/>5, ad 2:
+                    quod natura humana <quote>non habet rationem speciei
                       <lb ed="#BNC" n="9"/>secundum quod est in uno individuo, sed secundum quod est
                       <lb ed="#BNC" n="10"/>abstracta ab omni individuo vel secundum quod est in
-                      <lb ed="#BNC" n="11"/>omnibus</quote>
-                    <bibl>
-                      Thomas Aquinas, <title>Summa theologiae</title>, III, q. 2, a. 5, ad 2
-                    </bibl>                
+                      <lb ed="#BNC" n="11"/>omnibus.</quote>
+                    <bibl>                      
+                      <name ref="#Aquinas">Thomas Aquinas</name>,
+                      <title>Summa Theologiae</title>, III, q. 2, a. 5, ad 2 (Roma: Commissio Leonina, 1903, p. 34)
+                    </bibl>
                   </ref>
                 </cit>.
                 Igitur sentit formalem unitatem non inveniri in
@@ -1451,11 +1648,11 @@
               
               
               <p n="1056">
-                <lb ed="#BNC" n="13"/>Respondeo distinguo minorem. Unum individuum sine
+                <lb ed="#BNC" n="13"/>Respondeo distinguendo minorem. Unum individuum sine
                 <lb ed="#BNC" n="14"/>consortio alterius non dicitur unum, unitate in quolibet,
-                <lb ed="#BNC" n="15"/>nego, unitate in omnibus concedo. Vel aliter non dicitur
+                <lb ed="#BNC" n="15"/>nego; unitate in omnibus, concedo. Vel aliter, non dicitur
                 <lb ed="#BNC" n="16"/>unum quantum ad convenientiam et similitudinem,
-                <lb ed="#BNC" n="17"/>concedo, quantum ad indivisionem specificam, nego.
+                <lb ed="#BNC" n="17"/>concedo; quantum ad indivisionem specificam, nego.
                 Na<lb ed="#BNC" n="18" break="no"/>tura quae est in uno individuo etiam prout est in
                 <lb ed="#BNC" n="19"/>illo habet negatione divisionis specifice per principia
                 <lb ed="#BNC" n="20"/>formalia. Sine consortio alterius non habet convenientiam
@@ -1481,7 +1678,7 @@
               <p n="1058">
                 <cb ed="#BNC" n="b"/>
                 <lb ed="#BNC" n="33"/>Obiectio 10. Similitudo est accidens, sed
-                <lb ed="#BNC" n="34"/>individua naturae humanae sunt similia: igitur conveniunt
+                <lb ed="#BNC" n="34"/>individua naturae humanae sunt similia; igitur conveniunt
                 <lb ed="#BNC" n="35"/>in aliquo accidente et non in substantia. Respondeo distinguendo
                 <lb ed="#BNC" n="36"/>maiorem. Similitudo in qualitate, concedo; in substantia,
                 <lb ed="#BNC" n="37"/>nego. Similitudo et dissimilitudo est
@@ -1490,11 +1687,15 @@
                 identi<lb ed="#BNC" n="62" break="no"/>tas et diversitas; in quantitate proprie
                 aequali<lb ed="#BNC" n="62" break="no"/>tas vel inaequalitas. Vide quod dicimus in
                 Praedi<lb ed="#BNC" n="62" break="no"/>camento Qualitatis. Utramque docet
-                <cit>
+                <cit source="https://www.zotero.org/groups/4443288/items/QLKV3Q2W">
                   <ref>
                     <name ref="#Augustinus">Magnum Patrem</name> <!-- Agustin de Hipona --> libro 16,
-                    <lb ed="#BNC" n="43"/><title>Contra Faustum,</title> capitulo 15
+                    <lb ed="#BNC" n="43"/><title>Contra Faustum</title>, capitulo 15
                   </ref>
+                  <bibl>
+                    <name ref="#Augustinus">Augustinus Hipponensis</name>,
+                    <title>Contra Faustum</title> 16.15 (ed. Zycha, CCEL  25, 1891, p. 455-457)
+                  </bibl>
                 </cit>.
               </p>
               
@@ -1510,13 +1711,13 @@
                 <cit>
                   <ref>
                     Magnus Pater <name ref="#Augustinus">Augustinus</name> <title>Sermo 38</title> de verbis Domini
-                    <lb ed="#BNC" n="51"/>inquit      
+                    <lb ed="#BNC" n="51"/>inquit
                     <quote>Homo et Homo duo homines
                       <lb ed="#BNC" n="52"/>sunt, ibi Pater et Filius unus Deus</quote>
+                  </ref>
                     <bibl>
                       Augustinus Hipponensis, <title>Sermo 117</title>, c. 4, n. 14  (PL 38, 670)
-                    </bibl>              
-                  </ref>
+                    </bibl>
                 </cit>.
                 Quia in illis
                 <lb ed="#BNC" n="53"/>non dantur duae naturae divinae similes, sed una
@@ -1551,20 +1752,20 @@
                 et
                 <cit>
                   <ref>
-                    <lb ed="#BNC" n="59"/> libro 3            
+                    <lb ed="#BNC" n="59"/> libro 3
                     <title>Contra Maximinum Arrianum</title> capitulo 1 et 15
                   </ref>
                 </cit>,
                 et
                 <cit>
                   <ref>
-                    <lb ed="#BNC" n="60"/>liber 4          
+                    <lb ed="#BNC" n="60"/>liber 4
                     <title>Trinitate</title> capitulo 9
                   </ref>
                 </cit>,
                 <cit>
                   <ref>
-                    et liber 2            
+                    et liber 2
                     <title>De anima
                       <lb ed="#BNC" n="61"/>et eius origine</title> capitulo 4 et 5
                   </ref>
@@ -1579,7 +1780,7 @@
                 Denique
                 <cit>
                   <ref>
-                    <title>tractatus 37 in Iohannem</title>
+                    tractatus 37 <title>In Iohannem</title>
                   </ref>
                 </cit>.
                 <lb ed="#BNC" n="63"/><choice><orig>Caetera</orig><reg>Cetera</reg></choice> quae ad propositum expectant sequentibus
@@ -1639,7 +1840,7 @@
               
               
               <p n="1062"> <!-- Numeración original de párrafo tachada, n. 227 -->
-                <lb ed="#BNC" n="20"/>Sit conclusio: <unclear cert="medium">axioma</unclear> non datur universale
+                <lb ed="#BNC" n="20"/>Sit conclusio: a parte rei non datur universale
                 forma<lb ed="#BNC" n="21" break="no"/>le. Ita
                 <cit>
                   <ref>
@@ -2658,7 +2859,7 @@
               </p>
               
               
-              <p n="11124"> <!-- Numeración original de párrafo tachada, n. 291 -->
+              <p n="1124"> <!-- Numeración original de párrafo tachada, n. 291 -->
                 <lb ed="#BNC" n="27"/>Contra secundam conclusionem obiectio 1. Natura
                 abstrac<lb ed="#BNC" n="28" break="no"/>ta per intellectum agentem non est una: igitur non est universalis
                 <choice><orig>me<lb ed="#BNC" n="28" break="no"/>thaphysice</orig><reg>metaphysice</reg></choice>. Probatur antecedens. Ideo est una, quia intellectus possibilis illam
@@ -2748,7 +2949,7 @@
               
               <p n="1132"> <!-- Numeración original de párrafo tachada, n. 299 -->
                 <lb ed="#BNC" n="16"/>Respondeo distinguendo antecedens. Non format unam naturam
-                <lb ed="#BNC" n="17"/>ex pluribus individuis <choice><orig>collactive</orig><reg>collective</reg></choice>, concedo; praecissive, nego.
+                <lb ed="#BNC" n="17"/>ex pluribus individuis collative, concedo; praecissive, nego.
                 <lb ed="#BNC" n="18"/>Intellectus agens repraesentat naturam tali modo, scilicet praecisionis et
                 <lb ed="#BNC" n="19"/>sic non repraesentatur natura solum secundum sua praedicata, sed etiam
                 <lb ed="#BNC" n="20"/>una unitate praecisionis. Ad probationem distinguo secundam
@@ -2756,7 +2957,7 @@
                 negati<lb ed="#BNC" n="22" break="no"/>ve reduplicando supra individua, quae
                 ommit<lb ed="#BNC" n="23" break="no"/>tit, concedo; reduplicando supra naturam, nego. Ad
                 mi<lb ed="#BNC" n="24" break="no"/>norem dico: haec comparatio requiretur ut natura sit una
-                u<lb ed="#BNC" n="25" break="no"/>nitate formali <unclear>longa</unclear>, concedo; unitate repraesentativa,
+                u<lb ed="#BNC" n="25" break="no"/>nitate formali logica, concedo; unitate repraesentativa,
                 <lb ed="#BNC" n="26"/>nego et currit solutio ad consequentiam. Articulus 3.
               </p>
               
@@ -2790,19 +2991,15 @@
                     <name ref="#Toletus">Toletus</name> <!-- Francisco de Toledo --> quaestione 2
                   </ref>
                 </cit>
-                et alii quos citat
-                <cit>
+                et alii quos citat                
                   <ref>
                     <name ref="#JSanctoThoma">Ioannes a Sancto Thoma</name>
                     <lb ed="#BNC" n="34"/>hic
                   </ref>
-                </cit>
                 et
-                <cit>
                   <ref>
                     <name ref="#Complutenses">Complutenses</name>
                   </ref>
-                </cit>.
                 Sententia etiam procedit
                 in<lb ed="#BNC" n="34" break="no"/><lb ed="#BNC" n="35"/>distincte asserendo universale fieri per actum comparativum.
               </p>
@@ -3872,7 +4069,7 @@
                 <lb ed="#BNC" n="22"/><mentioned>Sensus communis</mentioned>. Sensibilia separat et
                 sepa<lb ed="#BNC" n="23" break="no"/>rata considerat et graece <mentioned>Phantasia</mentioned>, latineque
                 <lb ed="#BNC" n="24"/><mentioned>Imaginativa</mentioned> vocatur. Sensibilium rerum
-                imagi<lb ed="#BNC" n="25" break="no"/>nes et species retinet et quodammodo <choice><orig>coagit</orig><reg>cogit</reg></choice> et
+                imagi<lb ed="#BNC" n="25" break="no"/>nes et species retinet et quodammodo coagit et
                 <lb ed="#BNC" n="26"/>dicitur Cogitativa. Eadem ordinat et disponit
                 <lb ed="#BNC" n="27"/>et dicitur Aestimativa. Etiam cognoscit
                 insensi<lb ed="#BNC" n="28" break="no"/>bilia, nam sicut ovis naturali instinctu horret
@@ -5793,7 +5990,7 @@
                 <lb ed="#BNC" n="58"/>minorem. Talis unio non fuit ab aeterno positive,
                 <lb ed="#BNC" n="59"/>concedo; negative, nego. Ad veritatem illius propositionis non
                 <lb ed="#BNC" n="60"/>requiritur conexio positiva inter animam et corpus, sed
-                <lb ed="#BNC" n="61"/><choice><orig>sat</orig><reg>satis</reg></choice> est conexio negativa inter subiectum et praedicatum.
+                <lb ed="#BNC" n="61"/>sat est conexio negativa inter subiectum et praedicatum.
                 <lb ed="#BNC" n="62"/>Ad secundam distinguo antecedens. Homo aliquando est mortuus
                 <lb ed="#BNC" n="63"/>proprie, nego; abusive et aequivoce, concedo. Quando
                 mori<lb ed="#BNC" n="64" break="no"/>tur homo, desinit esse homo: igitur numquam homo est mortuus.

@@ -57,6 +57,8 @@
         
         <div type="caput" n="1"><!-- textus capituli primi Porphirii. Abarca una q. incidens y la q.8 -->
           
+          <head type="caput"><supplied>Capitulum primum</supplied></head>
+          
           <head>Textus capituli primi Porphyrii</head>
                     
           <p ana="heading"> 
@@ -201,7 +203,7 @@
             <lb ed="#BNC" n="34"/>natura accidentibus. Ex
             <cit>
               <ref>
-                <name ref="#Aristoteles">Aristotele</name> 7 <title>Metaphysicae</title> capitulo 1: <quote>nam
+                <name ref="#Aristoteles">Aristotele</name> VII <title>Metaphysicae</title>, capitulo 1: <quote>nam
                   <lb ed="#BNC" n="35"/>substantia habet respectu accidentium rationem causae</quote>:
               </ref>
             </cit>
@@ -1416,7 +1418,7 @@
               <lb ed="#BNC" n="8"/>substantia sit nec accidens; non enim datur medium. Illud
               <lb ed="#BNC" n="9"/>tertium resultans non est sola substantia cum etiam
               acci<lb ed="#BNC" n="10" break="no"/>dens habeat partem sui, nec solum est accidens cum
-              <lb ed="#BNC" n="11"/>substantiam habeat partem sui. <choice><orig>Dein</orig><reg>Deinde</reg></choice> non datur medium
+              <lb ed="#BNC" n="11"/>substantiam habeat partem sui. Dein non datur medium
               <lb ed="#BNC" n="12"/>inter substantiam et accidens cum dividantur modis
               <lb ed="#BNC" n="13"/>contradictionis, scilicet esse per se et esse in alio: igitur non est aliqua
               <lb ed="#BNC" n="14"/>quidditas per se, sed ens per accidens.

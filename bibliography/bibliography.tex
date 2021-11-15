@@ -1,0 +1,136 @@
+\documentclass[12pt,
+              article,
+              oneside
+              ]{memoir}
+
+\usepackage{ifluatex}
+
+\ifluatex
+  \usepackage{fontspec}
+\fi
+
+\usepackage[%english,
+            %latin,
+            spanish, spanish.mexico,
+            ]{babel} % el último es el principal
+
+\ifluatex
+% LuaLaTeX --------------------
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+\setmainfont[Ligatures=Common,
+Numbers=OldStyle,
+% SmallCapsFeatures = {LetterSpace=5.0},
+% BoldFont = {LinLibertineOZ},
+% SmallCapsFeatures={Renderer=Basic},
+]{Libertinus Serif}
+% \setsansfont{Libertinus Sans}
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+% \setmonofont[Scale=MatchLowercase]{Libertinus Mono}
+% \setmonofont[Scale=MatchLowercase}]{Fira Code}
+\else
+% PDFLaTeX ---------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[osf]{libertinus}
+% \usepackage[osf]{fbb}
+% \usepackage[osf]{ETbb}
+% \usepackage[osf]{coelacanth}
+% \usepackage[p,osf]{baskervillef}
+% \usepackage{imfellEnglish}
+% \usepackage[osf]{Alegreya} %% Option 'black' gives heavier bold face 
+% \usepackage[oldstylenums, nott]{kpfonts}
+% \usepackage[osf]{cochineal}
+% \usepackage[osf]{CormorantGaramond}
+% \usepackage[osf]{ebgaramond}
+% \usepackage[osf]{garamondx}
+% \usepackage[osf]{Baskervaldx}
+% \usepackage[osf]{newtxtext} % Times
+% \usepackage{cfr-lm} % Latin Modern with OSF
+% \usepackage[osf]{noto}
+% \usepackage{lmodern} % Latin Modern
+% \usepackage[scaled=0.95]{inconsolata}
+\usepackage[scaled=0.7]{DejaVuSansMono}
+\usepackage{AlegreyaSans}
+% \usepackage[scaled=0.8]{DejaVuSans}
+\fi
+
+\usepackage[babel=true, verbose=false, tracking=true, expansion=true, protrusion=true, final, draft=false]{microtype}
+\SetTracking{ encoding = *, shape = sc }{ 30 }
+\SetTracking[context = notracking, ]{encoding = *}{0}
+
+\usepackage[autostyle=false, style=british]{csquotes}
+\usepackage{latexcolors}
+
+\usepackage[margin=3cm]{geometry}
+
+\usepackage{graphicx}
+
+\usepackage[
+  style=authoryear-comp,
+  giveninits=true,
+  uniquename=init,
+  mincrossrefs=20,
+]{biblatex}
+\addbibresource{SalgadoInIsagogem.bib}
+
+% \hyphenpenalty=10000%
+% \exhyphenpenalty=10000%
+\righthyphenmin=62%
+\lefthyphenmin=62%
+\clubpenalty=9996
+\widowpenalty=9999
+\brokenpenalty=4991
+\predisplaypenalty=10000
+\postdisplaypenalty=1549
+\displaywidowpenalty=1602
+\flushbottom
+\raggedbottom
+\midsloppy
+\parindent=14pt
+\frenchspacing
+
+
+\renewcommand\thesection{\arabic{section}}
+\chapterstyle{reparticle}
+
+\usepackage{enumitem}
+\setlist{noitemsep, nosep}
+\setlist[description]{font=\itshape}
+
+\newcommand*{\elipsis}{\,.\,.\,.\,}
+\newcommand*{\elipsisb}{\textup{[\elipsis]}}
+
+\renewenvironment{quote}%
+ {\begin{list}{}%
+              {\setlength\rightmargin{0pt}%
+              \setlength\leftmargin{\parindent}}%
+  \item[]\small\ignorespaces}
+ {\unskip\end{list}}
+
+\setlength{\droptitle}{-2cm}
+\title{\itshape Bibliografía de la edición del\\
+  \enquote{In Isagogem Porphyrii \dots} de Gregorio Salgado}
+\author{Wainer Andrés Durán Guerrero \\
+  Universidad de los Andes, Bogotá \\
+  \texttt{w.duran@uniandes.edu.co}
+  }
+\date{}
+
+% \definecolor{Link}{HTML}{408080}
+% \usepackage[colorlinks=true, allcolors=Link]{hyperref}
+% \urlstyle{tt}
+% ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{document}
+\maketitle
+
+
+\nocite{*}
+\printbibliography
+\end{document}
+
+% ===============================================
+%%% Local Variables:
+%%% mode: latex
+%%% ispell-local-dictionary: "spanish"
+%%% TeX-master: t
+%%% End:

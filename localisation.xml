@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations xmlns="localisation">
+  <map xml:lang="en">
+    <map name="extents">
+      <gloss key="characters" number="singular">char.</gloss>
+      <gloss key="characters" number="plural">chars.</gloss>
+      <gloss key="lines" number="plural">lines</gloss>
+      <gloss key="lines" number="singular">line</gloss>
+      <gloss key="words" number="singular">word</gloss>
+      <gloss key="words" number="plural">words</gloss>
+      <gloss key="columns" number="plural">columns</gloss>
+      <gloss key="columns" number="singular">column</gloss>
+      <gloss key="column" number="singular">column</gloss>
+    </map>
+  </map>
+  <map xml:lang="la">
+    <map name="extents">
+      <gloss key="characters" number="singular">litt.</gloss>
+      <gloss key="characters" number="plural">litt.</gloss>
+      <gloss key="lines" number="plural">lin.</gloss>
+      <gloss key="lines" number="singular">lin.</gloss>
+      <gloss key="words" number="singular">vox</gloss>
+      <gloss key="words" number="plural">voc.</gloss>
+      <gloss key="columns" number="plural">col.</gloss>
+      <gloss key="columns" number="singular">col.</gloss>
+   </map>
+  </map>
+</translations>

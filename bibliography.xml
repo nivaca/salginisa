@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exported from Zotero</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>unpublished</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Generated from Zotero database</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <biblStruct type="book" xml:id="ThomasAquinas1964"
+          corresp="http://zotero.org/groups/4443288/items/87JSFGSI">
+          <monogr>
+            <title level="m">In duodecim libros Metaphysicorum Aristotelis Expositio</title>
+            <author><name>Thomas Aquinas</name></author>
+            <editor><forename>M.-R.</forename><surname>Cathala, O.P.</surname></editor>
+            <editor><forename>Raimundus M.</forename><surname>Spiazzi, O.P.</surname></editor>
+            <imprint>
+              <pubPlace>Taurini-Roma</pubPlace>
+              <publisher>Marietti</publisher>
+              <date>1964</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="AugustinusHipponensis1891"
+          corresp="http://zotero.org/groups/4443288/items/QLKV3Q2W">
+          <monogr>
+            <title level="m">Contra Faustum</title>
+            <author><name>Augustinus Hipponensis</name></author>
+            <editor><forename>Josephus</forename><surname>Zycha</surname></editor>
+            <imprint>
+              <pubPlace>Viena</pubPlace>
+              <biblScope unit="volume">1</biblScope>
+              <publisher>F. Tempsky</publisher>
+              <date>1891</date>
+            </imprint>
+          </monogr>
+          <series><title level="s">CCEL</title><biblScope unit="volume">25</biblScope></series>
+        </biblStruct>
+        <biblStruct type="book" xml:id="AegidiusRomanus1699"
+          corresp="http://zotero.org/groups/4443288/items/BTSTS43H">
+          <monogr>
+            <title level="m">In primum librum Sententiarum</title>
+            <author><name>Aegidius Romanus</name></author>
+            <imprint>
+              <pubPlace>Córdoba</pubPlace>
+              <publisher>apud Lazarum de Risquez et Antorium Rosellon</publisher>
+              <date>1699</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Melo1962"
+          corresp="http://zotero.org/groups/4443288/items/AYBSVJJ9">
+          <analytic>
+            <title level="a">Notas sobre algunos textos filosóficos de la Colonia</title>
+            <author><forename>Jorge Orlando</forename><surname>Melo</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Ideas y Valores</title>
+            <imprint>
+              <biblScope unit="volume">4</biblScope>
+              <biblScope unit="issue">14</biblScope>
+              <biblScope unit="page">43-56</biblScope>
+              <date>1962</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book"
+          xml:id="CollegiumcomplutenseS.CyrilliDiscalceatorumFratrumBeataMariadeMonteCarmeli1624"
+          corresp="http://zotero.org/groups/4443288/items/5DH5PS5I">
+          <monogr>
+            <title level="m">Artium cursus sive Disputationes in Aristotelis Dialecticam et
+              Philosophiam naturalem iuxta Angelici Doctoris D. Thomae Doctrinam et Scholam</title>
+            <author><name>Collegium complutense S. Cyrilli Discalceatorum Fratrum Beata Maria de
+              Monte Carmeli</name></author>
+            <imprint>
+              <pubPlace>Alcalá de Henares</pubPlace>
+              <publisher>apud Ioannem de Orduña</publisher>
+              <date>1624</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Dias1964"
+          corresp="http://zotero.org/groups/4443288/items/HB5NLMAY">
+          <analytic>
+            <title level="a">A Isagoge de Porfírio na Lógica Conimbricense</title>
+            <author><forename>Arnaldo de Pinho</forename><surname>Dias</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Revista Portuguesa de Filosofia</title>
+            <imprint>
+              <biblScope unit="volume">20</biblScope>
+              <biblScope unit="issue">1-2</biblScope>
+              <biblScope unit="page">108-130</biblScope>
+              <date>1964</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="Menn1997"
+          corresp="http://zotero.org/groups/4443288/items/76VPS8UY">
+          <analytic>
+            <title level="a">Suárez, Nominalism, and Modes</title>
+            <author><forename>Stephen.</forename><surname>Menn</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Hispanic Philosophy in the Age of Discovery</title>
+            <imprint>
+              <pubPlace>Washington D.C.</pubPlace>
+              <biblScope unit="page">226-256</biblScope>
+              <publisher>The Catholic University of America Press</publisher>
+              <date>1997</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Doyle1988"
+          corresp="http://zotero.org/groups/4443288/items/XX2EDK75">
+          <analytic>
+            <title level="a">Suarez on Beings of Reason and Truth (2)</title>
+            <author><forename>John P.</forename><surname>Doyle</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Vivarium.</title>
+            <imprint>
+              <biblScope unit="volume">26</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">51-72</biblScope>
+              <date>1988</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Doyle1987"
+          corresp="http://zotero.org/groups/4443288/items/DHQJNPUD">
+          <analytic>
+            <title level="a">Suarez on Beings of Reason and Truth</title>
+            <author><forename>John P.</forename><surname>Doyle</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Vivarium</title>
+            <imprint>
+              <biblScope unit="volume">25</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">45-75</biblScope>
+              <date>1987</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="Wood2011"
+          corresp="http://zotero.org/groups/4443288/items/CZE3A9CU">
+          <analytic>
+            <title level="a">Aquinas, Scotus, and Cajetan on “Horseness is Just Horseness”</title>
+            <author><forename>Adam</forename><surname>Wood</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Medieval Metaphysics, or is it “Just Semantics”? Volume 7: Proceedings
+              of the Society for Medieval Logic and Metaphysics</title>
+            <editor><forename>Gyula</forename><surname>Klima</surname></editor>
+            <editor><forename>Alexander W.</forename><surname>Hall</surname></editor>
+            <imprint>
+              <pubPlace>Newcastle upon Tyne</pubPlace>
+              <biblScope unit="page">69-84</biblScope>
+              <publisher>Cambridge Scholars Publishing</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="Trentman1982"
+          corresp="http://zotero.org/groups/4443288/items/UHXMA2KW">
+          <analytic>
+            <title level="a">Scholasticism in the Seventeenth Century</title>
+            <author><forename>John A.</forename><surname>Trentman</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">The Cambridge History of Later Medieval Philosophy: From the
+              Rediscovery of Aristotle to the Disintegration of Scholasticism, 1100-1600</title>
+            <editor><forename>Norman</forename><surname>Kretzmann</surname></editor>
+            <editor><forename>Anthony</forename><surname>Kenny</surname></editor>
+            <editor><forename>Jan</forename><surname>Pinborg</surname></editor>
+            <imprint>
+              <pubPlace>Cambridge</pubPlace>
+              <biblScope unit="page">818-837</biblScope>
+              <publisher>Cambridge University Press</publisher>
+              <date>1982</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="DOnofrio2016"
+          corresp="http://zotero.org/groups/4443288/items/7TF4YEP3">
+          <analytic>
+            <title level="a">Notes concerning the Ontological Status of the Objective Concept of the
+              ens rationis in Antonio Rubio’s Teaching</title>
+            <author><forename>Sandro R.</forename><surname>D’Onofrio</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Scholastica colonialis: Reception and Development of Baroque
+              Scholasticism in Latin America, 16th-18th Centuries</title>
+            <editor><forename>Roberto</forename><surname>Hofmeister Pich</surname></editor>
+            <editor><forename>Alfredo Santiago</forename><surname>Culleton</surname></editor>
+            <imprint>
+              <pubPlace>Roma</pubPlace>
+              <biblScope unit="page">207-229</biblScope>
+              <publisher>Fédération Internationale des Instituts d’Études Médiévales</publisher>
+              <date>2016</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="Novotny2010"
+          corresp="http://zotero.org/groups/4443288/items/34CA8BZJ">
+          <analytic>
+            <title level="a">Rubio and Suárez: A Comparative Study on the Nature of Entia
+              Rationis</title>
+            <author><forename>Daniel D.</forename><surname>Novotný</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Bohemia Jesuitica 1556-2006</title>
+            <editor><forename>Petronilla</forename><surname>Cemus</surname></editor>
+            <imprint>
+              <pubPlace>Praga</pubPlace>
+              <biblScope unit="page">477-490</biblScope>
+              <publisher>Karolinum,</publisher>
+              <date>2010</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="Carvalho2018"
+          corresp="http://zotero.org/groups/4443288/items/4EMMF3YZ">
+          <monogr>
+            <title level="m">The Coimbra Jesuit Aristotelian Course</title>
+            <author><forename>Mário Santiago de</forename><surname>Carvalho</surname></author>
+            <imprint>
+              <pubPlace>Coímbra</pubPlace>
+              <publisher>Imprensa da Universidade de Coimbra</publisher>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="ThomasAquinas1976"
+          corresp="http://zotero.org/groups/4443288/items/XXQH2CUQ">
+          <monogr>
+            <title level="m">De ente et essentia</title>
+            <author><name>Thomas Aquinas</name></author>
+            <imprint>
+              <pubPlace>Roma</pubPlace>
+              <biblScope unit="volume">XLIII</biblScope>
+              <publisher>Editori di San Tomasso</publisher>
+              <date>1976</date>
+            </imprint>
+          </monogr>
+          <series><title level="s">Opera omnia</title></series>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Carvalho1999"
+          corresp="http://zotero.org/groups/4443288/items/9PRDD5IM">
+          <analytic>
+            <title level="a">Medieval Influences in the Coimbra Commentaries (An Inquiry Into the
+              Foundations of Jesuit Education)</title>
+            <author><forename>Mário Santiago de</forename><surname>Carvalho</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Patristica et Mediaevalia</title>
+            <imprint>
+              <biblScope unit="volume">20</biblScope>
+              <biblScope unit="page">19-37</biblScope>
+              <date>1999</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="AntoniusPerezOSB1604"
+          corresp="http://zotero.org/groups/4443288/items/LBQEQACD">
+          <monogr>
+            <title level="m">Laurea Salmantina: Continens Pro Parte priori scholastica decem, et
+              totidem interiecta certamina expositiua</title>
+            <author><name>Antonius Perez, OSB</name></author>
+            <imprint>
+              <pubPlace>Salamanca</pubPlace>
+              <publisher>excudebat Artus Taberniel</publisher>
+              <date>1604</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="CommentariiCollegiiConimbricensiseSocietateIesu1622"
+          corresp="http://zotero.org/groups/4443288/items/X7M3AL2V">
+          <monogr>
+            <title level="m">In universam Dialecticam Aristotelis Stagiritae</title>
+            <author><name>Commentarii Collegii Conimbricensis e Societate Iesu</name></author>
+            <imprint>
+              <pubPlace>Lyon</pubPlace>
+              <biblScope unit="volume">Prima Pars</biblScope>
+              <publisher>sumpt. Iacobi Cardon et Petri Cavellat</publisher>
+              <date>1622</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="BarnabaGallego1623"
+          corresp="http://zotero.org/groups/4443288/items/FNBJF4GT">
+          <monogr>
+            <title level="m">Controversiae artium in Defensionem Doctrinae Angelici Doctoris D.
+              Thomae</title>
+            <author><name>Barnaba Gallego</name></author>
+            <imprint>
+              <pubPlace>Madrid</pubPlace>
+              <biblScope unit="volume">Tomus primus</biblScope>
+              <publisher>apud Thomam Iuntam</publisher>
+              <date>1623</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="deLibera2016"
+          corresp="http://zotero.org/groups/4443288/items/KV439IKS">
+          <monogr>
+            <title level="m">La cuestión de los universales. De Platón a fines de la Edad
+              Media</title>
+            <author><forename>Alain</forename><surname>de Libera</surname></author>
+            <imprint>
+              <pubPlace>Buenos Aires</pubPlace>
+              <publisher>Prometeo Libros</publisher>
+              <date>2016</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Heider2012"
+          corresp="http://zotero.org/groups/4443288/items/68SNZ4W4">
+          <analytic>
+            <title level="a">John Poinsot (1589–1644) on the Universale Materialiter Sumptum: A Dual
+              Viewpoint</title>
+            <author><forename>Daniel</forename><surname>Heider</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">The Modern Schoolman</title>
+            <imprint>
+              <biblScope unit="volume">89</biblScope>
+              <biblScope unit="issue">1-2</biblScope>
+              <biblScope unit="page">47-63</biblScope>
+              <date>2012</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Redmond1969"
+          corresp="http://zotero.org/groups/4443288/items/4GNQRWT2">
+          <analytic>
+            <title level="a">Juan de Espinosa Medrano: Sobre la naturaleza de los
+              universales</title>
+            <author><forename>Walter</forename><surname>Redmond</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Separata de Humanidades de la Pontificia Universidad Católica del Perú
+              (PUCP)</title>
+            <imprint>
+              <biblScope unit="volume">3</biblScope>
+              <biblScope unit="page">131-185</biblScope>
+              <date>1969</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Beuchot1989"
+          corresp="http://zotero.org/groups/4443288/items/FA6EF9RQ">
+          <analytic>
+            <title level="a">El problema de los universales en Juan de Santo Tomás</title>
+            <author><forename>Mauricio</forename><surname>Beuchot</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Revista de Filosofía de la Universidad del Zulia</title>
+            <imprint>
+              <biblScope unit="volume">8</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">34-42</biblScope>
+              <date>1989</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Carvalho2007"
+          corresp="http://zotero.org/groups/4443288/items/Y7DD8NYE">
+          <analytic>
+            <title level="a">The Coimbra Jesuits’ Doctrine on Universals (1577-1606)</title>
+            <author><forename>Mário Santiago de</forename><surname>Carvalho</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Documenti e studi sulla tradizione filosofica medievale</title>
+            <imprint>
+              <biblScope unit="volume">18</biblScope>
+              <biblScope unit="page">531-543</biblScope>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="Conti1999"
+          corresp="http://zotero.org/groups/4443288/items/K5F3VZVU">
+          <analytic>
+            <title level="a">Second Intentions in the Late Middle Ages</title>
+            <author><forename>Alessandro D.</forename><surname>Conti</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Medieval Analyses in Language and Cognition: Acts of the Symposium, the
+              Copenhagen School of Medieval Philosophy, January 10-13, 1996. Organized by the Royal
+              Danish Academy of Sciences and Letters and the Institute for Greek and Latin,
+              University of Copenhagen</title>
+            <editor><forename>Sten</forename><surname>Ebbesen,</surname></editor>
+            <editor><forename>Russell L.</forename><surname>Friedman</surname></editor>
+            <imprint>
+              <pubPlace>Copenhagen</pubPlace>
+              <biblScope unit="page">453-470</biblScope>
+              <publisher>The Royal Danish Academy of Sciences and Letters</publisher>
+              <date>1999</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Heider2016"
+          corresp="http://zotero.org/groups/4443288/items/NSG9WC8E">
+          <analytic>
+            <title level="a">The Notitia Intuitiva and Notitia Abstractiva of the External Senses in
+              Second Scholasticism: Suárez, Poinsot and Francisco de Oviedo</title>
+            <author><forename>Daniel</forename><surname>Heider</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Vivarium</title>
+            <imprint>
+              <biblScope unit="volume">54</biblScope>
+              <biblScope unit="issue">2-3</biblScope>
+              <biblScope unit="page">173-203</biblScope>
+              <date>2016</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Novotny2006"
+          corresp="http://zotero.org/groups/4443288/items/5HALQSNH">
+          <analytic>
+            <title level="a">Prolegomena to a Study of Beings of Reason in Post-Suarezian
+              Scholasticism, 1600–1650</title>
+            <author><forename>Daniel Dominik</forename><surname>Novotný</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Studia Neoaristotelica</title>
+            <imprint>
+              <biblScope unit="volume">3</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">117-141</biblScope>
+              <date>2006</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="Ashworth1974"
+          corresp="http://zotero.org/groups/4443288/items/R2KPMHRK">
+          <monogr>
+            <title level="m">Language and Logic in the Post-Medieval Period</title>
+            <author><forename>E. J.</forename><surname>Ashworth</surname></author>
+            <imprint>
+              <pubPlace>Dordrecht, Boston</pubPlace>
+              <publisher>D. Reidel Publishing Company</publisher>
+              <date>1974</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Galluzzo2008"
+          corresp="http://zotero.org/groups/4443288/items/863SV4WH">
+          <analytic>
+            <title level="a">The Problem of Universals and Its History. Some General
+              Considerations</title>
+            <author><forename>Gabriele</forename><surname>Galluzzo</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Documenti e studi sulla tradizione filosofica medievale</title>
+            <imprint>
+              <biblScope unit="volume">19</biblScope>
+              <biblScope unit="page">335-369</biblScope>
+              <date>2008</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="Heider2014"
+          corresp="http://zotero.org/groups/4443288/items/B7BLQI8F">
+          <monogr>
+            <title level="m">Universals in Second Scholasticism. A comparative study with focus on
+              the theories of Francisco Suárez S.J. (1548–1617), João Poinsot O.P. (1589–1644) and
+              Bartolomeo Mastri da Meldola O.F.M. Conv. (1602–1673)/Bonaventura Belluto O.F.M. Conv.
+              (1600–1676)</title>
+            <author><forename>Daniel</forename><surname>Heider</surname></author>
+            <imprint>
+              <pubPlace>Amsterdam, Philadelphia</pubPlace>
+              <publisher>John Benjamins Publishing Company</publisher>
+              <date>2014</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="book" xml:id="Novotny2013"
+          corresp="http://zotero.org/groups/4443288/items/CXGC8PLF">
+          <monogr>
+            <title level="m">Ens rationis from Suárez to Caramuel. A Study in Scholasticism of the
+              Baroque Era</title>
+            <author><forename>Daniel D.</forename><surname>Novotný</surname></author>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>Fordham University Press</publisher>
+              <date>2013</date>
+            </imprint>
+          </monogr>
+          <series><title level="s">Medieval Philosophy. Texts and Studies</title></series>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="Galluzzo2004"
+          corresp="http://zotero.org/groups/4443288/items/QCGD6VCT">
+          <analytic>
+            <title level="a">Aquinas on Common Nature and Universals</title>
+            <author><forename>Gabriele</forename><surname>Galluzzo</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Recherches de Theologie Et Philosophie Medievales</title>
+            <imprint>
+              <biblScope unit="volume">71</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">131-171</biblScope>
+              <date>2004</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="LertoraMendoza2000"
+          corresp="http://zotero.org/groups/4443288/items/MFNLSPV4">
+          <analytic>
+            <title level="a">La difusión de Suárez en las aulas coloniales. Notas para la historia
+              de la Escolástica americana</title>
+            <author><forename>Celina Ana</forename><surname>Lértora Mendoza</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Filosofía hispánica y diálogo intercultural. Actas del X seminario de
+              Historia de la filosofía española e iberoamericana, Universidad de Salamanca, 23 al 27
+              de septiembre de 1996</title>
+            <editor><forename>Roberto</forename><surname>Albares Albares</surname></editor>
+            <editor><forename>Antonio</forename><surname>Heredia Soriano</surname></editor>
+            <editor><forename>Ricardo</forename><surname>Piñero Moral</surname></editor>
+            <imprint>
+              <pubPlace>Salamanca</pubPlace>
+              <biblScope unit="page">161-179</biblScope>
+              <publisher>Fundación Gustavo Bueno</publisher>
+              <date>2000</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="CampodelPozo1996"
+          corresp="http://zotero.org/groups/4443288/items/XP4ELQPM">
+          <analytic>
+            <title level="a">Textos de tres agustinos en la Universidad de San Nicolás de Bari, en
+              Santafé de Bogotá, durante el siglo XVIII: Francisco de San José, Gregorio Agustín
+              Salgado y Diego Francisco Padilla</title>
+            <author><forename>Fernando</forename><surname>Campo del Pozo,</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Archivo Agustiniano</title>
+            <imprint>
+              <biblScope unit="volume">80</biblScope>
+              <biblScope unit="issue">198</biblScope>
+              <biblScope unit="page">53-75</biblScope>
+              <date>1996</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="MunozDelgado1968"
+          corresp="http://zotero.org/groups/4443288/items/2YKZ549F">
+          <analytic>
+            <title level="a">La lógica en la Universidad de Alcalá durante la primera mitad del
+              siglo XVI</title>
+            <author><forename>Vicente</forename><surname>Muñoz Delgado</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Salmanticensis</title>
+            <imprint>
+              <biblScope unit="volume">15</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">161-218</biblScope>
+              <date>1968</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="MunozDelgado1964"
+          corresp="http://zotero.org/groups/4443288/items/JRWU95Z2">
+          <analytic>
+            <title level="a">La lógica en la Salamanca durante la primera mitad del siglo
+              XVI</title>
+            <author><forename>Vicente</forename><surname>Muñoz Delgado</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Salmanticensis</title>
+            <imprint>
+              <biblScope unit="volume">14</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">171-207</biblScope>
+              <date>1964</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct type="bookSection" xml:id="PoncelaGonzalez2018"
+          corresp="http://zotero.org/groups/4443288/items/4SJ56LSE">
+          <analytic>
+            <title level="a">Francisco Suárez y el problema de los universales: ¿Una solución
+              nominalista?</title>
+            <author><forename>Ángel</forename><surname>Poncela González</surname></author>
+          </analytic>
+          <monogr>
+            <title level="m">Entre el Renacimiento y la Modernidad: Francisco Suárez
+              (1548-1617)</title>
+            <author><forename>José Luis</forename><surname>Fuerte Herrero</surname></author>
+            <author><forename>Manuel</forename><surname>Lázaro Pulido</surname></author>
+            <author><forename>Ángel</forename><surname>Poncela González</surname></author>
+            <author><forename>María Idoya</forename><surname>Zorroza</surname></author>
+            <imprint>
+              <pubPlace>Salamanca</pubPlace>
+              <biblScope unit="page">19-31</biblScope>
+              <publisher>Editorial Sindéresis</publisher>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+          <series><title level="s">Colección Instituto de Estudios Hispánicos en La Modernidad
+            (IEHM)</title></series>
+        </biblStruct>
+        <biblStruct type="journalArticle" xml:id="CampodelPozo"
+          corresp="http://zotero.org/groups/4443288/items/7TF7M5CR">
+          <analytic>
+            <title level="a">Las profesiones religiosas del Convento de San Agustín de Santafé de
+              Bogotá (1637-1757)</title>
+            <author><forename>Fernando</forename><surname>Campo del Pozo,</surname></author>
+          </analytic>
+          <monogr>
+            <title level="j">Archivo Agustiniano</title>
+            <imprint>
+              <biblScope unit="volume">77</biblScope>
+              <biblScope unit="issue">193</biblScope>
+              <biblScope unit="page">19-73</biblScope>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
