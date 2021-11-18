@@ -73,7 +73,7 @@
             <p n="1482" xml:lang="grc"> <!-- Numeración original de párrafo tachada, n. 563 -->
               <cb ed="#BNC" n="b"/>
               <cit>
-                <quote>                  
+                <quote>
                   <lb ed="#BNC" n="4"/>ΚΕΦΑΛΑΙΟΝ Α
                   <lb ed="#BNC" n="5"/>Ἔοικε δὲ μήτε τὸ γένος μήτε τὸ εἶδος
                   <lb ed="#BNC" n="6"/>ἁπλμῶς λέγεσθαι. Γένος γὰρ λέγεται
@@ -81,7 +81,8 @@
                   <lb ed="#BNC" n="8"/>τι καὶ πρὸσ ἀλλήλους ἄθροισις.
                 </quote>
                 <bibl>
-                  Porphyrius, <title>Isagoge</title>, p. ed. ??
+                  <name ref="Conimbricenses">Commentarii Collegii Conimbricensis e Societate Iesu</name>, <title>In universam dialecticam Aristotelis Stagirita</title> 
+                  (Lugduni: sumpt. Iacobi Cardon et Petri Cavellat, 1622), p. 94.
                 </bibl>
               </cit>
             </p>
@@ -100,7 +101,8 @@
                   <lb ed="#BNC" n="13"/>qui propriam, et inter se habent respectum. Etc.
                 </quote>
                 <bibl>
-                  Porphyrius, <title>Isagoge</title>, trad. Boethius, p.???
+                  <name ref="Conimbricenses">Commentarii Collegii Conimbricensis e Societate Iesu</name>, <title>In universam dialecticam Aristotelis Stagirita</title> 
+                  (Lugduni: sumpt. Iacobi Cardon et Petri Cavellat, 1622), p. 94.
                 </bibl>
               </cit>
             </p>
@@ -200,13 +202,12 @@
             <lb ed="#BNC" n="31"/>ad tradendas disciplinas, sed hanc
             observa<lb ed="#BNC" n="32" break="no"/>vit <name ref="#Porphyrius">Porphyrius</name> in tradendis praedicabilibus: igitur eius
             <lb ed="#BNC" n="33"/>methodus est optima. Probatur minor. Substantia est prior
-            <lb ed="#BNC" n="34"/>natura accidentibus. Ex
-            <cit>
-              <ref>
-                <name ref="#Aristoteles">Aristotele</name> VII <title>Metaphysicae</title>, capitulo 1: <quote>nam
-                  <lb ed="#BNC" n="35"/>substantia habet respectu accidentium rationem causae</quote>:
-              </ref>
-            </cit>
+            <lb ed="#BNC" n="34"/>natura accidentibus. Ex            
+              <ref><name ref="#Aristoteles">Aristotele</name> VII <title>Metaphysicae</title>, capitulo 1</ref>:
+              <cit>
+              <quote>nam
+              <lb ed="#BNC" n="35"/>substantia habet respectu accidentium rationem causae</quote>
+            </cit>;
             igitur contra
             <lb ed="#BNC" n="36"/>methodum compositis prius agendum erat de
             praedicabili<lb ed="#BNC" n="37" break="no"/>bus significatis per modum substantiae, quam de
@@ -298,8 +299,8 @@
              <lb ed="#BNC" n="34"/><choice><orig>caeteras</orig><reg>ceteras</reg></choice> propter rationes occurrentes: igitur tunc est
              per<lb ed="#BNC" n="35" break="no"/>fectissima.
           </p>
-                
-                
+            
+            
           <p n="1493"> <!-- Numeración de párrafo anterior tachada, p. 575 -->
             <lb ed="#BNC" n="36"/>Cur tamen Porphyrius methodo arbitraria
             <lb ed="#BNC" n="37"/>usus prius egit de specie quam de differentia? Primo quia
@@ -316,8 +317,8 @@
             <lb ed="#BNC" n="42"/>quantocius tractanda est species, ne detur
             suspen<lb ed="#BNC" n="43" break="no"/>sio. Vide alias rationes in Auctoribus aliis.
           </p>
-                
-                
+            
+            
           <p n="1494"> <!-- Numeración de párrafo anterior tachada, p. 576 -->
             <lb ed="#BNC" n="44"/>Obiectio 2. Differentia est nobilior genere. Nam
             <lb ed="#BNC" n="45"/>actus nobilior est potentia: igitur est prior illo. Nam nobiliora
@@ -336,8 +337,8 @@
            <lb ed="#BNC" n="54"/>Methodo compositionis, concedo; methodo arbitraria, nego.
            <lb ed="#BNC" n="55"/>Hoc manet iam satis explicatum.
           </p>
-                
-                
+            
+            
           <p n="1496"> <!-- Numeración de párrafo anterior tachada, p. 578 -->
             <lb ed="#BNC" n="56"/>Obiectio 4. A facilioribus est incipiendum, sed
             <lb ed="#BNC" n="57"/><surplus>sed</surplus> accidentia communia sunt faciliora. Siquidem sunt
@@ -359,7 +360,7 @@
             
             
             
-          <div type="quaestio"><!-- q8 -->          
+          <div type="quaestio"><!-- q8 -->
         
           <head>Quaestio 8. De natura et proprietatibus generis</head>
             
@@ -369,8 +370,8 @@
             <lb ed="#BNC" n="1"></lb>Quaestio 8. De natura et
             pro<lb ed="#BNC" n="2" break="no"/>prietatibus generis
           </p>
-              
-              
+            
+            
           <p n="?">
             <lb ed="#BNC" n="3"/>Plura supponimus omnibus praedicabilibus communia,
             <lb ed="#BNC" n="4"/>sed etiam plura singulis peculiaria restant
@@ -408,8 +409,8 @@
               connotati<lb ed="#BNC" n="18" break="no"/>vum: igitur significat per modum accidentis seu alteri
               <lb ed="#BNC" n="19"/>adiacentis.
             </p>
-                  
-                  
+            
+            
             <p n="1498"> <!-- Numeración de párrafo anterior tachada, p. 580 -->
               <lb ed="#BNC" n="20"/>Unde ad quaestionem quod respondetur
               <lb ed="#BNC" n="21"/>nominibus substantivis generis, scilicet et speciei
@@ -478,8 +479,8 @@
               est communis inter
               <lb ed="#BNC" n="60"/>Dialecticos utrique scholae.
             </p>
-                                    
-                  
+            
+            
             <p n="?"> <!-- Numeración de párrafo anterior tachada, p. 584 -->
               <pb ed="#BNC" n="135-r"/><!--p. 265--> <!-- Numeración anterior tachada, indica página 83 -->
               <cb ed="#BNC" n="a"/>
@@ -522,7 +523,7 @@
               <cit>
                 <ref>
                   Beatus <name ref="#AlbertusMagnus">Albertus</name>
-                  <lb ed="#BNC" n="16"/><title>tractato 3, capitulo 34</title>               
+                  <lb ed="#BNC" n="16"/><title>tractato 3, capitulo 34</title>
                 </ref>
               </cit>
               et
@@ -837,12 +838,11 @@
               <lb ed="#BNC" n="6"/>numero 388 usque ad 391. Sequitur nunc prima
               no<lb ed="#BNC" n="7" break="no"/>mina non significare res absolute et secundum se.
               <lb ed="#BNC" n="8"/>Quomodo? Audito
-              <cit>
+              
                 <ref>
-                  Divum <name ref="#Aquinas">Thomam</name> 7 <title>Metaphysicae</title> lectione 11:
-                  <lb ed="#BNC" n="9"/><quote>Nec modus significandi consequitur modum essendi
-                    re<lb ed="#BNC" n="10" break="no"/>rum immediate sed mediante modo intelligendi</quote>
-                </ref>
+                  Divum <name ref="#Aquinas">Thomam</name> 7 <title>Metaphysicae</title> lectione 11:</ref>
+                  <lb ed="#BNC" n="9"/><cit><quote>Nec modus significandi consequitur modum essendi
+                    re<lb ed="#BNC" n="10" break="no"/>rum immediate sed mediante modo intelligendi</quote>                
               </cit>.
               <lb ed="#BNC" n="11"/>Ergo in nominibus potior est et immediatior modus
               <lb ed="#BNC" n="12"/>significandi modo essendi. Sed concretum
@@ -1211,9 +1211,9 @@
                 <lb ed="#BNC" n="48"/>Articulus 4. Quid sit definitum in definitione generis et
                 defi<lb ed="#BNC" n="49" break="no"/>nitione generis et generaliter
                 <lb ed="#BNC" n="50"/>quaeritur de omnibus definitionibus
-              </p>               
+              </p>
               
-
+              
             <p n="1537"> <!-- Numeración de párrafo anterior tachada, p. 629 -->
               <lb ed="#BNC" n="51"/>In primis suppono primum non investigare quo
               nomi<lb ed="#BNC" n="35" break="no"/>ne appellandum sit, quid definitione generis declaratur,
@@ -1463,7 +1463,7 @@
               <lb ed="#BNC" n="40"/>definitiones. Ita
               <cit>
                 <ref>
-                  <name ref="#Aristoteles">Aristoteles</name> 7 <title>Metaphysicae</title>
+                  <name ref="#Aristoteles">Aristoteles</name> VII <title>Metaphysicae</title>
                 </ref>
               </cit>
               et
@@ -1482,7 +1482,7 @@
               <cit>
                 <ref>
                   Divus <name ref="#Aquinas">Thomas</name> <title>De ente
-                    <lb ed="#BNC" n="44"/>et essentia</title> capitulo 6 et 5 <title>Metaphysicae</title> lectione 9
+                    <lb ed="#BNC" n="44"/>et essentia</title>, capitulo 6 et V <title>Metaphysicae</title> lectione 9
                 </ref>
               </cit>.
               Probatur ratione.
@@ -1634,8 +1634,8 @@
               <cit>
                 <ref>
                   <name ref="#Aquinas">Angelicus Doctor</name>
-                  <lb ed="#BNC" n="15"/>5 <title>Metaphysicae</title> lectione 9 et 8 <title>Metaphysicae</title> lectione 4 et
-                  <lb ed="#BNC" n="16"/>7 <title>lectio 1</title>
+                  <lb ed="#BNC" n="15"/>V <title>Metaphysicae</title>, lectione 9 et VIII <title>Metaphysicae</title>, lectione 4 et
+                  <lb ed="#BNC" n="16"/>VII <title>lectio 1</title>
                 </ref>
               </cit>
               et
@@ -1985,8 +1985,8 @@
               <lb ed="#BNC" n="25"/>traditur per tale subiectum. Sic
               <cit>
                 <ref>
-                  Divus <name ref="#Aquinas">Thomas</name> 7
-                  <lb ed="#BNC" n="26"/><title>Metaphysicae</title> lectione 4 et 7 <title>De ente et essentia</title>
+                  Divus <name ref="#Aquinas">Thomas</name> VII
+                  <lb ed="#BNC" n="26"/><title>Metaphysicae</title> lectione 4 et VII <title>De ente et essentia</title>
                 </ref>
               </cit>.
             </p>

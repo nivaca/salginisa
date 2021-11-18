@@ -287,7 +287,7 @@
 \begin{document}
 
 
-\thispagestyle{empty}
+\pagestyle{empty}
 
 \begin{center}
 \LARGE
@@ -330,7 +330,8 @@
 \end{center}
 
 
-\newpage
+\cleardoublepage
+\pagestyle{fancy}
 
 \fancyhead{}
 \fancyfoot[C]{\thepage}
@@ -338,8 +339,6 @@
 \renewcommand*{\contentsname}{Index generalis}
 \tableofcontents
 
-
-\newpage
 
 \fancyhead{}
 \fancyfoot[C]{\thepage}
@@ -349,6 +348,8 @@
 <xsl:value-of select="$shorttitle"/>
 <xsl:text>}</xsl:text>  
 
+
+\cleardoublepage
 
 <xsl:apply-templates select="//body"/>
 
@@ -508,6 +509,11 @@
     <xsl:text>&#xa;\pend&#xa;</xsl:text>
   </xsl:template>
 
+
+
+<xsl:template match="p[@ana='heading']" priority="2">
+  <!--do nothing-->
+</xsl:template>
 
   <xsl:template name="createLabelFromId">
     <xsl:param name="labelType" />

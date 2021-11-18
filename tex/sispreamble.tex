@@ -1,0 +1,115 @@
+\documentclass[letterpaper, 12pt]{book}
+
+\usepackage{fontspec}
+
+\usepackage[english, spanish, spanish.mexico,latin]{babel}
+
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+\setmainfont[Ligatures=Common, Numbers=OldStyle]{Libertinus Serif}
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+
+
+\usepackage[babel=true, verbose=false, tracking=true, expansion=true, protrusion=true, final, draft=false]{microtype}
+\SetTracking{ encoding = *, shape = sc }{ 30 }
+\SetTracking[context = notracking, ]{encoding = *}{0}
+
+\usepackage[autostyle=false, style=british]{csquotes}
+\usepackage{latexcolors}
+
+\usepackage{geometry}
+\geometry{left=4cm, right=4cm, top=3cm, bottom=3cm}
+
+
+\righthyphenmin=62%
+\lefthyphenmin=62%
+\clubpenalty=9996
+\widowpenalty=9999
+\brokenpenalty=4991
+\predisplaypenalty=10000
+\postdisplaypenalty=1549
+\displaywidowpenalty=1602
+\flushbottom
+\raggedbottom
+% \midsloppy
+\parindent=14pt
+\frenchspacing
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{15pt}
+
+
+% a critical mark
+\usepackage{amssymb}
+
+% git package
+\usepackage{gitinfo2}
+
+% indices 
+\usepackage{imakeidx}  % before reledmac
+
+
+% reledmac settings -------------------------------------------
+\usepackage[final]{reledmac}
+
+\Xinplaceoflemmaseparator{0pt} % Don't add space after nolemma notes.
+\Xlemmadisablefontselection[A] % In fontium lemmata, don't copy font formatting.
+\Xarrangement{paragraph}
+\linenummargin{outer}
+\sidenotemargin{inner}
+\lineation{page}
+
+\Xendbeforepagenumber{}
+\Xendafterpagenumber{.}
+\Xendlineprefixsingle{}
+\Xendlineprefixmore{}
+
+\Xnumberonlyfirstinline[]
+\Xnumberonlyfirstintwolines[]
+\Xbeforenotes{\baselineskip}
+
+% This should prevent overfull vboxes
+\AtBeginDocument{\Xmaxhnotes{0.5\textheight}}
+\AtBeginDocument{\maxhnotesX{0.5\textheight}}
+
+\Xprenotes{\baselineskip}
+
+\let\Afootnoterule=\relax
+\let\Bfootnoterule=\relax
+% ---------------------------------------------------------
+
+
+\makeindex[name=persons, title={Index nominum}, columns=2]
+\makeindex[name=works, title={Index operum}, columns=2]
+
+
+% custom macros
+\newcommand*{\name}[1]{#1}
+\newcommand*{\lemmaQuote}[1]{\emph{#1}}
+\newcommand*{\worktitle}[1]{\textit{#1}}
+\newcommand*{\supplied}[1]{⟨#1⟩}
+\newcommand*{\suppliedInVacuo}[1]{$\ulcorner$#1$\urcorner$} % Text added where witnes(es) preserve a space
+\newcommand*{\secluded}[1]{{[}#1{]}}
+\newcommand*{\metatext}[1]{\{#1\}}
+\newcommand*{\hand}[1]{\textsuperscript{#1}}
+\newcommand*{\del}[1]{\textlbrackdbl{}#1\textrbrackdbl{}}
+\newcommand*{\no}[1]{\emph{#1}\quad}
+\newcommand*{\added}[1]{$\backslash{}$#1$/$}
+\newcommand*{\corruption}[1]{\textdagger#1\textdagger}
+\newcommand*{\fenestra}[1]{$\ulcorner$#1$\urcorner$}
+\newcommand*{\lacuna}{\supplied{\textasteriskcentered\textasteriskcentered\textasteriskcentered}}
+\newcommand*{\missingContent}[1]{$\stackrel{\mbox{\normalfont\small\kern-2pt #1}}{\dots{}}$}
+
+
+
+% bibliography settings -----------------------------------------┐
+\usepackage[
+  style=authoryear-comp,
+  giveninits=true,
+  uniquename=init,
+  mincrossrefs=20,
+]{biblatex}
+\addbibresource{bib/SalgadoInIsagogem.bib}
+% ---------------------------------------------------------------┘
+
